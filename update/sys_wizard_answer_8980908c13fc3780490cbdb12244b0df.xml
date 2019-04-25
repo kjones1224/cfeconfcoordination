@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>CFE Conference Coordination</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>CFE Conference Coordination</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">eae9785113032200d93e54b12244b080</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>kjones</sys_created_by>
+        <sys_created_on>2019-04-08 22:46:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8980908c13fc3780490cbdb12244b0df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CFE Conference Coordination</sys_name>
+        <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+        <sys_update_name>sys_wizard_answer_8980908c13fc3780490cbdb12244b0df</sys_update_name>
+        <sys_updated_by>kjones</sys_updated_by>
+        <sys_updated_on>2019-04-08 22:46:33</sys_updated_on>
+        <table/>
+        <target_url>x_snc_cfe_confcoor_table.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

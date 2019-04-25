@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="s_act_cost" label="Actual Cost" language="en" table="x_snc_cfe_confcoor_speaker_speaker_costs">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>s_act_cost</element>
+            <help/>
+            <hint/>
+            <label>Actual Cost</label>
+            <language>en</language>
+            <name>x_snc_cfe_confcoor_speaker_speaker_costs</name>
+            <plural>Actual Costs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-04-14 20:12:10</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>0ab6e2754fbcfb80cca271dd0210c705</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Actual Cost</sys_name>
+            <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_cfe_confcoor_speaker_speaker_costs_s_act_cost_en</sys_update_name>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-04-14 20:26:13</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

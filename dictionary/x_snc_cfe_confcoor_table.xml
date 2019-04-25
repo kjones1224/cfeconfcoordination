@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="CFE Conference Coordination" max_length="40" name="x_snc_cfe_confcoor_table" sizeclass="1" type="collection">
+        <element label="Act conf cost" max_length="20" name="act_conf_cost" type="currency"/>
+        <element label="Act person perday cost" max_length="20" name="act_person_perday_cost" type="currency"/>
+        <element label="Ac act cost" max_length="20" name="ac_act_cost" type="currency"/>
+        <element label="Ac est cost" max_length="20" name="ac_est_cost" type="currency"/>
+        <element label="Approving officer" max_length="4000" name="approving_officer" type="glide_list"/>
+        <element choice="1" label="Approving officer org" max_length="40" name="approving_officer_org" type="choice">
+            <choice/>
+        </element>
+        <element label="A act foreign nationals" max_length="40" name="a_act_foreign_nationals" type="integer"/>
+        <element label="A act gov nongov" max_length="40" name="a_act_gov_nongov" type="integer"/>
+        <element label="A act ic employees" max_length="40" name="a_act_ic_employees" type="integer"/>
+        <element label="a_act_ind_FFRDC" max_length="40" name="a_act_ind_ffrdc" type="integer"/>
+        <element label="A act total" max_length="40" name="a_act_total" type="integer"/>
+        <element label="A est foreign nationals" max_length="40" name="a_est_foreign_nationals" type="integer"/>
+        <element label="A est gov nongov" max_length="40" name="a_est_gov_nongov" type="integer"/>
+        <element label="A est ic employees" max_length="40" name="a_est_ic_employees" type="integer"/>
+        <element label="a_est_ind_FFRDC" max_length="40" name="a_est_ind_ffrdc" type="integer"/>
+        <element label="A est total" max_length="40" name="a_est_total" type="integer"/>
+        <element label="Beach" max_length="40" name="beach" type="boolean"/>
+        <element label="Building address" max_length="40" name="building_address" type="string"/>
+        <element label="city" max_length="40" name="city" type="string"/>
+        <element label="Cmo approvers" max_length="4000" name="cmo_approvers" type="glide_list"/>
+        <element choice="1" label="component" max_length="40" name="component" type="choice">
+            <choice/>
+        </element>
+        <element label="Comptroller approvers" max_length="4000" name="comptroller_approvers" type="glide_list"/>
+        <element label="Comp dir dd dir" max_length="4000" name="comp_dir_dd_dir" type="glide_list"/>
+        <element label="Conf begin date" max_length="40" name="conf_begin_date" type="glide_date"/>
+        <element choice="1" label="Conf classified secret above" max_length="40" name="conf_classified_secret_above" type="choice">
+            <choice/>
+        </element>
+        <element label="Conf end date" max_length="40" name="conf_end_date" type="glide_date"/>
+        <element choice="1" label="Conf location" max_length="40" name="conf_location" type="choice">
+            <choice/>
+        </element>
+        <element label="Conf name" max_length="40" name="conf_name" type="string"/>
+        <element label="Conf number" max_length="40" name="conf_number" type="string"/>
+        <element choice="1" label="Conf room location" max_length="40" name="conf_room_location" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Conf status" max_length="40" name="conf_status" type="choice">
+            <choice/>
+        </element>
+        <element label="Contract num" max_length="40" name="contract_num" type="string"/>
+        <element label="Co authors" max_length="4000" name="co_authors" type="glide_list"/>
+        <element label="Est conf cost" max_length="20" name="est_conf_cost" type="currency"/>
+        <element label="Est person perday cost" max_length="20" name="est_person_perday_cost" type="currency"/>
+        <element label="Explain ac cost" max_length="6000" name="explain_ac_cost" type="string"/>
+        <element label="Facility accredited" max_length="40" name="facility_accredited" type="boolean"/>
+        <element label="Fb act beverages" max_length="20" name="fb_act_beverages" type="currency"/>
+        <element label="Fb act breakfast" max_length="20" name="fb_act_breakfast" type="currency"/>
+        <element label="Fb act dinner" max_length="20" name="fb_act_dinner" type="currency"/>
+        <element label="Fb act lunch" max_length="20" name="fb_act_lunch" type="currency"/>
+        <element label="Fb act snacks" max_length="20" name="fb_act_snacks" type="currency"/>
+        <element label="Fb act total" max_length="20" name="fb_act_total" type="currency"/>
+        <element label="Fb est beverages" max_length="20" name="fb_est_beverages" type="currency"/>
+        <element label="Fb est breakfast" max_length="20" name="fb_est_breakfast" type="currency"/>
+        <element label="Fb est dinner" max_length="20" name="fb_est_dinner" type="currency"/>
+        <element label="Fb est lunch" max_length="20" name="fb_est_lunch" type="currency"/>
+        <element label="Fb est snacks" max_length="20" name="fb_est_snacks" type="currency"/>
+        <element label="Fb est total" max_length="20" name="fb_est_total" type="currency"/>
+        <element label="Gf act audio visual" max_length="20" name="gf_act_audio_visual" type="currency"/>
+        <element label="Gf act event coordinator" max_length="20" name="gf_act_event_coordinator" type="currency"/>
+        <element label="Gf act facility" max_length="20" name="gf_act_facility" type="currency"/>
+        <element label="Gf act printing" max_length="20" name="gf_act_printing" type="currency"/>
+        <element label="Gf act security" max_length="20" name="gf_act_security" type="currency"/>
+        <element label="Gf act total" max_length="20" name="gf_act_total" type="currency"/>
+        <element label="Gf est audio visual" max_length="20" name="gf_est_audio_visual" type="currency"/>
+        <element label="Gf est event coordinator" max_length="20" name="gf_est_event_coordinator" type="currency"/>
+        <element label="Facility" max_length="20" name="gf_est_facility" type="currency"/>
+        <element label="Gf est printing" max_length="20" name="gf_est_printing" type="currency"/>
+        <element label="Gf est security" max_length="20" name="gf_est_security" type="currency"/>
+        <element label="Gf est total" max_length="20" name="gf_est_total" type="currency"/>
+        <element label="US States" max_length="32" name="m_states" reference="x_snc_cfe_confcoor_us_states" type="reference"/>
+        <element label="Odni cfe approvers" max_length="4000" name="odni_cfe_approvers" type="glide_list"/>
+        <element label="Ogc approvers" max_length="4000" name="ogc_approvers" type="glide_list"/>
+        <element label="Ore link" max_length="40" name="ore_link" type="string"/>
+        <element choice="1" label="organization" max_length="40" name="organization" type="choice">
+            <choice/>
+        </element>
+        <element label="purpose" max_length="8000" name="purpose" type="string"/>
+        <element label="requestor" max_length="40" name="requestor" type="string"/>
+        <element label="River" max_length="40" name="river" type="boolean"/>
+        <element label="Sand" max_length="40" name="sand" type="boolean"/>
+        <element label="Security approvers" max_length="4000" name="security_approvers" type="glide_list"/>
+        <element label="Tc act local transportation" max_length="20" name="tc_act_local_transportation" type="currency"/>
+        <element label="Tc act lodging" max_length="20" name="tc_act_lodging" type="currency"/>
+        <element label="Tc act mie" max_length="20" name="tc_act_mie" type="currency"/>
+        <element label="Tc act total" max_length="20" name="tc_act_total" type="currency"/>
+        <element label="Tc act transportation" max_length="20" name="tc_act_transportation" type="currency"/>
+        <element label="Tc est local transportation" max_length="20" name="tc_est_local_transportation" type="currency"/>
+        <element label="Tc est lodging" max_length="20" name="tc_est_lodging" type="currency"/>
+        <element label="Tc est mie" max_length="20" name="tc_est_mie" type="currency"/>
+        <element label="Tc est total" max_length="20" name="tc_est_total" type="currency"/>
+        <element label="Tc est transportation" max_length="20" name="tc_est_transportation" type="currency"/>
+        <element choice="1" label="Visitor badge required" max_length="40" name="visitor_badge_required" type="choice">
+            <choice/>
+        </element>
+        <element label="Zip code" max_length="40" name="zip_code" type="integer"/>
+    </element>
+</database>
