@@ -19,7 +19,7 @@
         <element label="a_est_ind_FFRDC" max_length="40" name="a_est_ind_ffrdc" type="integer"/>
         <element label="A est total" max_length="40" name="a_est_total" type="integer"/>
         <element label="Beach" max_length="40" name="beach" type="boolean"/>
-        <element label="Building address" max_length="40" name="building_address" type="string"/>
+        <element label="Building Address" max_length="40" name="building_address" type="string"/>
         <element label="city" max_length="40" name="city" type="string"/>
         <element label="CMO" max_length="4000" name="cmo_approvers" type="glide_list"/>
         <element choice="1" label="component" max_length="40" name="component" type="choice">
@@ -27,12 +27,12 @@
         </element>
         <element label="Comptroller" max_length="4000" name="comptroller_approvers" type="glide_list"/>
         <element label="Component Director/Deputy Director" max_length="4000" name="comp_dir_dd_dir" type="glide_list"/>
-        <element label="Conf begin date" max_length="40" name="conf_begin_date" type="glide_date"/>
-        <element choice="1" label="Conf classified secret above" max_length="40" name="conf_classified_secret_above" type="choice">
+        <element label="Begin Date" max_length="40" name="conf_begin_date" type="glide_date"/>
+        <element choice="1" label="Conference Classified Secret or Above" max_length="40" name="conf_classified_secret_above" type="choice">
             <choice/>
         </element>
-        <element label="Conf end date" max_length="40" name="conf_end_date" type="glide_date"/>
-        <element choice="1" label="Conf location" max_length="40" name="conf_location" type="choice">
+        <element label="End Date" max_length="40" name="conf_end_date" type="glide_date"/>
+        <element choice="1" label="Conference Location" max_length="40" name="conf_location" type="choice">
             <choice/>
         </element>
         <element label="Name of Conference" max_length="40" name="conf_name" type="string"/>
@@ -48,7 +48,12 @@
         <element label="Est conf cost" max_length="20" name="est_conf_cost" type="currency"/>
         <element label="Est person perday cost" max_length="20" name="est_person_perday_cost" type="currency"/>
         <element label="Explain ac cost" max_length="6000" name="explain_ac_cost" type="string"/>
-        <element label="Facility accredited" max_length="40" name="facility_accredited" type="boolean"/>
+        <element choice="1" label="Facility accredited2" max_length="20" name="facility_accredited2" type="string">
+            <choice>
+                <element inactive_on_update="false" label="YES" sequence="0" value="YES"/>
+                <element inactive_on_update="false" label="NO" sequence="1" value="NO"/>
+            </choice>
+        </element>
         <element label="Fb act beverages" max_length="20" name="fb_act_beverages" type="currency"/>
         <element label="Fb act breakfast" max_length="20" name="fb_act_breakfast" type="currency"/>
         <element label="Fb act dinner" max_length="20" name="fb_act_dinner" type="currency"/>
@@ -77,8 +82,12 @@
         <element label="ODNI/CFE" max_length="4000" name="odni_cfe_approvers" type="glide_list"/>
         <element label="OGC" max_length="4000" name="ogc_approvers" type="glide_list"/>
         <element label="Link ORE" max_length="40" name="ore_link" type="string"/>
-        <element choice="1" label="organization" max_length="40" name="organization" type="choice">
-            <choice/>
+        <element choice="1" label="Organization" max_length="40" name="organization" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="IARPA" sequence="0" value="IARPA"/>
+                <element inactive_on_update="false" label="ODNI" sequence="1" value="ODNI"/>
+                <element inactive_on_update="false" label="NIC" sequence="2" value="NIC"/>
+            </choice>
         </element>
         <element label="Purpose" max_length="8000" name="purpose" type="string"/>
         <element label="requestor" max_length="40" name="requestor" type="string"/>
@@ -95,7 +104,7 @@
         <element label="Tc est mie" max_length="20" name="tc_est_mie" type="currency"/>
         <element label="Tc est total" max_length="20" name="tc_est_total" type="currency"/>
         <element label="Tc est transportation" max_length="20" name="tc_est_transportation" type="currency"/>
-        <element choice="1" label="Visitor badge required" max_length="40" name="visitor_badge_required" type="choice">
+        <element choice="1" label="Visitor Badge Required" max_length="40" name="visitor_badge_required" type="choice">
             <choice/>
         </element>
         <element label="Zip code" max_length="40" name="zip_code" type="integer"/>
