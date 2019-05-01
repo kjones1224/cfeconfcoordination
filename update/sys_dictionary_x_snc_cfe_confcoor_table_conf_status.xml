@@ -11,13 +11,13 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice>1</choice>
+        <choice>3</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Conf status</column_label>
+        <column_label>Conference Status</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>Draft</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -55,15 +55,15 @@
         <sys_created_on>2019-04-14 17:33:47</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>c312863d4ff8fb80cca271dd0210c797</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>conf_status</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Conference Status</sys_name>
         <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_cfe_confcoor_table_conf_status</sys_update_name>
         <sys_updated_by>kjones</sys_updated_by>
-        <sys_updated_on>2019-04-14 17:33:47</sys_updated_on>
+        <sys_updated_on>2019-04-30 03:20:20</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

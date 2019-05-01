@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="act_conf_cost" label="Act conf cost" language="en" table="x_snc_cfe_confcoor_table">
+    <sys_documentation element="act_conf_cost" label="Actual Conference Cost" language="en" table="x_snc_cfe_confcoor_table">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>act_conf_cost</element>
             <help/>
             <hint/>
-            <label>Act conf cost</label>
+            <label>Actual Conference Cost</label>
             <language>en</language>
             <name>x_snc_cfe_confcoor_table</name>
-            <plural>Act conf costs</plural>
+            <plural>Actual Conference Cost</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>kjones</sys_created_by>
             <sys_created_on>2019-04-14 17:30:29</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_id>f5b1423d4ff8fb80cca271dd0210c776</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Act conf cost</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Actual Conference Cost</sys_name>
             <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
             <sys_update_name>sys_documentation_x_snc_cfe_confcoor_table_act_conf_cost_en</sys_update_name>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-14 17:30:29</sys_updated_on>
+            <sys_updated_on>2019-04-30 03:15:53</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="task" label="CFE Conference Coordination" max_length="40" name="x_snc_cfe_confcoor_table" sizeclass="1" type="collection">
-        <element label="Act conf cost" max_length="20" name="act_conf_cost" type="currency"/>
-        <element label="Act person perday cost" max_length="20" name="act_person_perday_cost" type="currency"/>
+        <element label="Actual Conference Cost" max_length="20" name="act_conf_cost" type="currency"/>
+        <element label="Act Person Per-Day Cost" max_length="20" name="act_person_perday_cost" type="currency"/>
         <element label="Ac act cost" max_length="20" name="ac_act_cost" type="currency"/>
         <element label="Ac est cost" max_length="20" name="ac_est_cost" type="currency"/>
         <element label="Approving officer" max_length="4000" name="approving_officer" type="glide_list"/>
@@ -36,17 +36,17 @@
             <choice/>
         </element>
         <element label="Name of Conference" max_length="40" name="conf_name" type="string"/>
-        <element label="Conf number" max_length="40" name="conf_number" type="string"/>
+        <element label="Conference Number" max_length="40" name="conf_number" type="string"/>
         <element choice="1" label="Conf room location" max_length="40" name="conf_room_location" type="choice">
             <choice/>
         </element>
-        <element choice="1" label="Conf status" max_length="40" name="conf_status" type="choice">
+        <element choice="3" default="Draft" label="Conference Status" max_length="40" name="conf_status" type="choice">
             <choice/>
         </element>
         <element label="Contract Number (if applicable)" max_length="40" name="contract_num" type="string"/>
         <element label="Co-Author" max_length="4000" name="co_authors" type="glide_list"/>
-        <element label="Est conf cost" max_length="20" name="est_conf_cost" type="currency"/>
-        <element label="Est person perday cost" max_length="20" name="est_person_perday_cost" type="currency"/>
+        <element label="Estimated Conference Cost" max_length="20" name="est_conf_cost" type="currency"/>
+        <element label="Est Person Per-Day Cost" max_length="20" name="est_person_perday_cost" type="currency"/>
         <element label="Explain ac cost" max_length="6000" name="explain_ac_cost" type="string"/>
         <element choice="1" label="Facility accredited2" max_length="20" name="facility_accredited2" type="string">
             <choice>

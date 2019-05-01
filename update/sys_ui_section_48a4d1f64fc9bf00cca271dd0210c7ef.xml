@@ -4,69 +4,55 @@
             <element>ac_est_cost</element>
             <position>0</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-30 03:04:54</sys_created_on>
-            <sys_id>4a0555f64fc9bf00cca271dd0210c7f8</sys_id>
+            <sys_created_on>2019-04-30 03:12:38</sys_created_on>
+            <sys_id>5fc6d57a4fc9bf00cca271dd0210c71b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Additional Costs" display_value="Additional Costs" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">48a4d1f64fc9bf00cca271dd0210c7ef</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 03:04:54</sys_updated_on>
+            <sys_updated_on>2019-04-30 03:12:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>explain_ac_cost</element>
+            <position>1</position>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-04-30 03:12:38</sys_created_on>
+            <sys_id>dfc6d57a4fc9bf00cca271dd0210c71b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Additional Costs" display_value="Additional Costs" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">48a4d1f64fc9bf00cca271dd0210c7ef</sys_ui_section>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-04-30 03:12:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-30 03:04:54</sys_created_on>
-            <sys_id>ca0555f64fc9bf00cca271dd0210c7f8</sys_id>
+            <sys_created_on>2019-04-30 03:12:38</sys_created_on>
+            <sys_id>53c6d57a4fc9bf00cca271dd0210c71c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Additional Costs" display_value="Additional Costs" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">48a4d1f64fc9bf00cca271dd0210c7ef</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 03:04:54</sys_updated_on>
+            <sys_updated_on>2019-04-30 03:12:38</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>ac_act_cost</element>
-            <position>2</position>
-            <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-30 03:04:54</sys_created_on>
-            <sys_id>4e0555f64fc9bf00cca271dd0210c7f8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Additional Costs" display_value="Additional Costs" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">48a4d1f64fc9bf00cca271dd0210c7ef</sys_ui_section>
-            <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 03:04:54</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
             <position>3</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-30 03:04:54</sys_created_on>
-            <sys_id>ce0555f64fc9bf00cca271dd0210c7f8</sys_id>
+            <sys_created_on>2019-04-30 03:12:38</sys_created_on>
+            <sys_id>d3c6d57a4fc9bf00cca271dd0210c71c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Additional Costs" display_value="Additional Costs" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">48a4d1f64fc9bf00cca271dd0210c7ef</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 03:04:54</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>explain_ac_cost</element>
-            <position>4</position>
-            <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-30 03:04:54</sys_created_on>
-            <sys_id>420555f64fc9bf00cca271dd0210c7f9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Additional Costs" display_value="Additional Costs" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">48a4d1f64fc9bf00cca271dd0210c7ef</sys_ui_section>
-            <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 03:04:54</sys_updated_on>
+            <sys_updated_on>2019-04-30 03:12:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

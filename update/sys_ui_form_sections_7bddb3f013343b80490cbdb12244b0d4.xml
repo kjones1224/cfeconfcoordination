@@ -21,12 +21,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>ccee41b24fc9bf00cca271dd0210c7c9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_snc_cfe_confcoor_table" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">7bddb3f013343b80490cbdb12244b0d4</sys_ui_form>
             <sys_ui_section caption="General Fees" display_value="General Fees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">84ee41b24fc9bf00cca271dd0210c7c8</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 02:38:00</sys_updated_on>
+            <sys_updated_on>2019-04-30 03:13:30</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>2</position>
@@ -35,12 +35,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>139219764fc9bf00cca271dd0210c7ce</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_snc_cfe_confcoor_table" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">7bddb3f013343b80490cbdb12244b0d4</sys_ui_form>
             <sys_ui_section caption="Food &amp; Beverage Expenses" display_value="Food &amp; Beverage Expenses" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">9f92d5764fc9bf00cca271dd0210c7b9</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 02:54:20</sys_updated_on>
+            <sys_updated_on>2019-04-30 03:13:30</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>3</position>
@@ -49,12 +49,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>a9a395b64fc9bf00cca271dd0210c7d4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_snc_cfe_confcoor_table" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">7bddb3f013343b80490cbdb12244b0d4</sys_ui_form>
             <sys_ui_section caption="Travel Costs" display_value="Travel Costs" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">6da395b64fc9bf00cca271dd0210c7d1</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 02:58:51</sys_updated_on>
+            <sys_updated_on>2019-04-30 03:13:30</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>4</position>
@@ -63,12 +63,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>80a4d1f64fc9bf00cca271dd0210c7f3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_snc_cfe_confcoor_table" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">7bddb3f013343b80490cbdb12244b0d4</sys_ui_form>
             <sys_ui_section caption="Additional Costs" display_value="Additional Costs" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">48a4d1f64fc9bf00cca271dd0210c7ef</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 03:03:08</sys_updated_on>
+            <sys_updated_on>2019-04-30 03:13:30</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>5</position>
@@ -77,12 +77,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>4ca415f64fc9bf00cca271dd0210c774</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_snc_cfe_confcoor_table" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">7bddb3f013343b80490cbdb12244b0d4</sys_ui_form>
             <sys_ui_section caption="Attendees" display_value="Attendees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">00a4d1f64fc9bf00cca271dd0210c7f0</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 03:03:08</sys_updated_on>
+            <sys_updated_on>2019-04-30 03:13:30</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_snc_cfe_confcoor_table</name>
