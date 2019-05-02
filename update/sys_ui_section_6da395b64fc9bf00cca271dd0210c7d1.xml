@@ -1,156 +1,206 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Travel Costs" section_id="6da395b64fc9bf00cca271dd0210c7d1" sys_domain="global" table="x_snc_cfe_confcoor_table" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-02 01:25:43</sys_created_on>
+            <sys_id>3481df9713053340490cbdb12244b054</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-02 01:25:43</sys_updated_on>
+            <text>&lt;span style="text-align:center; display:block;"&gt;Estimate&lt;/span&gt;</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-02 01:25:43</sys_created_on>
+            <sys_id>3881df9713053340490cbdb12244b054</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-02 01:25:43</sys_updated_on>
+            <text>&lt;span style="text-align:center; display:block;"&gt;Actual&lt;/span&gt;</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>tc_est_mie</element>
+            <element>3481df9713053340490cbdb12244b054</element>
             <position>0</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-30 03:03:09</sys_created_on>
-            <sys_id>58a415f64fc9bf00cca271dd0210c7a0</sys_id>
+            <sys_created_on>2019-05-02 01:25:43</sys_created_on>
+            <sys_id>f881df9713053340490cbdb12244b054</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Travel Costs" display_value="Travel Costs" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">6da395b64fc9bf00cca271dd0210c7d1</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 03:03:09</sys_updated_on>
+            <sys_updated_on>2019-05-02 01:25:43</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tc_est_mie</element>
+            <position>1</position>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-02 01:25:43</sys_created_on>
+            <sys_id>7c81df9713053340490cbdb12244b054</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Travel Costs" display_value="Travel Costs" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">6da395b64fc9bf00cca271dd0210c7d1</sys_ui_section>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-02 01:25:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>tc_est_lodging</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-30 03:03:09</sys_created_on>
-            <sys_id>d8a415f64fc9bf00cca271dd0210c7a0</sys_id>
+            <sys_created_on>2019-05-02 01:25:43</sys_created_on>
+            <sys_id>fc81df9713053340490cbdb12244b054</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Travel Costs" display_value="Travel Costs" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">6da395b64fc9bf00cca271dd0210c7d1</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 03:03:09</sys_updated_on>
+            <sys_updated_on>2019-05-02 01:25:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>tc_est_transportation</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-30 03:03:09</sys_created_on>
-            <sys_id>5ca415f64fc9bf00cca271dd0210c7a0</sys_id>
+            <sys_created_on>2019-05-02 01:25:43</sys_created_on>
+            <sys_id>7081df9713053340490cbdb12244b055</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Travel Costs" display_value="Travel Costs" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">6da395b64fc9bf00cca271dd0210c7d1</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 03:03:09</sys_updated_on>
+            <sys_updated_on>2019-05-02 01:25:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>tc_est_local_transportation</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-30 03:03:09</sys_created_on>
-            <sys_id>dca415f64fc9bf00cca271dd0210c7a0</sys_id>
+            <sys_created_on>2019-05-02 01:25:43</sys_created_on>
+            <sys_id>f081df9713053340490cbdb12244b055</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Travel Costs" display_value="Travel Costs" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">6da395b64fc9bf00cca271dd0210c7d1</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 03:03:09</sys_updated_on>
+            <sys_updated_on>2019-05-02 01:25:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>tc_est_total</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-30 03:03:09</sys_created_on>
-            <sys_id>50a415f64fc9bf00cca271dd0210c7a1</sys_id>
+            <sys_created_on>2019-05-02 01:25:43</sys_created_on>
+            <sys_id>7481df9713053340490cbdb12244b055</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Travel Costs" display_value="Travel Costs" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">6da395b64fc9bf00cca271dd0210c7d1</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 03:03:09</sys_updated_on>
+            <sys_updated_on>2019-05-02 01:25:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-30 03:03:09</sys_created_on>
-            <sys_id>d0a415f64fc9bf00cca271dd0210c7a1</sys_id>
+            <sys_created_on>2019-05-02 01:25:43</sys_created_on>
+            <sys_id>f481df9713053340490cbdb12244b055</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Travel Costs" display_value="Travel Costs" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">6da395b64fc9bf00cca271dd0210c7d1</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 03:03:09</sys_updated_on>
+            <sys_updated_on>2019-05-02 01:25:43</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>tc_act_mie</element>
-            <position>6</position>
+            <element>3881df9713053340490cbdb12244b054</element>
+            <position>7</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-30 03:03:09</sys_created_on>
-            <sys_id>54a415f64fc9bf00cca271dd0210c7a1</sys_id>
+            <sys_created_on>2019-05-02 01:25:43</sys_created_on>
+            <sys_id>7881df9713053340490cbdb12244b055</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Travel Costs" display_value="Travel Costs" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">6da395b64fc9bf00cca271dd0210c7d1</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 03:03:09</sys_updated_on>
+            <sys_updated_on>2019-05-02 01:25:43</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tc_act_mie</element>
+            <position>8</position>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-02 01:25:43</sys_created_on>
+            <sys_id>f881df9713053340490cbdb12244b055</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Travel Costs" display_value="Travel Costs" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">6da395b64fc9bf00cca271dd0210c7d1</sys_ui_section>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-02 01:25:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>tc_act_lodging</element>
-            <position>7</position>
+            <position>9</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-30 03:03:09</sys_created_on>
-            <sys_id>d4a415f64fc9bf00cca271dd0210c7a1</sys_id>
+            <sys_created_on>2019-05-02 01:25:43</sys_created_on>
+            <sys_id>7c81df9713053340490cbdb12244b055</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Travel Costs" display_value="Travel Costs" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">6da395b64fc9bf00cca271dd0210c7d1</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 03:03:09</sys_updated_on>
+            <sys_updated_on>2019-05-02 01:25:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>tc_act_transportation</element>
-            <position>8</position>
+            <position>10</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-30 03:03:09</sys_created_on>
-            <sys_id>58a415f64fc9bf00cca271dd0210c7a1</sys_id>
+            <sys_created_on>2019-05-02 01:25:43</sys_created_on>
+            <sys_id>fc81df9713053340490cbdb12244b055</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Travel Costs" display_value="Travel Costs" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">6da395b64fc9bf00cca271dd0210c7d1</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 03:03:09</sys_updated_on>
+            <sys_updated_on>2019-05-02 01:25:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>tc_act_local_transportation</element>
-            <position>9</position>
+            <position>11</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-30 03:03:09</sys_created_on>
-            <sys_id>d8a415f64fc9bf00cca271dd0210c7a1</sys_id>
+            <sys_created_on>2019-05-02 01:25:43</sys_created_on>
+            <sys_id>7081df9713053340490cbdb12244b056</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Travel Costs" display_value="Travel Costs" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">6da395b64fc9bf00cca271dd0210c7d1</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 03:03:09</sys_updated_on>
+            <sys_updated_on>2019-05-02 01:25:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>tc_act_total</element>
-            <position>10</position>
+            <position>12</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-30 03:03:09</sys_created_on>
-            <sys_id>5ca415f64fc9bf00cca271dd0210c7a1</sys_id>
+            <sys_created_on>2019-05-02 01:25:43</sys_created_on>
+            <sys_id>f081df9713053340490cbdb12244b056</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Travel Costs" display_value="Travel Costs" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">6da395b64fc9bf00cca271dd0210c7d1</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 03:03:09</sys_updated_on>
+            <sys_updated_on>2019-05-02 01:25:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

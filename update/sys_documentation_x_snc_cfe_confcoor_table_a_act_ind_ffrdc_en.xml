@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="a_act_ind_ffrdc" label="a_act_ind_FFRDC" language="en" table="x_snc_cfe_confcoor_table">
+    <sys_documentation element="a_act_ind_ffrdc" label="Industry/FFRDCs" language="en" table="x_snc_cfe_confcoor_table">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>a_act_ind_ffrdc</element>
             <help/>
             <hint/>
-            <label>a_act_ind_FFRDC</label>
+            <label>Industry/FFRDCs</label>
             <language>en</language>
             <name>x_snc_cfe_confcoor_table</name>
-            <plural>a_act_ind_FFRDCs</plural>
+            <plural>Industry/FFRDCs</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>kjones</sys_created_by>
             <sys_created_on>2019-04-14 19:46:51</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_id>13e06efd4f7cfb80cca271dd0210c7a5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>a_act_ind_FFRDC</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Industry/FFRDCs</sys_name>
             <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
             <sys_update_name>sys_documentation_x_snc_cfe_confcoor_table_a_act_ind_ffrdc_en</sys_update_name>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-14 19:46:51</sys_updated_on>
+            <sys_updated_on>2019-05-02 01:19:48</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

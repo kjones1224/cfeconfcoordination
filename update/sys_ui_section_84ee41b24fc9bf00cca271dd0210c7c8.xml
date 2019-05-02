@@ -1,184 +1,234 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="General Fees" section_id="84ee41b24fc9bf00cca271dd0210c7c8" sys_domain="global" table="x_snc_cfe_confcoor_table" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-02 01:25:42</sys_created_on>
+            <sys_id>6081df9713053340490cbdb12244b02b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-02 01:25:42</sys_updated_on>
+            <text>&lt;span style="text-align:center; display:block;"&gt;Estimate&lt;/span&gt;</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-02 01:25:42</sys_created_on>
+            <sys_id>6481df9713053340490cbdb12244b02b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-02 01:25:42</sys_updated_on>
+            <text>&lt;span style="text-align:center; display:block;"&gt;Actual&lt;/span&gt;</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>gf_est_facility</element>
+            <element>6081df9713053340490cbdb12244b02b</element>
             <position>0</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-30 02:54:21</sys_created_on>
-            <sys_id>6f9259764fc9bf00cca271dd0210c711</sys_id>
+            <sys_created_on>2019-05-02 01:25:42</sys_created_on>
+            <sys_id>2881df9713053340490cbdb12244b02b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General Fees" display_value="General Fees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">84ee41b24fc9bf00cca271dd0210c7c8</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 02:54:21</sys_updated_on>
+            <sys_updated_on>2019-05-02 01:25:42</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gf_est_facility</element>
+            <position>1</position>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-02 01:25:42</sys_created_on>
+            <sys_id>a881df9713053340490cbdb12244b02b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General Fees" display_value="General Fees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">84ee41b24fc9bf00cca271dd0210c7c8</sys_ui_section>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-02 01:25:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>gf_est_event_coordinator</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-30 02:54:21</sys_created_on>
-            <sys_id>ef9259764fc9bf00cca271dd0210c711</sys_id>
+            <sys_created_on>2019-05-02 01:25:42</sys_created_on>
+            <sys_id>2c81df9713053340490cbdb12244b02b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General Fees" display_value="General Fees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">84ee41b24fc9bf00cca271dd0210c7c8</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 02:54:21</sys_updated_on>
+            <sys_updated_on>2019-05-02 01:25:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>gf_est_audio_visual</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-30 02:54:21</sys_created_on>
-            <sys_id>639259764fc9bf00cca271dd0210c712</sys_id>
+            <sys_created_on>2019-05-02 01:25:42</sys_created_on>
+            <sys_id>ac81df9713053340490cbdb12244b02b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General Fees" display_value="General Fees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">84ee41b24fc9bf00cca271dd0210c7c8</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 02:54:21</sys_updated_on>
+            <sys_updated_on>2019-05-02 01:25:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>gf_est_printing</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-30 02:54:21</sys_created_on>
-            <sys_id>e39259764fc9bf00cca271dd0210c712</sys_id>
+            <sys_created_on>2019-05-02 01:25:42</sys_created_on>
+            <sys_id>2081df9713053340490cbdb12244b02c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General Fees" display_value="General Fees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">84ee41b24fc9bf00cca271dd0210c7c8</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 02:54:21</sys_updated_on>
+            <sys_updated_on>2019-05-02 01:25:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>gf_est_security</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-30 02:54:21</sys_created_on>
-            <sys_id>679259764fc9bf00cca271dd0210c712</sys_id>
+            <sys_created_on>2019-05-02 01:25:42</sys_created_on>
+            <sys_id>a081df9713053340490cbdb12244b02c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General Fees" display_value="General Fees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">84ee41b24fc9bf00cca271dd0210c7c8</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 02:54:21</sys_updated_on>
+            <sys_updated_on>2019-05-02 01:25:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>gf_est_total</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-30 02:54:21</sys_created_on>
-            <sys_id>e79259764fc9bf00cca271dd0210c712</sys_id>
+            <sys_created_on>2019-05-02 01:25:42</sys_created_on>
+            <sys_id>2481df9713053340490cbdb12244b02c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General Fees" display_value="General Fees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">84ee41b24fc9bf00cca271dd0210c7c8</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 02:54:21</sys_updated_on>
+            <sys_updated_on>2019-05-02 01:25:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-30 02:54:21</sys_created_on>
-            <sys_id>6b9259764fc9bf00cca271dd0210c712</sys_id>
+            <sys_created_on>2019-05-02 01:25:42</sys_created_on>
+            <sys_id>a481df9713053340490cbdb12244b02c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General Fees" display_value="General Fees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">84ee41b24fc9bf00cca271dd0210c7c8</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 02:54:21</sys_updated_on>
+            <sys_updated_on>2019-05-02 01:25:42</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>gf_act_facility</element>
-            <position>7</position>
+            <element>6481df9713053340490cbdb12244b02b</element>
+            <position>8</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-30 02:54:21</sys_created_on>
-            <sys_id>eb9259764fc9bf00cca271dd0210c712</sys_id>
+            <sys_created_on>2019-05-02 01:25:42</sys_created_on>
+            <sys_id>2881df9713053340490cbdb12244b02c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General Fees" display_value="General Fees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">84ee41b24fc9bf00cca271dd0210c7c8</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 02:54:21</sys_updated_on>
+            <sys_updated_on>2019-05-02 01:25:42</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gf_act_facility</element>
+            <position>9</position>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-02 01:25:42</sys_created_on>
+            <sys_id>a881df9713053340490cbdb12244b02c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General Fees" display_value="General Fees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">84ee41b24fc9bf00cca271dd0210c7c8</sys_ui_section>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-02 01:25:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>gf_act_event_coordinator</element>
-            <position>8</position>
+            <position>10</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-30 02:54:21</sys_created_on>
-            <sys_id>6f9259764fc9bf00cca271dd0210c712</sys_id>
+            <sys_created_on>2019-05-02 01:25:42</sys_created_on>
+            <sys_id>2c81df9713053340490cbdb12244b02c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General Fees" display_value="General Fees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">84ee41b24fc9bf00cca271dd0210c7c8</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 02:54:21</sys_updated_on>
+            <sys_updated_on>2019-05-02 01:25:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>gf_act_audio_visual</element>
-            <position>9</position>
+            <position>11</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-30 02:54:21</sys_created_on>
-            <sys_id>ef9259764fc9bf00cca271dd0210c712</sys_id>
+            <sys_created_on>2019-05-02 01:25:42</sys_created_on>
+            <sys_id>ac81df9713053340490cbdb12244b02c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General Fees" display_value="General Fees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">84ee41b24fc9bf00cca271dd0210c7c8</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 02:54:21</sys_updated_on>
+            <sys_updated_on>2019-05-02 01:25:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>gf_act_printing</element>
-            <position>10</position>
+            <position>12</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-30 02:54:21</sys_created_on>
-            <sys_id>639259764fc9bf00cca271dd0210c713</sys_id>
+            <sys_created_on>2019-05-02 01:25:42</sys_created_on>
+            <sys_id>2081df9713053340490cbdb12244b02d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General Fees" display_value="General Fees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">84ee41b24fc9bf00cca271dd0210c7c8</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 02:54:21</sys_updated_on>
+            <sys_updated_on>2019-05-02 01:25:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>gf_act_security</element>
-            <position>11</position>
+            <position>13</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-30 02:54:21</sys_created_on>
-            <sys_id>e39259764fc9bf00cca271dd0210c713</sys_id>
+            <sys_created_on>2019-05-02 01:25:42</sys_created_on>
+            <sys_id>a081df9713053340490cbdb12244b02d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General Fees" display_value="General Fees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">84ee41b24fc9bf00cca271dd0210c7c8</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 02:54:21</sys_updated_on>
+            <sys_updated_on>2019-05-02 01:25:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>gf_act_total</element>
-            <position>12</position>
+            <position>14</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-30 02:54:21</sys_created_on>
-            <sys_id>679259764fc9bf00cca271dd0210c713</sys_id>
+            <sys_created_on>2019-05-02 01:25:42</sys_created_on>
+            <sys_id>2481df9713053340490cbdb12244b02d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General Fees" display_value="General Fees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">84ee41b24fc9bf00cca271dd0210c7c8</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-30 02:54:21</sys_updated_on>
+            <sys_updated_on>2019-05-02 01:25:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

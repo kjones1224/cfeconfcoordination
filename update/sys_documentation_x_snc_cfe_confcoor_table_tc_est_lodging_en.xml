@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="tc_est_lodging" label="Tc est lodging" language="en" table="x_snc_cfe_confcoor_table">
+    <sys_documentation element="tc_est_lodging" label="Lodging" language="en" table="x_snc_cfe_confcoor_table">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>tc_est_lodging</element>
             <help/>
             <hint/>
-            <label>Tc est lodging</label>
+            <label>Lodging</label>
             <language>en</language>
             <name>x_snc_cfe_confcoor_table</name>
-            <plural>Tc est lodgings</plural>
+            <plural>Lodging</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>kjones</sys_created_by>
             <sys_created_on>2019-04-14 19:13:10</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_id>b939de394f7cfb80cca271dd0210c7c2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Tc est lodging</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Lodging</sys_name>
             <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
             <sys_update_name>sys_documentation_x_snc_cfe_confcoor_table_tc_est_lodging_en</sys_update_name>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-14 19:13:10</sys_updated_on>
+            <sys_updated_on>2019-05-02 01:05:58</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
