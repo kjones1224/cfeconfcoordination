@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Components" max_length="40" name="x_snc_cfe_confcoor_components" type="collection">
+        <element choice="1" label="Component Director/DD" max_length="32" name="component_approvers" reference="sys_user" type="glide_list">
+            <choice/>
+        </element>
+        <element display="true" label="Component name" max_length="200" name="component_name" type="string"/>
+        <element choice="1" label="This is for" max_length="40" name="this_is_for" type="string">
+            <choice>
+                <element inactive_on_update="false" label="CFE" sequence="100" value="CFE"/>
+                <element inactive_on_update="false" label="ORE" sequence="200" value="ORE"/>
+                <element inactive_on_update="false" label="Both" sequence="300" value="Both"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="component_approvers"/>
+        </index>
+    </element>
+</database>

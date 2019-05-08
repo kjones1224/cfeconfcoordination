@@ -22,11 +22,12 @@
         <element label="Building Address" max_length="40" name="building_address" type="string"/>
         <element label="city" max_length="40" name="city" type="string"/>
         <element label="CMO" max_length="4000" name="cmo_approvers" type="glide_list"/>
-        <element choice="1" label="component" max_length="40" name="component" type="choice">
+        <element default="CMO" label="cmo_Ref" max_length="32" name="cmo_ref" reference="x_snc_cfe_confcoor_components" type="reference"/>
+        <element choice_field="this_is_for" choice_table="x_snc_cfe_confcoor_components" label="Component" max_length="200" name="component" reference="x_snc_cfe_confcoor_components" reference_key="component_name" type="reference"/>
+        <element label="Comptroller" max_length="4000" name="comptroller_approvers" type="glide_list"/>
+        <element choice="1" choice_field="this_is_for" dependent="f_component" dependent_on_field="f_component" label="Component Director/Deputy Director" max_length="100" name="comp_dir_dd_dir" reference="x_snc_cfe_confcoor_components" type="glide_list" use_dependent_field="true">
             <choice/>
         </element>
-        <element label="Comptroller" max_length="4000" name="comptroller_approvers" type="glide_list"/>
-        <element label="Component Director/Deputy Director" max_length="4000" name="comp_dir_dd_dir" type="glide_list"/>
         <element label="Begin Date" max_length="40" name="conf_begin_date" type="glide_date"/>
         <element choice="1" label="Conference Classified Secret or Above" max_length="40" name="conf_classified_secret_above" type="choice">
             <choice/>
@@ -35,7 +36,7 @@
         <element choice="1" label="Conference Location" max_length="40" name="conf_location" type="choice">
             <choice/>
         </element>
-        <element label="Name of Conference" max_length="40" name="conf_name" type="string"/>
+        <element label="Name of Conference" max_length="200" name="conf_name" type="string"/>
         <element label="Conference Number" max_length="40" name="conf_number" type="string"/>
         <element choice="1" label="Conf room location" max_length="40" name="conf_room_location" type="choice">
             <choice/>
@@ -44,7 +45,7 @@
             <choice/>
         </element>
         <element label="Contract Number (if applicable)" max_length="40" name="contract_num" type="string"/>
-        <element label="Co-Author" max_length="4000" name="co_authors" type="glide_list"/>
+        <element label="Co-Author" max_length="4000" name="co_authors" reference="sys_user" type="glide_list"/>
         <element label="Estimated Conference Cost" max_length="20" name="est_conf_cost" type="currency"/>
         <element label="Est Person Per-Day Cost" max_length="20" name="est_person_perday_cost" type="currency"/>
         <element label="Explain Additional Cost" max_length="6000" name="explain_ac_cost" type="string"/>
@@ -66,6 +67,7 @@
         <element label="Lunch" max_length="20" name="fb_est_lunch" type="currency"/>
         <element label="Snacks" max_length="20" name="fb_est_snacks" type="currency"/>
         <element label="Totals" max_length="20" name="fb_est_total" type="currency"/>
+        <element choice_field="this_is_for" label="F component" max_length="1" name="f_component" reference="x_snc_cfe_confcoor_components" type="reference"/>
         <element label="Audio/Visual" max_length="20" name="gf_act_audio_visual" type="currency"/>
         <element label="Event Coordinator" max_length="20" name="gf_act_event_coordinator" type="currency"/>
         <element label="Facility" max_length="20" name="gf_act_facility" type="currency"/>
@@ -89,8 +91,8 @@
                 <element inactive_on_update="false" label="NIC" sequence="2" value="NIC"/>
             </choice>
         </element>
-        <element label="Purpose" max_length="8000" name="purpose" type="string"/>
-        <element label="requestor" max_length="40" name="requestor" type="string"/>
+        <element label="Purpose" max_length="1000" name="purpose" type="string"/>
+        <element default="javascript:gs.getUserDisplayName()" label="Requestor" max_length="40" name="requestor" type="string"/>
         <element label="River" max_length="40" name="river" type="boolean"/>
         <element label="Sand" max_length="40" name="sand" type="boolean"/>
         <element label="Security" max_length="4000" name="security_approvers" type="glide_list"/>

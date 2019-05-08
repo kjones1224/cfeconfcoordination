@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>component</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>cfe_clientScriptFComponent</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+	  
+   }
+//g_form.setValue('cmo_approvers', 'Magnum Jones, Sharon Manning, William Davis'); code works
+	//var cA = g_form.getValue('component');
+	//alert(cA);
+	
+	   //var incSysid = g_form.getUniqueValue();
+  //alert(incSysid);
+
+	var componentGR = new GlideRecord('x_snc_cfe_confcoor_components');
+	componentGR.get('f1c391c113d97740490cbdb12244b0ea');
+	alert(cmo_approvers);
+	
+	
+	
+	
+	
+	
+	//var fComponent = g_form.getValue('f_component');	
+	//var compDirDD;
+	//var componentGR = new GlideRecord('x_snc_cfe_confcoor_table');
+	//componentGR.get('8e2a200d13197740490cbdb12244b004'); //  addQuery(fComponent);
+	//alert(componentGR.f_component.component_approvers);
+	//alert(componentGR.component_approvers);
+	
+	
+ //alert(g_form.getValue('f_component'));
+	//g_form.setValue('comp_dir_dd_dir',componentGR.);
+	//g_form.clearOptions("u_choice_1");
+	
+		//for(var i=0; i<5;i++){	
+	//g_form.addOption('u_choice_1', i.toString() , i.toString() + ' - Critical Magnum');
+	//g_form.addOption('u_choice_1', '2', '2 - Call Me');	
+			
+	//	}
+	//g_form.setValue('comments', newValue);
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>kjones</sys_created_by>
+        <sys_created_on>2019-05-06 02:53:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>976b883c4fd1f300cca271dd0210c7ac</sys_id>
+        <sys_mod_count>70</sys_mod_count>
+        <sys_name>cfe_clientScriptFComponent</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+        <sys_update_name>sys_script_client_976b883c4fd1f300cca271dd0210c7ac</sys_update_name>
+        <sys_updated_by>kjones</sys_updated_by>
+        <sys_updated_on>2019-05-07 23:54:51</sys_updated_on>
+        <table>x_snc_cfe_confcoor_table</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

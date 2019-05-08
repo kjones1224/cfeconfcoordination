@@ -3,22 +3,22 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>dad3935b13053340490cbdb12244b053</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>41552d911399b740490cbdb12244b093</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <text/>
             <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>ded3935b13053340490cbdb12244b053</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>45552d911399b740490cbdb12244b093</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <text/>
             <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
         </sys_ui_annotation>
@@ -26,13 +26,13 @@
             <element>est_conf_cost</element>
             <position>0</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>92d3935b13053340490cbdb12244b054</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>09552d911399b740490cbdb12244b093</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -40,13 +40,13 @@
             <element>act_conf_cost</element>
             <position>1</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>16d3935b13053340490cbdb12244b054</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>89552d911399b740490cbdb12244b093</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -54,13 +54,13 @@
             <element>conf_number</element>
             <position>2</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>96d3935b13053340490cbdb12244b054</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>0d552d911399b740490cbdb12244b093</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -68,13 +68,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>1ad3935b13053340490cbdb12244b054</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>8d552d911399b740490cbdb12244b093</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -82,13 +82,13 @@
             <element>est_person_perday_cost</element>
             <position>4</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>9ad3935b13053340490cbdb12244b054</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>01552d911399b740490cbdb12244b094</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -96,13 +96,13 @@
             <element>act_person_perday_cost</element>
             <position>5</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>1ed3935b13053340490cbdb12244b054</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>81552d911399b740490cbdb12244b094</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -110,13 +110,13 @@
             <element>ore_link</element>
             <position>6</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>9ed3935b13053340490cbdb12244b054</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>05552d911399b740490cbdb12244b094</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -124,27 +124,27 @@
             <element>.end_split</element>
             <position>7</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>12d3935b13053340490cbdb12244b055</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>85552d911399b740490cbdb12244b094</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>dad3935b13053340490cbdb12244b053</element>
+            <element>41552d911399b740490cbdb12244b093</element>
             <position>8</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>92d3935b13053340490cbdb12244b055</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>09552d911399b740490cbdb12244b094</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -152,13 +152,13 @@
             <element>requestor</element>
             <position>9</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>16d3935b13053340490cbdb12244b055</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>89552d911399b740490cbdb12244b094</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -166,13 +166,13 @@
             <element>co_authors</element>
             <position>10</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>96d3935b13053340490cbdb12244b055</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>0d552d911399b740490cbdb12244b094</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -180,13 +180,13 @@
             <element>conf_status</element>
             <position>11</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>1ad3935b13053340490cbdb12244b055</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>8d552d911399b740490cbdb12244b094</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -194,13 +194,13 @@
             <element>conf_name</element>
             <position>12</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>9ad3935b13053340490cbdb12244b055</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>01552d911399b740490cbdb12244b095</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -208,13 +208,13 @@
             <element>organization</element>
             <position>13</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>1ed3935b13053340490cbdb12244b055</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>81552d911399b740490cbdb12244b095</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -222,13 +222,13 @@
             <element>contract_num</element>
             <position>14</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>9ed3935b13053340490cbdb12244b055</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>05552d911399b740490cbdb12244b095</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -236,13 +236,13 @@
             <element>purpose</element>
             <position>15</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>12d3935b13053340490cbdb12244b056</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>85552d911399b740490cbdb12244b095</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -250,27 +250,27 @@
             <element>component</element>
             <position>16</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>92d3935b13053340490cbdb12244b056</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>09552d911399b740490cbdb12244b095</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>comp_dir_dd_dir</element>
+            <element>component.component_approvers</element>
             <position>17</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>16d3935b13053340490cbdb12244b056</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>89552d911399b740490cbdb12244b095</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -278,13 +278,13 @@
             <element>approving_officer_org</element>
             <position>18</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>96d3935b13053340490cbdb12244b056</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>0d552d911399b740490cbdb12244b095</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -292,13 +292,13 @@
             <element>approving_officer</element>
             <position>19</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>1ad3935b13053340490cbdb12244b056</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>8d552d911399b740490cbdb12244b095</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -306,13 +306,13 @@
             <element>cmo_approvers</element>
             <position>20</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>9ad3935b13053340490cbdb12244b056</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>01552d911399b740490cbdb12244b096</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -320,13 +320,13 @@
             <element>security_approvers</element>
             <position>21</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>1ed3935b13053340490cbdb12244b056</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>81552d911399b740490cbdb12244b096</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -334,13 +334,13 @@
             <element>ogc_approvers</element>
             <position>22</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>9ed3935b13053340490cbdb12244b056</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>05552d911399b740490cbdb12244b096</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -348,13 +348,13 @@
             <element>comptroller_approvers</element>
             <position>23</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>12d3935b13053340490cbdb12244b057</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>85552d911399b740490cbdb12244b096</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -362,13 +362,13 @@
             <element>odni_cfe_approvers</element>
             <position>24</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>92d3935b13053340490cbdb12244b057</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>09552d911399b740490cbdb12244b096</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -376,13 +376,13 @@
             <element>conf_location</element>
             <position>25</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>16d3935b13053340490cbdb12244b057</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>89552d911399b740490cbdb12244b096</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -390,13 +390,13 @@
             <element>conf_room_location</element>
             <position>26</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>96d3935b13053340490cbdb12244b057</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>0d552d911399b740490cbdb12244b096</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -404,13 +404,13 @@
             <element>building_address</element>
             <position>27</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>1ad3935b13053340490cbdb12244b057</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>8d552d911399b740490cbdb12244b096</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -418,13 +418,13 @@
             <element>city</element>
             <position>28</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>9ad3935b13053340490cbdb12244b057</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>01552d911399b740490cbdb12244b097</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -432,13 +432,13 @@
             <element>m_states</element>
             <position>29</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>1ed3935b13053340490cbdb12244b057</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>81552d911399b740490cbdb12244b097</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -446,27 +446,27 @@
             <element>zip_code</element>
             <position>30</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>9ed3935b13053340490cbdb12244b057</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>05552d911399b740490cbdb12244b097</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>ded3935b13053340490cbdb12244b053</element>
+            <element>45552d911399b740490cbdb12244b093</element>
             <position>31</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>12d3935b13053340490cbdb12244b058</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>85552d911399b740490cbdb12244b097</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -474,13 +474,13 @@
             <element>.begin_split</element>
             <position>32</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>92d3935b13053340490cbdb12244b058</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>09552d911399b740490cbdb12244b097</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -488,13 +488,13 @@
             <element>facility_accredited2</element>
             <position>33</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>16d3935b13053340490cbdb12244b058</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>89552d911399b740490cbdb12244b097</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -502,13 +502,13 @@
             <element>conf_classified_secret_above</element>
             <position>34</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>96d3935b13053340490cbdb12244b058</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>0d552d911399b740490cbdb12244b097</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -516,13 +516,13 @@
             <element>visitor_badge_required</element>
             <position>35</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>1ad3935b13053340490cbdb12244b058</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>8d552d911399b740490cbdb12244b097</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -530,13 +530,13 @@
             <element>.split</element>
             <position>36</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>9ad3935b13053340490cbdb12244b058</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>01552d911399b740490cbdb12244b098</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -544,13 +544,13 @@
             <element>conf_begin_date</element>
             <position>37</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>1ed3935b13053340490cbdb12244b058</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>81552d911399b740490cbdb12244b098</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -558,29 +558,29 @@
             <element>conf_end_date</element>
             <position>38</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>9ed3935b13053340490cbdb12244b058</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>05552d911399b740490cbdb12244b098</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
+            <element>cmo_ref.component_approvers</element>
             <position>39</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-02 01:35:55</sys_created_on>
-            <sys_id>12d3935b13053340490cbdb12244b059</sys_id>
+            <sys_created_on>2019-05-07 22:40:53</sys_created_on>
+            <sys_id>85552d911399b740490cbdb12244b098</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">3ba01ccc13fc3780490cbdb12244b076</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-02 01:35:55</sys_updated_on>
+            <sys_updated_on>2019-05-07 22:40:53</sys_updated_on>
             <sys_user/>
-            <type>.end_split</type>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

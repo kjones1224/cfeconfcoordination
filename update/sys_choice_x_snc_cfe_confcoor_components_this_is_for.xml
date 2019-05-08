@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="this_is_for" table="x_snc_cfe_confcoor_components" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>this_is_for</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CFE</label>
+            <language>en</language>
+            <name>x_snc_cfe_confcoor_components</name>
+            <sequence>100</sequence>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-05 23:39:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>966f576013d53740490cbdb12244b064</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-05 23:40:15</sys_updated_on>
+            <value>CFE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>this_is_for</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ORE</label>
+            <language>en</language>
+            <name>x_snc_cfe_confcoor_components</name>
+            <sequence>200</sequence>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-05 23:39:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7b8fd76013d53740490cbdb12244b078</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-05 23:40:22</sys_updated_on>
+            <value>ORE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>this_is_for</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Both</label>
+            <language>en</language>
+            <name>x_snc_cfe_confcoor_components</name>
+            <sequence>300</sequence>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-05 23:39:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>479fd76013d53740490cbdb12244b075</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-05 23:40:28</sys_updated_on>
+            <value>Both</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>this_is_for</element>
+            <name>x_snc_cfe_confcoor_components</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-05 23:39:29</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>f38f936013d53740490cbdb12244b0af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>this_is_for</sys_name>
+            <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+            <sys_update_name>sys_choice_x_snc_cfe_confcoor_components_this_is_for</sys_update_name>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-05 23:39:29</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

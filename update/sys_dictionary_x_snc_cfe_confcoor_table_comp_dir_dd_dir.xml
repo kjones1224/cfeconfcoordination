@@ -5,14 +5,9 @@
         <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
+        <calculation/>
+        <choice>1</choice>
+        <choice_field>this_is_for</choice_field>
         <choice_table/>
         <column_label>Component Director/Deputy Director</column_label>
         <comments/>
@@ -20,8 +15,8 @@
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
+        <dependent>f_component</dependent>
+        <dependent_on_field>f_component</dependent_on_field>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
@@ -34,13 +29,13 @@
         <function_field>false</function_field>
         <internal_type display_value="">glide_list</internal_type>
         <mandatory>false</mandatory>
-        <max_length>4000</max_length>
+        <max_length>100</max_length>
         <name>x_snc_cfe_confcoor_table</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_snc_cfe_confcoor_components">x_snc_cfe_confcoor_components</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -55,7 +50,7 @@
         <sys_created_on>2019-04-14 17:47:59</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>4134c6fd4ff8fb80cca271dd0210c719</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_name>Component Director/Deputy Director</sys_name>
         <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
         <sys_policy/>
@@ -63,11 +58,11 @@
         <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_cfe_confcoor_table_comp_dir_dd_dir</sys_update_name>
         <sys_updated_by>kjones</sys_updated_by>
-        <sys_updated_on>2019-04-25 23:46:30</sys_updated_on>
+        <sys_updated_on>2019-05-07 01:48:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
+        <use_dependent_field>true</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
