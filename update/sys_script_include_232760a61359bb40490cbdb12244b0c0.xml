@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_cfe_confcoor.cmoApprovers</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>cmoApprovers</name>
+        <script><![CDATA[var cmoApprovers = Class.create();
+cmoApprovers.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+		cmoApproverNames: function(){
+			var aNames = this.getParameter('sysparm_cmo');
+			var approverNamesGR = new GlideRecord('x_snc_cfe_confcoor_components');
+			approverNamesGR.get('component_name', aNames);
+		return approverNamesGR.component_approvers.getDisplayValue();
+			//return approverNamesGR.getDisplayValue();
+	},
+	
+		securityApproverNames: function(){
+			var aNames = this.getParameter('sysparm_security');
+			var approverNamesGR = new GlideRecord('x_snc_cfe_confcoor_components');
+			approverNamesGR.get('component_name', aNames);
+		return approverNamesGR.component_approvers.getDisplayValue();
+			//return approverNamesGR.getDisplayValue();
+	},
+		ogcApproverNames: function(){
+			var aNames = this.getParameter('sysparm_ogc');
+			var approverNamesGR = new GlideRecord('x_snc_cfe_confcoor_components');
+			approverNamesGR.get('component_name', aNames);
+		return approverNamesGR.component_approvers.getDisplayValue();
+			//return approverNamesGR.getDisplayValue();
+	},
+	
+	comptrollerApproverNames: function(){
+			var aNames = this.getParameter('sysparm_comptroller');
+			var approverNamesGR = new GlideRecord('x_snc_cfe_confcoor_components');
+			approverNamesGR.get('component_name', aNames);
+		return approverNamesGR.component_approvers.getDisplayValue();
+			//return approverNamesGR.getDisplayValue();
+	},
+	
+		odnicfeApproverNames: function(){
+			var aNames = this.getParameter('sysparm_odnicfe');
+			var approverNamesGR = new GlideRecord('x_snc_cfe_confcoor_components');
+			approverNamesGR.get('component_name', aNames);
+		return approverNamesGR.component_approvers.getDisplayValue();
+			//return approverNamesGR.getDisplayValue();
+	},
+	
+     type: 'cmoApprovers'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>kjones</sys_created_by>
+        <sys_created_on>2019-05-11 15:33:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>232760a61359bb40490cbdb12244b0c0</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>cmoApprovers</sys_name>
+        <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+        <sys_update_name>sys_script_include_232760a61359bb40490cbdb12244b0c0</sys_update_name>
+        <sys_updated_by>kjones</sys_updated_by>
+        <sys_updated_on>2019-05-11 16:42:24</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -4,13 +4,13 @@
             <element>conf_name</element>
             <position>0</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-14 20:26:14</sys_created_on>
-            <sys_id>48f9a2394fbcfb80cca271dd0210c7fe</sys_id>
+            <sys_created_on>2019-05-08 23:55:09</sys_created_on>
+            <sys_id>a6effee1131df740490cbdb12244b010</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_speaker_speaker_costs" sys_domain="global" view="Default view">5bc666754fbcfb80cca271dd0210c71f</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-14 20:26:14</sys_updated_on>
+            <sys_updated_on>2019-05-08 23:55:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>conf_begin_date</element>
             <position>1</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-14 20:26:14</sys_created_on>
-            <sys_id>c8f9a2394fbcfb80cca271dd0210c7fe</sys_id>
+            <sys_created_on>2019-05-08 23:55:09</sys_created_on>
+            <sys_id>2aeffee1131df740490cbdb12244b010</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_speaker_speaker_costs" sys_domain="global" view="Default view">5bc666754fbcfb80cca271dd0210c71f</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-14 20:26:14</sys_updated_on>
+            <sys_updated_on>2019-05-08 23:55:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>conf_end_date</element>
             <position>2</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-14 20:26:14</sys_created_on>
-            <sys_id>4cf9a2394fbcfb80cca271dd0210c7fe</sys_id>
+            <sys_created_on>2019-05-08 23:55:09</sys_created_on>
+            <sys_id>aaeffee1131df740490cbdb12244b010</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_speaker_speaker_costs" sys_domain="global" view="Default view">5bc666754fbcfb80cca271dd0210c71f</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-14 20:26:14</sys_updated_on>
+            <sys_updated_on>2019-05-08 23:55:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-14 20:26:14</sys_created_on>
-            <sys_id>ccf9a2394fbcfb80cca271dd0210c7fe</sys_id>
+            <sys_created_on>2019-05-08 23:55:09</sys_created_on>
+            <sys_id>aaeffee1131df740490cbdb12244b029</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_speaker_speaker_costs" sys_domain="global" view="Default view">5bc666754fbcfb80cca271dd0210c71f</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-14 20:26:14</sys_updated_on>
+            <sys_updated_on>2019-05-08 23:55:09</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -60,139 +60,139 @@
             <element>parentid</element>
             <position>4</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-14 20:26:14</sys_created_on>
-            <sys_id>40f9a2394fbcfb80cca271dd0210c7ff</sys_id>
+            <sys_created_on>2019-05-08 23:55:09</sys_created_on>
+            <sys_id>2eeffee1131df740490cbdb12244b029</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_speaker_speaker_costs" sys_domain="global" view="Default view">5bc666754fbcfb80cca271dd0210c71f</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-14 20:26:14</sys_updated_on>
+            <sys_updated_on>2019-05-08 23:55:09</sys_updated_on>
             <sys_user/>
             <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>5</position>
-            <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-14 20:26:14</sys_created_on>
-            <sys_id>c0f9a2394fbcfb80cca271dd0210c7ff</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_speaker_speaker_costs" sys_domain="global" view="Default view">5bc666754fbcfb80cca271dd0210c71f</sys_ui_section>
-            <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-14 20:26:14</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>s_name</element>
-            <position>6</position>
-            <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-14 20:26:14</sys_created_on>
-            <sys_id>44f9a2394fbcfb80cca271dd0210c7ff</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_speaker_speaker_costs" sys_domain="global" view="Default view">5bc666754fbcfb80cca271dd0210c71f</sys_ui_section>
-            <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-14 20:26:14</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>s_title</element>
-            <position>7</position>
-            <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-14 20:26:14</sys_created_on>
-            <sys_id>c4f9a2394fbcfb80cca271dd0210c7ff</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_speaker_speaker_costs" sys_domain="global" view="Default view">5bc666754fbcfb80cca271dd0210c71f</sys_ui_section>
-            <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-14 20:26:14</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>s_organization</element>
-            <position>8</position>
-            <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-14 20:26:14</sys_created_on>
-            <sys_id>48f9a2394fbcfb80cca271dd0210c7ff</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_speaker_speaker_costs" sys_domain="global" view="Default view">5bc666754fbcfb80cca271dd0210c71f</sys_ui_section>
-            <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-14 20:26:14</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>s_topic</element>
-            <position>9</position>
-            <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-14 20:26:14</sys_created_on>
-            <sys_id>c8f9a2394fbcfb80cca271dd0210c7ff</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_speaker_speaker_costs" sys_domain="global" view="Default view">5bc666754fbcfb80cca271dd0210c71f</sys_ui_section>
-            <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-14 20:26:14</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
-            <position>10</position>
-            <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-14 20:26:14</sys_created_on>
-            <sys_id>4cf9a2394fbcfb80cca271dd0210c7ff</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_speaker_speaker_costs" sys_domain="global" view="Default view">5bc666754fbcfb80cca271dd0210c71f</sys_ui_section>
-            <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-14 20:26:14</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>s_est_cost</element>
-            <position>11</position>
+            <position>5</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-14 20:26:14</sys_created_on>
-            <sys_id>ccf9a2394fbcfb80cca271dd0210c7ff</sys_id>
+            <sys_created_on>2019-05-08 23:55:09</sys_created_on>
+            <sys_id>aeeffee1131df740490cbdb12244b029</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_speaker_speaker_costs" sys_domain="global" view="Default view">5bc666754fbcfb80cca271dd0210c71f</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-14 20:26:14</sys_updated_on>
+            <sys_updated_on>2019-05-08 23:55:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>s_act_cost</element>
-            <position>12</position>
+            <position>6</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-14 20:26:14</sys_created_on>
-            <sys_id>40f9e2394fbcfb80cca271dd0210c700</sys_id>
+            <sys_created_on>2019-05-08 23:55:09</sys_created_on>
+            <sys_id>22effee1131df740490cbdb12244b02a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_speaker_speaker_costs" sys_domain="global" view="Default view">5bc666754fbcfb80cca271dd0210c71f</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-14 20:26:14</sys_updated_on>
+            <sys_updated_on>2019-05-08 23:55:09</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-08 23:55:09</sys_created_on>
+            <sys_id>a2effee1131df740490cbdb12244b02a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_speaker_speaker_costs" sys_domain="global" view="Default view">5bc666754fbcfb80cca271dd0210c71f</sys_ui_section>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-08 23:55:09</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>s_name</element>
+            <position>8</position>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-08 23:55:09</sys_created_on>
+            <sys_id>26effee1131df740490cbdb12244b02a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_speaker_speaker_costs" sys_domain="global" view="Default view">5bc666754fbcfb80cca271dd0210c71f</sys_ui_section>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-08 23:55:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>s_title</element>
+            <position>9</position>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-08 23:55:09</sys_created_on>
+            <sys_id>a6effee1131df740490cbdb12244b02a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_speaker_speaker_costs" sys_domain="global" view="Default view">5bc666754fbcfb80cca271dd0210c71f</sys_ui_section>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-08 23:55:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>s_organization</element>
+            <position>10</position>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-08 23:55:09</sys_created_on>
+            <sys_id>2aeffee1131df740490cbdb12244b02a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_speaker_speaker_costs" sys_domain="global" view="Default view">5bc666754fbcfb80cca271dd0210c71f</sys_ui_section>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-08 23:55:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>s_topic</element>
+            <position>11</position>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-08 23:55:09</sys_created_on>
+            <sys_id>aaeffee1131df740490cbdb12244b02a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_speaker_speaker_costs" sys_domain="global" view="Default view">5bc666754fbcfb80cca271dd0210c71f</sys_ui_section>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-08 23:55:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>12</position>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-08 23:55:09</sys_created_on>
+            <sys_id>2eeffee1131df740490cbdb12244b02a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_speaker_speaker_costs" sys_domain="global" view="Default view">5bc666754fbcfb80cca271dd0210c71f</sys_ui_section>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-08 23:55:09</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>13</position>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-04-14 20:26:14</sys_created_on>
-            <sys_id>c0f9e2394fbcfb80cca271dd0210c700</sys_id>
+            <sys_created_on>2019-05-08 23:55:09</sys_created_on>
+            <sys_id>aeeffee1131df740490cbdb12244b02a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_speaker_speaker_costs" sys_domain="global" view="Default view">5bc666754fbcfb80cca271dd0210c71f</sys_ui_section>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-04-14 20:26:14</sys_updated_on>
+            <sys_updated_on>2019-05-08 23:55:09</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>

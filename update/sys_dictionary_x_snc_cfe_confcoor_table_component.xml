@@ -44,8 +44,14 @@
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key>component_name</reference_key>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference_qual>component_nameNOT LIKECMO^component_nameNOT LIKESecurity^component_nameNOT LIKEOGC^component_nameNOT LIKEComptroller^component_nameNOT LIKEODNI/CFE^EQ</reference_qual>
+        <reference_qual_condition table="x_snc_cfe_confcoor_components">component_nameNOT LIKECMO^component_nameNOT LIKESecurity^component_nameNOT LIKEOGC^component_nameNOT LIKEComptroller^component_nameNOT LIKEODNI/CFE^EQ<item endquery="false" field="component_name" goto="false" newquery="false" operator="NOT LIKE" or="false" value="CMO"/>
+            <item endquery="false" field="component_name" goto="false" newquery="false" operator="NOT LIKE" or="false" value="Security"/>
+            <item endquery="false" field="component_name" goto="false" newquery="false" operator="NOT LIKE" or="false" value="OGC"/>
+            <item endquery="false" field="component_name" goto="false" newquery="false" operator="NOT LIKE" or="false" value="Comptroller"/>
+            <item endquery="false" field="component_name" goto="false" newquery="false" operator="NOT LIKE" or="false" value="ODNI/CFE"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
         <reference_type/>
         <sizeclass/>
         <spell_check>false</spell_check>
@@ -55,7 +61,7 @@
         <sys_created_on>2019-04-14 17:47:58</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>4a1486fd4ff8fb80cca271dd0210c753</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>Component</sys_name>
         <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
         <sys_policy/>
@@ -63,7 +69,7 @@
         <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_cfe_confcoor_table_component</sys_update_name>
         <sys_updated_by>kjones</sys_updated_by>
-        <sys_updated_on>2019-05-07 02:17:53</sys_updated_on>
+        <sys_updated_on>2019-05-11 16:56:54</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

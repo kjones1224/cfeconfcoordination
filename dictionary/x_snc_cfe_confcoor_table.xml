@@ -23,16 +23,16 @@
         <element label="city" max_length="40" name="city" type="string"/>
         <element label="CMO" max_length="4000" name="cmo_approvers" type="glide_list"/>
         <element default="CMO" label="cmo_Ref" max_length="32" name="cmo_ref" reference="x_snc_cfe_confcoor_components" type="reference"/>
-        <element choice_field="this_is_for" choice_table="x_snc_cfe_confcoor_components" label="Component" max_length="200" name="component" reference="x_snc_cfe_confcoor_components" reference_key="component_name" type="reference"/>
+        <element choice_field="this_is_for" choice_table="x_snc_cfe_confcoor_components" label="Component" max_length="200" name="component" reference="x_snc_cfe_confcoor_components" reference_key="component_name" reference_qual="component_nameNOT LIKECMO^component_nameNOT LIKESecurity^component_nameNOT LIKEOGC^component_nameNOT LIKEComptroller^component_nameNOT LIKEODNI/CFE^EQ" reference_qual_condition="component_nameNOT LIKECMO^component_nameNOT LIKESecurity^component_nameNOT LIKEOGC^component_nameNOT LIKEComptroller^component_nameNOT LIKEODNI/CFE^EQ" type="reference"/>
         <element label="Comptroller" max_length="4000" name="comptroller_approvers" type="glide_list"/>
         <element choice="1" choice_field="this_is_for" dependent="f_component" dependent_on_field="f_component" label="Component Director/Deputy Director" max_length="100" name="comp_dir_dd_dir" reference="x_snc_cfe_confcoor_components" type="glide_list" use_dependent_field="true">
             <choice/>
         </element>
-        <element label="Begin Date" max_length="40" name="conf_begin_date" type="glide_date"/>
+        <element hint="(mm/dd/yyyy)" label="Begin Date " max_length="40" name="conf_begin_date" type="glide_date"/>
         <element choice="1" label="Conference Classified Secret or Above" max_length="40" name="conf_classified_secret_above" type="choice">
             <choice/>
         </element>
-        <element label="End Date" max_length="40" name="conf_end_date" type="glide_date"/>
+        <element hint="(mm/dd/yyyy)" label="End Date" max_length="40" name="conf_end_date" type="glide_date"/>
         <element choice="1" label="Conference Location" max_length="40" name="conf_location" type="choice">
             <choice/>
         </element>

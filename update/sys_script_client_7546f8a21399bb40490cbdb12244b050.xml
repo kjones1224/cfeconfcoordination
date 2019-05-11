@@ -8,42 +8,51 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>cfeCMOApprovers</name>
+        <name>cfeSecurityApprovers</name>
         <order/>
         <script><![CDATA[function onLoad() {
    //Type appropriate comment here, and begin script below
    var ga = new GlideAjax('cmoApprovers'); //this is the name of your script include you will call
-	ga.addParam('sysparm_name', 'cmoApproverNames'); //sysparm_name is always used first because it will invoke the first function. Other sysparm can be added
-	ga.addParam('sysparm_cmo', 'CMO');
-	ga.getXML(ajaxProcessor);
+	//ga.addParam('sysparm_name', 'cmoApproverNames'); //sysparm_name is always used first because it will invoke the first function. Other sysparm can be added
+	ga.addParam('sysparm_name', 'securityApproverNames');
 	
+	//ga.addParam('sysparm_cmo', 'CMO');
+	ga.addParam('sysparm_security', 'Security');
+	ga.getXML(ajaxProcessor);
+	//ga.getXML(ajaxProcessor2);
 }
+//function ajaxProcessor(response){
+	
+	//var answer = response.responseXML.documentElement.getAttribute('answer');
+	//alert(answer);
+	//g_form.setValue('cmo_approvers', answer);
+//	g_form.setDisabled('cmo_approvers', true);
+//}
+
 function ajaxProcessor(response){
 	
 	var answer = response.responseXML.documentElement.getAttribute('answer');
 	//alert(answer);
-	g_form.setValue('cmo_approvers', answer);
-	g_form.setDisabled('cmo_approvers', true);
-}
-
-]]></script>
+	g_form.setValue('security_approvers', answer);
+	g_form.setDisabled('security_approvers', true);
+}]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>kjones</sys_created_by>
-        <sys_created_on>2019-05-07 23:49:32</sys_created_on>
+        <sys_created_on>2019-05-11 16:27:44</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>06927d5d1399b740490cbdb12244b073</sys_id>
-        <sys_mod_count>12</sys_mod_count>
-        <sys_name>cfeCMOApprovers</sys_name>
+        <sys_id>7546f8a21399bb40490cbdb12244b050</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cfeSecurityApprovers</sys_name>
         <sys_overrides/>
         <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
-        <sys_update_name>sys_script_client_06927d5d1399b740490cbdb12244b073</sys_update_name>
+        <sys_update_name>sys_script_client_7546f8a21399bb40490cbdb12244b050</sys_update_name>
         <sys_updated_by>kjones</sys_updated_by>
-        <sys_updated_on>2019-05-11 16:28:35</sys_updated_on>
+        <sys_updated_on>2019-05-11 16:27:44</sys_updated_on>
         <table>x_snc_cfe_confcoor_table</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>
