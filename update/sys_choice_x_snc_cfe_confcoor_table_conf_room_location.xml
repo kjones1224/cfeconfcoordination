@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="conf_room_location" table="x_snc_cfe_confcoor_table" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>conf_room_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1A425</label>
+            <language>en</language>
+            <name>x_snc_cfe_confcoor_table</name>
+            <sequence/>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-12 18:57:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fdf16e36135dfb40490cbdb12244b070</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-12 18:57:21</sys_updated_on>
+            <value>1A425</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>conf_room_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1B400</label>
+            <language>en</language>
+            <name>x_snc_cfe_confcoor_table</name>
+            <sequence/>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-12 18:57:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e3026e36135dfb40490cbdb12244b055</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-12 18:57:39</sys_updated_on>
+            <value>1B400</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>conf_room_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1B450A</label>
+            <language>en</language>
+            <name>x_snc_cfe_confcoor_table</name>
+            <sequence/>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-12 18:57:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>31226e36135dfb40490cbdb12244b057</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-12 18:57:57</sys_updated_on>
+            <value>1B450A</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>conf_room_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1B450B</label>
+            <language>en</language>
+            <name>x_snc_cfe_confcoor_table</name>
+            <sequence/>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-12 18:58:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>92322276135dfb40490cbdb12244b0dd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-12 18:58:14</sys_updated_on>
+            <value>1B450B</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>conf_room_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1B550A-B</label>
+            <language>en</language>
+            <name>x_snc_cfe_confcoor_table</name>
+            <sequence/>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-12 18:59:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b0822276135dfb40490cbdb12244b0e0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-12 18:59:32</sys_updated_on>
+            <value>1B550A-B</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>conf_room_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1B550A-C</label>
+            <language>en</language>
+            <name>x_snc_cfe_confcoor_table</name>
+            <sequence/>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-12 18:59:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c352a276135dfb40490cbdb12244b042</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-12 18:59:11</sys_updated_on>
+            <value>1B550A-C</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>conf_room_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1B550B</label>
+            <language>en</language>
+            <name>x_snc_cfe_confcoor_table</name>
+            <sequence/>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-12 18:59:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>02926676135dfb40490cbdb12244b024</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-12 18:59:52</sys_updated_on>
+            <value>1B550B</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>conf_room_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1B550C</label>
+            <language>en</language>
+            <name>x_snc_cfe_confcoor_table</name>
+            <sequence/>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-12 19:00:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5aa2a676135dfb40490cbdb12244b049</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-12 19:00:08</sys_updated_on>
+            <value>1B550C</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>conf_room_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1N701</label>
+            <language>en</language>
+            <name>x_snc_cfe_confcoor_table</name>
+            <sequence/>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-12 19:00:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ab2e676135dfb40490cbdb12244b056</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-12 19:00:27</sys_updated_on>
+            <value>1N701</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>conf_room_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1N702</label>
+            <language>en</language>
+            <name>x_snc_cfe_confcoor_table</name>
+            <sequence/>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-12 19:00:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>efc2e676135dfb40490cbdb12244b0f3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-12 19:00:41</sys_updated_on>
+            <value>1N702</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>conf_room_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1N704</label>
+            <language>en</language>
+            <name>x_snc_cfe_confcoor_table</name>
+            <sequence/>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-12 19:00:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ead2aa76135dfb40490cbdb12244b07b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-12 19:00:54</sys_updated_on>
+            <value>1N704</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>conf_room_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1S300</label>
+            <language>en</language>
+            <name>x_snc_cfe_confcoor_table</name>
+            <sequence/>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-12 19:01:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fde2aa76135dfb40490cbdb12244b0e1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-12 19:01:12</sys_updated_on>
+            <value>1S300</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>conf_room_location</element>
+            <name>x_snc_cfe_confcoor_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-12 18:57:06</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>e7026e36135dfb40490cbdb12244b073</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>conf_room_location</sys_name>
+            <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+            <sys_update_name>sys_choice_x_snc_cfe_confcoor_table_conf_room_location</sys_update_name>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-12 18:57:06</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -34,12 +34,30 @@
         </element>
         <element hint="(mm/dd/yyyy)" label="End Date" max_length="40" name="conf_end_date" type="glide_date"/>
         <element choice="1" label="Conference Location" max_length="40" name="conf_location" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="LX Compound" sequence="0" value="LX Compound"/>
+                <element inactive_on_update="false" label="IC Facility" sequence="1" value="IC Facility"/>
+                <element inactive_on_update="false" label="Government Facility" sequence="2" value="Government Facility"/>
+                <element inactive_on_update="false" label="Commercial Facility" sequence="3" value="Commercial Facility"/>
+            </choice>
         </element>
         <element label="Name of Conference" max_length="200" name="conf_name" type="string"/>
         <element label="Conference Number" max_length="40" name="conf_number" type="string"/>
-        <element choice="1" label="Conf room location" max_length="40" name="conf_room_location" type="choice">
-            <choice/>
+        <element choice="1" label="Room Location" max_length="40" name="conf_room_location" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1A425" value="1A425"/>
+                <element inactive_on_update="false" label="1B400" value="1B400"/>
+                <element inactive_on_update="false" label="1B450A" value="1B450A"/>
+                <element inactive_on_update="false" label="1B450B" value="1B450B"/>
+                <element inactive_on_update="false" label="1B550A-B" value="1B550A-B"/>
+                <element inactive_on_update="false" label="1B550A-C" value="1B550A-C"/>
+                <element inactive_on_update="false" label="1B550B" value="1B550B"/>
+                <element inactive_on_update="false" label="1B550C" value="1B550C"/>
+                <element inactive_on_update="false" label="1N701" value="1N701"/>
+                <element inactive_on_update="false" label="1N702" value="1N702"/>
+                <element inactive_on_update="false" label="1N704" value="1N704"/>
+                <element inactive_on_update="false" label="1S300" value="1S300"/>
+            </choice>
         </element>
         <element choice="3" default="Draft" label="Conference Status" max_length="40" name="conf_status" read_only="true" type="choice">
             <choice/>
