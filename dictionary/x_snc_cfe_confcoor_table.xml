@@ -19,7 +19,7 @@
         <element label="Industry/FFRDCs" max_length="40" name="a_est_ind_ffrdc" type="integer"/>
         <element label="Totals" max_length="40" name="a_est_total" type="integer"/>
         <element label="Beach" max_length="40" name="beach" type="boolean"/>
-        <element label="Building Address" max_length="40" name="building_address" type="string"/>
+        <element label="Building Name &amp; Address" max_length="40" name="building_address" type="string"/>
         <element label="city" max_length="40" name="city" type="string"/>
         <element label="CMO" max_length="4000" name="cmo_approvers" type="glide_list"/>
         <element default="CMO" label="cmo_Ref" max_length="32" name="cmo_ref" reference="x_snc_cfe_confcoor_components" type="reference"/>
@@ -30,7 +30,10 @@
         </element>
         <element hint="(mm/dd/yyyy)" label="Begin Date " max_length="40" name="conf_begin_date" type="glide_date"/>
         <element choice="1" label="Conference Classified Secret or Above" max_length="40" name="conf_classified_secret_above" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="YES" value="YES"/>
+                <element inactive_on_update="false" label="NO" sequence="100" value="NO"/>
+            </choice>
         </element>
         <element hint="(mm/dd/yyyy)" label="End Date" max_length="40" name="conf_end_date" type="glide_date"/>
         <element choice="1" label="Conference Location" max_length="40" name="conf_location" type="choice">
@@ -124,8 +127,16 @@
         <element label="MI&amp;E" max_length="20" name="tc_est_mie" type="currency"/>
         <element label="Totals" max_length="20" name="tc_est_total" type="currency"/>
         <element label="Transportation" max_length="20" name="tc_est_transportation" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" default="If using a commercial facility, also include a documented cost comparison analysis of at least three commercial sites in addition to a written description of why a federal government facility is not appropriate. Upload your cost comparison files along with your conference request. Using a competitively awarded conference planning/support contract meets the tree commercial site cost comparison analysis requirement. However, the written description of why a federal government facility is not appropriate is still required." label="Cost Analysis" max_length="300" name="u_cost_analysis" read_only="true" type="string"/>
+        <element label="Browse" max_length="40" name="u_file_attachment_2" type="file_attachment"/>
+        <element label="Attach Waiver(s)" max_length="40" name="u_file_attachment_3" type="file_attachment"/>
+        <element default="If using a commercial facility, also include a documented cost comparison analysis of at least three commercial sites in addition to a written description of why a federal government facility is not appropriate. Upload your cost comparison files along with your conference request. Using a competitively awarded conference planning/support contract meets the tree commercial site cost comparison analysis requirement. However, the written description of why a federal government facility is not appropriate is still required. " label="Cost Comparison Analysis" max_length="65536" name="u_html_1" read_only="true" type="html"/>
+        <element default="For classified conferences, unless a waiver is approved, components must use appropriate accredited facilities. If you are using an unaccredited facility, please submit your waiver by using the &quot;Browse&quot; button to upload your file(s) and submit your waiver request. All &quot;Security&quot; cost will be the responsibility of the &quot;Sponsoring Component&quot;." label="Notice:" max_length="65536" name="u_html_2" read_only="true" type="html"/>
         <element choice="1" label="Visitor Badge Required" max_length="40" name="visitor_badge_required" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="YES" value="YES"/>
+                <element inactive_on_update="false" label="NO" sequence="100" value="NO"/>
+            </choice>
         </element>
         <element label="Zip code" max_length="40" name="zip_code" type="integer"/>
     </element>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>building_address</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>kjones</sys_created_by>
+        <sys_created_on>2019-05-13 17:38:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8f691fcb135d3f40490cbdb12244b01a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>building_address</sys_name>
+        <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+        <sys_update_name>sys_ui_policy_action_8f691fcb135d3f40490cbdb12244b01a</sys_update_name>
+        <sys_updated_by>kjones</sys_updated_by>
+        <sys_updated_on>2019-05-13 17:49:35</sys_updated_on>
+        <table>x_snc_cfe_confcoor_table</table>
+        <ui_policy display_value="show fields (building address, city, states, zip code)">2629d7cb135d3f40490cbdb12244b0e6</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>
