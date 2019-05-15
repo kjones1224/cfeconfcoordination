@@ -13,7 +13,7 @@
         <label>CFE Conference Coordination</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_snc_cfe_confcoor_table</name>
-        <number_ref display_value="CFE">1d80908c13fc3780490cbdb12244b0fd</number_ref>
+        <number_ref display_value="CON">1d80908c13fc3780490cbdb12244b0fd</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <super_class display_value="Task" name="task">26e9785113032200d93e54b12244b080</super_class>

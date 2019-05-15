@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <global>false</global>
+        <name>x_snc_cfe_confcoor.GlideFormExtension</name>
+        <script><![CDATA[if (typeof GlideForm != "undefined") 
+GlideForm.prototype.setCurrencyField = function(fldName, currency, amount) {
+this.setValue(fldName+'.display', amount);
+this.setValue(fldName+'.currency', currency);
+this.setValue(fldName, currency+';'+amount);
+
+};
+]]></script>
+        <script_name>GlideFormExtension</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>kjones</sys_created_by>
+        <sys_created_on>2019-05-14 22:19:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a29069a313d1bf40490cbdb12244b013</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_snc_cfe_confcoor.GlideFormExtension</sys_name>
+        <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+        <sys_update_name>sys_ui_script_a29069a313d1bf40490cbdb12244b013</sys_update_name>
+        <sys_updated_by>kjones</sys_updated_by>
+        <sys_updated_on>2019-05-14 22:20:39</sys_updated_on>
+        <ui_type>0</ui_type>
+        <use_scoped_format>false</use_scoped_format>
+    </sys_ui_script>
+</record_update>

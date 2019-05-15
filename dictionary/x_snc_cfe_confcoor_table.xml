@@ -100,7 +100,7 @@
         <element label="Facility" max_length="20" name="gf_est_facility" type="currency"/>
         <element label="Printing" max_length="20" name="gf_est_printing" type="currency"/>
         <element label="Security" max_length="20" name="gf_est_security" type="currency"/>
-        <element label="Totals" max_length="20" name="gf_est_total" type="currency"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Totals" max_length="20" name="gf_est_total" type="currency"/>
         <element label="US States" max_length="32" name="m_states" reference="x_snc_cfe_confcoor_us_states" type="reference"/>
         <element label="ODNI/CFE" max_length="4000" name="odni_cfe_approvers" type="glide_list"/>
         <element label="OGC" max_length="4000" name="ogc_approvers" type="glide_list"/>
