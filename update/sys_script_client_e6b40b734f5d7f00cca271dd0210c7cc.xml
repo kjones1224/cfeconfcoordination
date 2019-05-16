@@ -4,45 +4,47 @@
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
-        <field>gf_est_event_coordinator</field>
+        <field>fb_act_dinner</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>GF-Event Coordination</name>
+        <name>FB act-Dinner</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {   
-   var f1 = g_form.getValue('gf_est_facility.display').replace(/,/g, "");
-   var f2 = g_form.getValue('gf_est_event_coordinator.display').replace(/,/g, "");
-   var f3 = g_form.getValue('gf_est_audio_visual.display').replace(/,/g, "");
-   var f4 = g_form.getValue('gf_est_printing.display').replace(/,/g, "");
-   var f5 = g_form.getValue('gf_est_security.display').replace(/,/g, "");
+   var f1 = g_form.getValue('fb_act_breakfast.display').replace(/,/g, "");
+   var f2 = g_form.getValue('fb_act_lunch.display').replace(/,/g, "");
+   var f3 = g_form.getValue('fb_act_snacks.display').replace(/,/g, "");
+   var f4 = g_form.getValue('fb_act_dinner.display').replace(/,/g, "");
+   var f5 = g_form.getValue('fb_act_beverages.display').replace(/,/g, "");
      var total = parseFloat(f1) + parseFloat(f2) + parseFloat(f3) + parseFloat(f4) + parseFloat(f5);  
 		
-	 g_form.setValue('gf_est_total.display', formatNumber(total.toFixed(2)));   
+	 g_form.setValue('fb_act_total.display', formatNumber(total.toFixed(2)));  
+	
 
    }   
 
 function formatNumber(num) {
   return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,');
 }
+
 ]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>kjones</sys_created_by>
-        <sys_created_on>2019-05-14 00:51:17</sys_created_on>
+        <sys_created_on>2019-05-16 00:02:32</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>2e7cfc5b13d17f40490cbdb12244b0a3</sys_id>
-        <sys_mod_count>24</sys_mod_count>
-        <sys_name>GF-Event Coordination</sys_name>
+        <sys_id>e6b40b734f5d7f00cca271dd0210c7cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FB act-Dinner</sys_name>
         <sys_overrides/>
         <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
-        <sys_update_name>sys_script_client_2e7cfc5b13d17f40490cbdb12244b0a3</sys_update_name>
+        <sys_update_name>sys_script_client_e6b40b734f5d7f00cca271dd0210c7cc</sys_update_name>
         <sys_updated_by>kjones</sys_updated_by>
-        <sys_updated_on>2019-05-15 22:57:08</sys_updated_on>
+        <sys_updated_on>2019-05-16 00:02:32</sys_updated_on>
         <table>x_snc_cfe_confcoor_table</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

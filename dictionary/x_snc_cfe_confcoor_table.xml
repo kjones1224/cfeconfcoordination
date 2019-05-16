@@ -8,16 +8,16 @@
         <element choice="1" label="Approving Officer" max_length="40" name="approving_officer_org" type="choice">
             <choice/>
         </element>
-        <element label="Foreign Nationals" max_length="40" name="a_act_foreign_nationals" type="integer"/>
-        <element label="Government, Non-IC Employees" max_length="40" name="a_act_gov_nongov" type="integer"/>
-        <element label="IC Employees" max_length="40" name="a_act_ic_employees" type="integer"/>
-        <element label="Industry/FFRDCs" max_length="40" name="a_act_ind_ffrdc" type="integer"/>
-        <element label="Totals" max_length="40" name="a_act_total" type="integer"/>
-        <element label="Foreign Nationals" max_length="40" name="a_est_foreign_nationals" type="integer"/>
-        <element label="Government, Non-IC Employees" max_length="40" name="a_est_gov_nongov" type="integer"/>
-        <element label="IC Employees" max_length="40" name="a_est_ic_employees" type="integer"/>
-        <element label="Industry/FFRDCs" max_length="40" name="a_est_ind_ffrdc" type="integer"/>
-        <element label="Totals" max_length="40" name="a_est_total" type="integer"/>
+        <element default="0" label="Foreign Nationals" max_length="40" name="a_act_foreign_nationals" type="integer"/>
+        <element default="0" label="Government, Non-IC Employees" max_length="40" name="a_act_gov_nongov" type="integer"/>
+        <element default="0" label="IC Employees" max_length="40" name="a_act_ic_employees" type="integer"/>
+        <element default="0" label="Industry/FFRDCs" max_length="40" name="a_act_ind_ffrdc" type="integer"/>
+        <element default="0" label="Totals" max_length="40" name="a_act_total" type="integer"/>
+        <element default="0" label="Foreign Nationals" max_length="40" name="a_est_foreign_nationals" type="integer"/>
+        <element default="0" label="Government, Non-IC Employees" max_length="40" name="a_est_gov_nongov" type="integer"/>
+        <element default="0" label="IC Employees" max_length="40" name="a_est_ic_employees" type="integer"/>
+        <element default="0" label="Industry/FFRDCs" max_length="40" name="a_est_ind_ffrdc" type="integer"/>
+        <element default="0" label="Totals" max_length="40" name="a_est_total" type="integer"/>
         <element label="Beach" max_length="40" name="beach" type="boolean"/>
         <element label="Building Name &amp; Address" max_length="40" name="building_address" type="string"/>
         <element label="city" max_length="40" name="city" type="string"/>
