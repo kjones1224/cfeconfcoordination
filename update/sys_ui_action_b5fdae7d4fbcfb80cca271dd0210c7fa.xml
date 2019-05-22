@@ -5,7 +5,7 @@
         <client>true</client>
         <client_script_v2/>
         <comments/>
-        <condition/>
+        <condition>current.isNewRecord()</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -23,11 +23,15 @@
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
-        <name>cfeDialog</name>
+        <name>Add Speakers</name>
         <onclick>popupDispList()</onclick>
         <order>100</order>
         <script><![CDATA[function popupDispList() {
-    //Initialize the GlideDialogWindow
+g_form.save();
+	
+	  
+   /*
+	//Initialize the GlideDialogWindow
     var gdw = new GlideDialogWindow('show_form');
     gdw.setTitle('Incidents');
     gdw.setPreference('table', 'x_snc_cfe_confcoor_speaker_speaker_costs');
@@ -40,6 +44,7 @@
  
     //Open the dialog window
     gdw.render();
+	*/
 }]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -52,8 +57,8 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b5fdae7d4fbcfb80cca271dd0210c7fa</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>cfeDialog</sys_name>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Add Speakers</sys_name>
         <sys_overrides/>
         <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
         <sys_policy/>
@@ -61,7 +66,7 @@
         <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
         <sys_update_name>sys_ui_action_b5fdae7d4fbcfb80cca271dd0210c7fa</sys_update_name>
         <sys_updated_by>kjones</sys_updated_by>
-        <sys_updated_on>2019-04-14 20:51:31</sys_updated_on>
+        <sys_updated_on>2019-05-22 01:05:08</sys_updated_on>
         <table>x_snc_cfe_confcoor_table</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>true</ui16_compatible>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="c84609e113e93780490cbdb12244b050" sys_domain="global" table="x_snc_cfe_confcoor_speaker_speaker_costs" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-21 01:19:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>544649e113e93780490cbdb12244b065</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_cfe_confcoor_speaker_speaker_costs" name="x_snc_cfe_confcoor_speaker_speaker_costs" sys_domain="global" view="Default view">c84609e113e93780490cbdb12244b050</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_cfe_confcoor_speaker_speaker_costs" sys_domain="global" view="Default view">5bc666754fbcfb80cca271dd0210c71f</sys_ui_section>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-21 01:19:19</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_cfe_confcoor_speaker_speaker_costs</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-05-21 01:19:18</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c84609e113e93780490cbdb12244b050</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_cfe_confcoor_speaker_speaker_costs</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+            <sys_update_name>sys_ui_form_sections_c84609e113e93780490cbdb12244b050</sys_update_name>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-05-21 01:19:18</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

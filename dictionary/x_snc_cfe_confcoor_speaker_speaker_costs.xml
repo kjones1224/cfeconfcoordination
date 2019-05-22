@@ -2,8 +2,8 @@
     <element label="Speaker(s) &amp; Speaker Costs" max_length="40" name="x_snc_cfe_confcoor_speaker_speaker_costs" type="collection">
         <element label="Begin Date" max_length="40" name="conf_begin_date" type="glide_date"/>
         <element label="End Date" max_length="40" name="conf_end_date" type="glide_date"/>
-        <element label="Conference Name" max_length="40" name="conf_name" type="string"/>
-        <element label="parentID" max_length="40" name="parentid" type="string"/>
+        <element display="true" label="Conference Name" max_length="40" name="conf_name" reference="x_snc_cfe_confcoor_table" type="reference"/>
+        <element label="parentID" max_length="40" name="parentid" reference="x_snc_cfe_confcoor_table" type="reference"/>
         <element label="Actual Cost" max_length="20" name="s_act_cost" type="currency"/>
         <element label="Estimate Cost" max_length="20" name="s_est_cost" type="currency"/>
         <element label="Speaker Name" max_length="100" name="s_name" type="string"/>

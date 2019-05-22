@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
         <cleared>false</cleared>
-        <disabled>ignore</disabled>
-        <field>m_states</field>
+        <disabled>true</disabled>
+        <field>conf_name</field>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>kjones</sys_created_by>
-        <sys_created_on>2019-05-13 17:04:36</sys_created_on>
+        <sys_created_on>2019-05-21 01:13:48</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>59e11707135d3f40490cbdb12244b0ad</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>m_states</sys_name>
+        <sys_id>bbe48d6113e93780490cbdb12244b021</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>conf_name</sys_name>
         <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
-        <sys_update_name>sys_ui_policy_action_59e11707135d3f40490cbdb12244b0ad</sys_update_name>
+        <sys_update_name>sys_ui_policy_action_bbe48d6113e93780490cbdb12244b021</sys_update_name>
         <sys_updated_by>kjones</sys_updated_by>
-        <sys_updated_on>2019-05-21 01:40:19</sys_updated_on>
-        <table>x_snc_cfe_confcoor_table</table>
-        <ui_policy display_value="hiding set of fields onLoad (Rm Loc, Building Address, City, State, Zip Code, Browse for attachment, HTML 1, HTML 2, Attach Waiver)">eab0d7c3135d3f40490cbdb12244b021</ui_policy>
-        <visible>false</visible>
+        <sys_updated_on>2019-05-21 01:13:48</sys_updated_on>
+        <table>x_snc_cfe_confcoor_speaker_speaker_costs</table>
+        <ui_policy display_value="Set Conference Name Field to Read Only">a4b4496113e93780490cbdb12244b000</ui_policy>
+        <visible>ignore</visible>
     </sys_ui_policy_action>
 </record_update>
