@@ -55,7 +55,7 @@
         <sys_created_on>2019-04-14 17:33:47</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>e0e1863d4ff8fb80cca271dd0210c794</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Requestor</sys_name>
         <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
         <sys_policy/>
@@ -63,7 +63,7 @@
         <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_cfe_confcoor_table_requestor</sys_update_name>
         <sys_updated_by>kjones</sys_updated_by>
-        <sys_updated_on>2019-05-05 22:21:55</sys_updated_on>
+        <sys_updated_on>2019-06-11 16:59:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

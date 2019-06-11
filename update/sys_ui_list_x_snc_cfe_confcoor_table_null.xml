@@ -3,107 +3,122 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>conf_name</element>
-            <list_id display_value="x_snc_cfe_confcoor_table" element="NULL" name="x_snc_cfe_confcoor_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cdd9dc4d13d57740490cbdb12244b046</list_id>
+            <list_id display_value="x_snc_cfe_confcoor_table" element="NULL" name="x_snc_cfe_confcoor_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cf05bdac138e3700490cbdb12244b00b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-06 22:32:33</sys_created_on>
-            <sys_id>8dd9dc4d13d57740490cbdb12244b047</sys_id>
+            <sys_created_on>2019-06-11 22:41:13</sys_created_on>
+            <sys_id>0b05bdac138e3700490cbdb12244b00c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-06 22:32:33</sys_updated_on>
+            <sys_updated_on>2019-06-11 22:41:13</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_snc_cfe_confcoor_table" element="NULL" name="x_snc_cfe_confcoor_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cdd9dc4d13d57740490cbdb12244b046</list_id>
+            <list_id display_value="x_snc_cfe_confcoor_table" element="NULL" name="x_snc_cfe_confcoor_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cf05bdac138e3700490cbdb12244b00b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-06 22:32:33</sys_created_on>
-            <sys_id>05d9dc4d13d57740490cbdb12244b048</sys_id>
+            <sys_created_on>2019-06-11 22:41:13</sys_created_on>
+            <sys_id>8b05bdac138e3700490cbdb12244b00c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-06 22:32:33</sys_updated_on>
+            <sys_updated_on>2019-06-11 22:41:13</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>priority</element>
-            <list_id display_value="x_snc_cfe_confcoor_table" element="NULL" name="x_snc_cfe_confcoor_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cdd9dc4d13d57740490cbdb12244b046</list_id>
+            <element>gf_est_total</element>
+            <list_id display_value="x_snc_cfe_confcoor_table" element="NULL" name="x_snc_cfe_confcoor_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cf05bdac138e3700490cbdb12244b00b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-06 22:32:33</sys_created_on>
-            <sys_id>85d9dc4d13d57740490cbdb12244b048</sys_id>
+            <sys_created_on>2019-06-11 22:41:13</sys_created_on>
+            <sys_id>0f05bdac138e3700490cbdb12244b00c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-06 22:32:33</sys_updated_on>
+            <sys_updated_on>2019-06-11 22:41:13</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>state</element>
-            <list_id display_value="x_snc_cfe_confcoor_table" element="NULL" name="x_snc_cfe_confcoor_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cdd9dc4d13d57740490cbdb12244b046</list_id>
+            <element>fb_est_total</element>
+            <list_id display_value="x_snc_cfe_confcoor_table" element="NULL" name="x_snc_cfe_confcoor_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cf05bdac138e3700490cbdb12244b00b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-06 22:32:33</sys_created_on>
-            <sys_id>09d9dc4d13d57740490cbdb12244b048</sys_id>
+            <sys_created_on>2019-06-11 22:41:13</sys_created_on>
+            <sys_id>8f05bdac138e3700490cbdb12244b00c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-06 22:32:33</sys_updated_on>
+            <sys_updated_on>2019-06-11 22:41:13</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>assigned_to</element>
-            <list_id display_value="x_snc_cfe_confcoor_table" element="NULL" name="x_snc_cfe_confcoor_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cdd9dc4d13d57740490cbdb12244b046</list_id>
+            <element>tc_est_total</element>
+            <list_id display_value="x_snc_cfe_confcoor_table" element="NULL" name="x_snc_cfe_confcoor_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cf05bdac138e3700490cbdb12244b00b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-06 22:32:33</sys_created_on>
-            <sys_id>89d9dc4d13d57740490cbdb12244b048</sys_id>
+            <sys_created_on>2019-06-11 22:41:13</sys_created_on>
+            <sys_id>0305bdac138e3700490cbdb12244b00d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-06 22:32:33</sys_updated_on>
+            <sys_updated_on>2019-06-11 22:41:13</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>short_description</element>
-            <list_id display_value="x_snc_cfe_confcoor_table" element="NULL" name="x_snc_cfe_confcoor_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cdd9dc4d13d57740490cbdb12244b046</list_id>
+            <element>ac_est_cost</element>
+            <list_id display_value="x_snc_cfe_confcoor_table" element="NULL" name="x_snc_cfe_confcoor_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cf05bdac138e3700490cbdb12244b00b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-06 22:32:33</sys_created_on>
-            <sys_id>0dd9dc4d13d57740490cbdb12244b048</sys_id>
+            <sys_created_on>2019-06-11 22:41:13</sys_created_on>
+            <sys_id>8305bdac138e3700490cbdb12244b00d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-06 22:32:33</sys_updated_on>
+            <sys_updated_on>2019-06-11 22:41:13</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_class_name</element>
-            <list_id display_value="x_snc_cfe_confcoor_table" element="NULL" name="x_snc_cfe_confcoor_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cdd9dc4d13d57740490cbdb12244b046</list_id>
+            <element>a_est_total</element>
+            <list_id display_value="x_snc_cfe_confcoor_table" element="NULL" name="x_snc_cfe_confcoor_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cf05bdac138e3700490cbdb12244b00b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-06 22:32:33</sys_created_on>
-            <sys_id>8dd9dc4d13d57740490cbdb12244b048</sys_id>
+            <sys_created_on>2019-06-11 22:41:13</sys_created_on>
+            <sys_id>0705bdac138e3700490cbdb12244b00d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-06 22:32:33</sys_updated_on>
+            <sys_updated_on>2019-06-11 22:41:13</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>est_conf_cost</element>
+            <list_id display_value="x_snc_cfe_confcoor_table" element="NULL" name="x_snc_cfe_confcoor_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cf05bdac138e3700490cbdb12244b00b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-06-11 22:41:13</sys_created_on>
+            <sys_id>8705bdac138e3700490cbdb12244b00d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-06-11 22:41:13</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -117,11 +132,11 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-06 22:32:33</sys_created_on>
+            <sys_created_on>2019-06-11 22:41:13</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>cdd9dc4d13d57740490cbdb12244b046</sys_id>
+            <sys_id>cf05bdac138e3700490cbdb12244b00b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_snc_cfe_confcoor_table</sys_name>
             <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
@@ -130,7 +145,7 @@
             <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
             <sys_update_name>sys_ui_list_x_snc_cfe_confcoor_table_null</sys_update_name>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-06 22:32:33</sys_updated_on>
+            <sys_updated_on>2019-06-11 22:41:13</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
