@@ -9,7 +9,7 @@
         <sys_created_on>2019-06-09 13:28:34</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>8043adf34f39b300cca271dd0210c775</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>est_conf_cost</sys_name>
         <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
         <sys_policy/>
@@ -17,7 +17,7 @@
         <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
         <sys_update_name>sys_ui_policy_action_8043adf34f39b300cca271dd0210c775</sys_update_name>
         <sys_updated_by>kjones</sys_updated_by>
-        <sys_updated_on>2019-06-09 13:28:34</sys_updated_on>
+        <sys_updated_on>2019-06-22 23:54:37</sys_updated_on>
         <table>x_snc_cfe_confcoor_table</table>
         <ui_policy display_value="General Fees (All) Total Fields - Read only">b795389313d17f40490cbdb12244b04d</ui_policy>
         <visible>ignore</visible>
