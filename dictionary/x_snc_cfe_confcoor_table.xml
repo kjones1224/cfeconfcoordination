@@ -6,7 +6,9 @@
         <element label="  " max_length="20" name="ac_est_cost" type="currency"/>
         <element label="Approving officer" max_length="4000" name="approving_officer" type="glide_list"/>
         <element choice="1" label="Approving Officer" max_length="40" name="approving_officer_org" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="House" value="House"/>
+            </choice>
         </element>
         <element default="0" label="Foreign Nationals" max_length="40" name="a_act_foreign_nationals" type="integer"/>
         <element default="0" label="Government, Non-IC Employees" max_length="40" name="a_act_gov_nongov" type="integer"/>

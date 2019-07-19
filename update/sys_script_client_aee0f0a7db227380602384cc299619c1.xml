@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Selecting an item will call the web service and populate the Approvers field.</description>
+        <field>approving_officer_org</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>ApprovingOfficer-WS</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   //if (isLoading || newValue === '') {
+	  
+   //   return;
+  // }
+	 alert(g_form.getValue('approving_officer_org'));
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>kjones</sys_created_by>
+        <sys_created_on>2019-07-15 22:01:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aee0f0a7db227380602384cc299619c1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>ApprovingOfficer-WS</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+        <sys_update_name>sys_script_client_aee0f0a7db227380602384cc299619c1</sys_update_name>
+        <sys_updated_by>kjones</sys_updated_by>
+        <sys_updated_on>2019-07-15 22:04:03</sys_updated_on>
+        <table>x_snc_cfe_confcoor_table</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
