@@ -7,6 +7,7 @@
         <element label="Approving officer" max_length="4000" name="approving_officer" type="glide_list"/>
         <element choice="1" label="Approving Officer" max_length="40" name="approving_officer_org" type="choice">
             <choice>
+                <element inactive_on_update="false" label="108.18.35.194" value="108.18.35.194"/>
                 <element inactive_on_update="false" label="House" value="House"/>
             </choice>
         </element>
