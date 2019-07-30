@@ -5,7 +5,7 @@
         <element label="  " max_length="20" name="ac_act_cost" type="currency"/>
         <element label="  " max_length="20" name="ac_est_cost" type="currency"/>
         <element label="Approving officer" max_length="4000" name="approving_officer" type="glide_list"/>
-        <element choice="1" label="Approving Officer" max_length="40" name="approving_officer_org" type="choice">
+        <element choice="1" label="Approving Officer" mandatory="true" max_length="40" name="approving_officer_org" type="choice">
             <choice>
                 <element inactive_on_update="false" label="108.18.35.194" value="108.18.35.194"/>
                 <element inactive_on_update="false" label="House" value="House"/>
@@ -26,20 +26,20 @@
         <element label="city" max_length="40" name="city" type="string"/>
         <element label="CMO" max_length="4000" name="cmo_approvers" type="glide_list"/>
         <element default="CMO" label="cmo_Ref" max_length="32" name="cmo_ref" reference="x_snc_cfe_confcoor_components" type="reference"/>
-        <element choice_field="this_is_for" choice_table="x_snc_cfe_confcoor_components" label="Component" max_length="200" name="component" reference="x_snc_cfe_confcoor_components" reference_key="component_name" reference_qual="component_nameNOT LIKECMO^component_nameNOT LIKESecurity^component_nameNOT LIKEOGC^component_nameNOT LIKEComptroller^component_nameNOT LIKEODNI/CFE^EQ" reference_qual_condition="component_nameNOT LIKECMO^component_nameNOT LIKESecurity^component_nameNOT LIKEOGC^component_nameNOT LIKEComptroller^component_nameNOT LIKEODNI/CFE^EQ" type="reference"/>
+        <element choice_field="this_is_for" choice_table="x_snc_cfe_confcoor_components" label="Component" mandatory="true" max_length="200" name="component" reference="x_snc_cfe_confcoor_components" reference_key="component_name" reference_qual="component_nameNOT LIKECMO^component_nameNOT LIKESecurity^component_nameNOT LIKEOGC^component_nameNOT LIKEComptroller^component_nameNOT LIKEODNI/CFE^EQ" reference_qual_condition="component_nameNOT LIKECMO^component_nameNOT LIKESecurity^component_nameNOT LIKEOGC^component_nameNOT LIKEComptroller^component_nameNOT LIKEODNI/CFE^EQ" type="reference"/>
         <element label="Comptroller" max_length="4000" name="comptroller_approvers" type="glide_list"/>
         <element choice="1" choice_field="this_is_for" dependent="f_component" dependent_on_field="f_component" label="Component Director/Deputy Director" max_length="100" name="comp_dir_dd_dir" reference="x_snc_cfe_confcoor_components" type="glide_list" use_dependent_field="true">
             <choice/>
         </element>
-        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" hint="(mm/dd/yyyy)" label="Begin Date " max_length="40" name="conf_begin_date" type="glide_date" use_dynamic_default="true"/>
-        <element choice="1" label="Conference Classified Secret or Above" max_length="40" name="conf_classified_secret_above" type="choice">
+        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" hint="(mm/dd/yyyy)" label="Begin Date " mandatory="true" max_length="40" name="conf_begin_date" type="glide_date" use_dynamic_default="true"/>
+        <element choice="1" label="Conference Classified Secret or Above" mandatory="true" max_length="40" name="conf_classified_secret_above" type="choice">
             <choice>
                 <element inactive_on_update="false" label="YES" value="YES"/>
                 <element inactive_on_update="false" label="NO" sequence="100" value="NO"/>
             </choice>
         </element>
-        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" hint="(mm/dd/yyyy)" label="End Date" max_length="40" name="conf_end_date" type="glide_date" use_dynamic_default="true"/>
-        <element choice="1" label="Conference Location" max_length="40" name="conf_location" type="choice">
+        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" hint="(mm/dd/yyyy)" label="End Date" mandatory="true" max_length="40" name="conf_end_date" type="glide_date" use_dynamic_default="true"/>
+        <element choice="1" label="Conference Location" mandatory="true" max_length="40" name="conf_location" type="choice">
             <choice>
                 <element inactive_on_update="false" label="LX Compound" sequence="0" value="LX Compound"/>
                 <element inactive_on_update="false" label="IC Facility" sequence="1" value="IC Facility"/>
@@ -47,7 +47,7 @@
                 <element inactive_on_update="false" label="Commercial Facility" sequence="3" value="Commercial Facility"/>
             </choice>
         </element>
-        <element display="true" label="Name of Conference" max_length="200" name="conf_name" type="string"/>
+        <element display="true" label="Name of Conference" mandatory="true" max_length="200" name="conf_name" type="string"/>
         <element label="Conference Number" max_length="40" name="conf_number" type="string"/>
         <element choice="1" label="Room Location" max_length="40" name="conf_room_location" type="choice">
             <choice>
@@ -73,7 +73,7 @@
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Estimated Conference Cost" max_length="20" name="est_conf_cost" type="currency"/>
         <element label="Est Person Per-Day Cost" max_length="20" name="est_person_perday_cost" type="currency"/>
         <element label="Explain Additional Cost" max_length="6000" name="explain_ac_cost" type="string"/>
-        <element choice="1" label="Facility Accredited" max_length="20" name="facility_accredited2" type="string">
+        <element choice="1" label="Facility Accredited" mandatory="true" max_length="20" name="facility_accredited2" type="string">
             <choice>
                 <element inactive_on_update="false" label="YES" sequence="0" value="YES"/>
                 <element inactive_on_update="false" label="NO" sequence="1" value="NO"/>
@@ -108,14 +108,14 @@
         <element label="ODNI/CFE" max_length="4000" name="odni_cfe_approvers" type="glide_list"/>
         <element label="OGC" max_length="4000" name="ogc_approvers" type="glide_list"/>
         <element label="Link ORE" max_length="40" name="ore_link" type="string"/>
-        <element choice="1" label="Organization" max_length="40" name="organization" type="choice">
+        <element choice="1" label="Organization" mandatory="true" max_length="40" name="organization" type="choice">
             <choice>
                 <element inactive_on_update="false" label="IARPA" sequence="0" value="IARPA"/>
                 <element inactive_on_update="false" label="ODNI" sequence="1" value="ODNI"/>
                 <element inactive_on_update="false" label="NIC" sequence="2" value="NIC"/>
             </choice>
         </element>
-        <element label="Purpose" max_length="1000" name="purpose" type="string"/>
+        <element label="Purpose" mandatory="true" max_length="1000" name="purpose" type="string"/>
         <element default="javascript:gs.getUserDisplayName()" label="Requestor" max_length="40" name="requestor" type="string"/>
         <element label="River" max_length="40" name="river" type="boolean"/>
         <element label="Sand" max_length="40" name="sand" type="boolean"/>
