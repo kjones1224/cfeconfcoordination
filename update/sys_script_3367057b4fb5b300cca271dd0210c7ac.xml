@@ -89,7 +89,7 @@
 	var sp_est_total = 0; 
     var speakerGR = new GlideRecord('x_snc_cfe_confcoor_speaker_speaker_costs');
     speakerGR.addQuery('conf_name', current.sys_id); //'63f61e354f7cfb80cca271dd0210c741');
-      speakerGR.query();
+	      speakerGR.query();
        while(speakerGR.next()){
         sp_est_total = sp_est_total + parseFloat(speakerGR.s_est_cost);
 
@@ -98,7 +98,19 @@
 	
 	    //current.act_conf_cost = total; //testing values for spk cost.
 		current.est_conf_cost = gfEsttotal + fbEsttotal + tcEsttotal + acf1 + sp_est_total;
+	  var tAttendees = current.a_est_total;
+
+	var sdate = new GlideDateTime(current.conf_begin_date);
+	var edate = new GlideDateTime(current.conf_end_date);
+	var diffSeconds = GlideDateTime.subtract(sdate, edate);
+	var dur1 = new GlideDuration();
+	dur1.setValue(diffSeconds.getValue());
 	
+	var numdays = parseInt(dur1.getDurationValue());    	
+	
+	current.est_person_perday_cost =  (current.est_conf_cost / tAttendees) / (numdays + 1);
+	//gs.addInfoMessage(	numdays + 1);
+		
 	//Estimate Conference total cost. ****** Have to total speaker cost into the final numbers....
 	
 	
@@ -136,7 +148,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3367057b4fb5b300cca271dd0210c7ac</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>53</sys_mod_count>
         <sys_name>Conference Cost-BR</sys_name>
         <sys_overrides/>
         <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
@@ -145,7 +157,7 @@
         <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
         <sys_update_name>sys_script_3367057b4fb5b300cca271dd0210c7ac</sys_update_name>
         <sys_updated_by>kjones</sys_updated_by>
-        <sys_updated_on>2019-06-12 22:30:54</sys_updated_on>
+        <sys_updated_on>2019-08-05 22:00:37</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
