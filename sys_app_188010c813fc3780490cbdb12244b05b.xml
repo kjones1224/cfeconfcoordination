@@ -23,14 +23,14 @@
         <sys_created_by>kjones</sys_created_by>
         <sys_created_on>2019-04-08 22:46:31</sys_created_on>
         <sys_id>188010c813fc3780490cbdb12244b05b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>kjones</sys_updated_by>
-        <sys_updated_on>2019-04-08 22:46:31</sys_updated_on>
+        <sys_updated_on>2019-08-05 23:41:11</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role display_value="x_snc_cfe_confcoor.user" name="x_snc_cfe_confcoor.user">dc80508c13fc3780490cbdb12244b0f8</user_role>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.0</version>
+        <version>2.0</version>
     </sys_app>
 </record_update>

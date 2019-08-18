@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="CFE Conference Coordination" max_length="40" name="x_snc_cfe_confcoor_table" sizeclass="4" type="collection">
+    <element extends="task" label="CFE Conference Coordination" max_length="40" name="x_snc_cfe_confcoor_table" sizeclass="5" type="collection">
         <element label="Actual Conference Cost" max_length="20" name="act_conf_cost" type="currency"/>
         <element label="Act Person Per-Day Cost" max_length="20" name="act_person_perday_cost" type="currency"/>
         <element label="  " max_length="20" name="ac_act_cost" type="currency"/>
@@ -38,7 +38,7 @@
                 <element inactive_on_update="false" label="NO" sequence="100" value="NO"/>
             </choice>
         </element>
-        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" hint="(mm/dd/yyyy)" label="End Date" mandatory="true" max_length="40" name="conf_end_date" type="glide_date" use_dynamic_default="true"/>
+        <element hint="(mm/dd/yyyy)" label="End Date" mandatory="true" max_length="40" name="conf_end_date" type="glide_date"/>
         <element choice="1" label="Conference Location" mandatory="true" max_length="40" name="conf_location" type="choice">
             <choice>
                 <element inactive_on_update="false" label="LX Compound" sequence="0" value="LX Compound"/>
