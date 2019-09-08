@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_snc_cfe_confcoor_table</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Conference Cost-BR</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	var gff1 = current.gf_est_facility;
+	var gff2 = current.gf_est_event_coordinator; 
+	var gff3 = current.gf_est_audio_visual; 
+	var gff4 = current.gf_est_printing; 
+	var gff5 = current.gf_est_security; 
+	
+	     var gfEsttotal = parseFloat(gff1) + parseFloat(gff2) + parseFloat(gff3) + parseFloat(gff4) + parseFloat(gff5);  
+		
+	// g_form.setValue('gf_est_total.display', formatNumber(total.toFixed(2)));   
+//	g_form.setValue('est_conf_cost.display', formatNumber(total.toFixed(2))); 
+	
+	current.gf_est_total = gfEsttotal;
+	
+	
+	//*****KLJ - use this statement to total the conference cost.  current.est_conf_cost = gftotal;
+//Estimate General Fees tab values =================================================
+	
+	var fbf1 = current.fb_est_breakfast;
+	var fbf2 = current.fb_est_lunch; 
+	var fbf3 = current.fb_est_snacks; 
+	var fbf4 = current.fb_est_dinner; 
+	var fbf5 = current.fb_est_beverages; 
+	
+	     var fbEsttotal = parseFloat(fbf1) + parseFloat(fbf2) + parseFloat(fbf3) + parseFloat(fbf4) + parseFloat(fbf5);  
+		
+	       current.fb_est_total = fbEsttotal;
+
+//Estimate Food & Beverage Expenses ==============================================
+
+	var tcf1 = current.tc_est_mie;
+	var tcf2 = current.tc_est_lodging; 
+	var tcf3 = current.tc_est_transportation; 
+	var tcf4 = current.tc_est_local_transportation; 
+	//var tcf5 = current.fb_est_beverages; 
+	
+	     var tcEsttotal = parseFloat(tcf1) + parseFloat(tcf2) + parseFloat(tcf3) + parseFloat(tcf4);  
+		
+	       current.tc_est_total = tcEsttotal;
+		
+//Estimate Travel Costs ==============================================
+	
+	var acf1 = parseFloat(current.ac_est_cost); //*** Additional cost most be added into the conference total cost
+
+//Estimate Additional Cost 
+	
+	var af1 = current.a_est_ic_employees;
+	var af2 = current.a_est_gov_nongov; 
+	var af3 = current.a_est_ind_ffrdc; 
+	var af4 = current.a_est_foreign_nationals; 
+	//var tcf5 = current.fb_est_beverages; 
+	
+	     var aEsttotal = parseInt(af1) + parseInt(af2) + parseInt(af3) + parseInt(af4);  
+		
+	       current.a_est_total = aEsttotal;
+
+//Estimate Attendees	
+	
+	//**** Code to lookup speaker cost and add to total conference cost. 
+	var sp_est_total = 0; 
+    var speakerGR = new GlideRecord('x_snc_cfe_confcoor_speaker_speaker_costs');
+    speakerGR.addQuery('conf_name', current.sys_id); //'63f61e354f7cfb80cca271dd0210c741');
+	      speakerGR.query();
+       while(speakerGR.next()){
+        sp_est_total = sp_est_total + parseFloat(speakerGR.s_est_cost);
+
+}
+//gs.print('This is the total: ' + total);	
+	
+	    //current.act_conf_cost = total; //testing values for spk cost.
+		current.est_conf_cost = gfEsttotal + fbEsttotal + tcEsttotal + acf1 + sp_est_total;
+	  var tAttendees = current.a_est_total;
+
+	var sdate = new GlideDateTime(current.conf_begin_date);
+	var edate = new GlideDateTime(current.conf_end_date);
+	var diffSeconds = GlideDateTime.subtract(sdate, edate);
+	var dur1 = new GlideDuration();
+	dur1.setValue(diffSeconds.getValue());
+	
+	var numdays = parseInt(dur1.getDurationValue());    	
+	
+	current.est_person_perday_cost =  (current.est_conf_cost / tAttendees) / (numdays + 1);
+	//gs.addInfoMessage(	numdays + 1);
+		
+	//Estimate Conference total cost. ****** Have to total speaker cost into the final numbers....	
+	
+	
+	
+
+//function formatNumber(num) {
+ // return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,');
+//}
+
+	
+	
+	// Add your code here
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>kjones</sys_created_by>
+        <sys_created_on>2019-09-08 19:21:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>50ec57c9dbb33340602384cc29961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Conference Cost-BR</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+        <sys_update_name>sys_script_50ec57c9dbb33340602384cc29961903</sys_update_name>
+        <sys_updated_by>kjones</sys_updated_by>
+        <sys_updated_on>2019-09-08 19:21:43</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=50ec57c9dbb33340602384cc29961903"/>
+</record_update>

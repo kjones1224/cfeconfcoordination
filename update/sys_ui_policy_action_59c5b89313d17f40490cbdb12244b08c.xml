@@ -19,7 +19,7 @@
         <sys_updated_by>kjones</sys_updated_by>
         <sys_updated_on>2019-05-14 00:22:24</sys_updated_on>
         <table>x_snc_cfe_confcoor_table</table>
-        <ui_policy display_value="General Fees (All) Total Fields - Read only">b795389313d17f40490cbdb12244b04d</ui_policy>
+        <ui_policy display_value="(All) Total Fields - Read only">b795389313d17f40490cbdb12244b04d</ui_policy>
         <visible>ignore</visible>
     </sys_ui_policy_action>
 </record_update>
