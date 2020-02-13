@@ -12,7 +12,7 @@
         <column_label>Cost Comparison Analysis</column_label>
         <comments/>
         <create_roles/>
-        <default_value>If using a commercial facility, also include a documented cost comparison analysis of at least three commercial sites in addition to a written description of why a federal government facility is not appropriate. Upload your cost comparison files along with your conference request. Using a competitively awarded conference planning/support contract meets the tree commercial site cost comparison analysis requirement. However, the written description of why a federal government facility is not appropriate is still required. </default_value>
+        <default_value>If using a commercial facility, also include a documented cost comparison analysis of at least three commercial sites in addition to a written description of why a federal government facility is not appropriate. Upload your cost comparison files along with your conference request. Using a competitively awarded conference planning/support contract meets the tree commercial site cost comparison analysis requirement. However, the written description of why a federal government facility is not appropriate is still required.</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -48,17 +48,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>kjones</sys_created_by>
         <sys_created_on>2019-05-13 22:02:34</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
-        <sys_id>461690df13117f40490cbdb12244b0cd</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_id>62a9a35b2fba001029a7d6ab2799b6d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Cost Comparison Analysis</sys_name>
         <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_cfe_confcoor_table_u_html_1</sys_update_name>
-        <sys_updated_by>kjones</sys_updated_by>
-        <sys_updated_on>2019-05-13 23:01:24</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-02-11 23:12:48</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

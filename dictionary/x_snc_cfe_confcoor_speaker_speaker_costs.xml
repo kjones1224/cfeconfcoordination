@@ -10,5 +10,11 @@
         <element label="Speaker Organization" max_length="100" name="s_organization" type="string"/>
         <element label="Speaker Title" max_length="100" name="s_title" type="string"/>
         <element label="Topic" max_length="100" name="s_topic" type="string"/>
+        <index name="index">
+            <element name="conf_name"/>
+        </index>
+        <index name="index2">
+            <element name="parentid"/>
+        </index>
     </element>
 </database>

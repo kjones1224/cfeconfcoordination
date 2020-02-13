@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="CFE Conference Coordination" max_length="40" name="x_snc_cfe_confcoor_table" sizeclass="5" type="collection">
+    <element extends="task" label="CFE Conference Coordination" max_length="40" name="x_snc_cfe_confcoor_table" type="collection">
         <element label="Actual Conference Cost" max_length="20" name="act_conf_cost" type="currency"/>
         <element label="Act Person Per-Day Cost" max_length="20" name="act_person_perday_cost" type="currency"/>
-        <element label="  " max_length="20" name="ac_act_cost" type="currency"/>
-        <element label="  " max_length="20" name="ac_est_cost" type="currency"/>
+        <element max_length="20" name="ac_act_cost" type="currency"/>
+        <element max_length="20" name="ac_est_cost" type="currency"/>
         <element label="Approving officer" max_length="4000" name="approving_officer" type="glide_list"/>
         <element choice="1" label="Approving Officer" mandatory="true" max_length="40" name="approving_officer_org" type="choice">
             <choice>
@@ -31,7 +31,7 @@
         <element choice="1" choice_field="this_is_for" dependent="f_component" dependent_on_field="f_component" label="Component Director/Deputy Director" max_length="100" name="comp_dir_dd_dir" reference="x_snc_cfe_confcoor_components" type="glide_list" use_dependent_field="true">
             <choice/>
         </element>
-        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" hint="(mm/dd/yyyy)" label="Begin Date " mandatory="true" max_length="40" name="conf_begin_date" type="glide_date" use_dynamic_default="true"/>
+        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" hint="(mm/dd/yyyy)" label="Begin Date" mandatory="true" max_length="40" name="conf_begin_date" type="glide_date" use_dynamic_default="true"/>
         <element choice="1" label="Conference Classified Secret or Above" mandatory="true" max_length="40" name="conf_classified_secret_above" type="choice">
             <choice>
                 <element inactive_on_update="false" label="YES" value="YES"/>
@@ -70,7 +70,7 @@
         </element>
         <element label="Contract Number (if applicable)" max_length="40" name="contract_num" type="string"/>
         <element label="Co-Author" max_length="4000" name="co_authors" reference="sys_user" type="glide_list"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Estimated Conference Cost" max_length="20" name="est_conf_cost" type="currency"/>
+        <element label="Estimated Conference Cost" max_length="20" name="est_conf_cost" type="currency"/>
         <element label="Est Person Per-Day Cost" max_length="20" name="est_person_perday_cost" type="currency"/>
         <element label="Explain Additional Cost" max_length="6000" name="explain_ac_cost" type="string"/>
         <element choice="1" label="Facility Accredited" mandatory="true" max_length="20" name="facility_accredited2" type="string">
@@ -103,7 +103,7 @@
         <element label="Facility" max_length="20" name="gf_est_facility" type="currency"/>
         <element label="Printing" max_length="20" name="gf_est_printing" type="currency"/>
         <element label="Security" max_length="20" name="gf_est_security" type="currency"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Totals" max_length="20" name="gf_est_total" type="currency"/>
+        <element label="Totals" max_length="20" name="gf_est_total" type="currency"/>
         <element label="US States" max_length="32" name="m_states" reference="x_snc_cfe_confcoor_us_states" type="reference"/>
         <element label="ODNI/CFE" max_length="4000" name="odni_cfe_approvers" type="glide_list"/>
         <element label="OGC" max_length="4000" name="ogc_approvers" type="glide_list"/>
@@ -133,7 +133,7 @@
         <element attributes="edge_encryption_enabled=true" default="If using a commercial facility, also include a documented cost comparison analysis of at least three commercial sites in addition to a written description of why a federal government facility is not appropriate. Upload your cost comparison files along with your conference request. Using a competitively awarded conference planning/support contract meets the tree commercial site cost comparison analysis requirement. However, the written description of why a federal government facility is not appropriate is still required." label="Cost Analysis" max_length="300" name="u_cost_analysis" read_only="true" type="string"/>
         <element label="Browse" max_length="40" name="u_file_attachment_2" type="file_attachment"/>
         <element label="Attach Waiver(s)" max_length="40" name="u_file_attachment_3" type="file_attachment"/>
-        <element default="If using a commercial facility, also include a documented cost comparison analysis of at least three commercial sites in addition to a written description of why a federal government facility is not appropriate. Upload your cost comparison files along with your conference request. Using a competitively awarded conference planning/support contract meets the tree commercial site cost comparison analysis requirement. However, the written description of why a federal government facility is not appropriate is still required. " label="Cost Comparison Analysis" max_length="65536" name="u_html_1" read_only="true" type="html"/>
+        <element default="If using a commercial facility, also include a documented cost comparison analysis of at least three commercial sites in addition to a written description of why a federal government facility is not appropriate. Upload your cost comparison files along with your conference request. Using a competitively awarded conference planning/support contract meets the tree commercial site cost comparison analysis requirement. However, the written description of why a federal government facility is not appropriate is still required." label="Cost Comparison Analysis" max_length="65536" name="u_html_1" read_only="true" type="html"/>
         <element default="For classified conferences, unless a waiver is approved, components must use appropriate accredited facilities. If you are using an unaccredited facility, please submit your waiver by using the &quot;Browse&quot; button to upload your file(s) and submit your waiver request. All &quot;Security&quot; cost will be the responsibility of the &quot;Sponsoring Component&quot;." label="Notice:" max_length="65536" name="u_html_2" read_only="true" type="html"/>
         <element choice="1" label="Visitor Badge Required" max_length="40" name="visitor_badge_required" type="choice">
             <choice>

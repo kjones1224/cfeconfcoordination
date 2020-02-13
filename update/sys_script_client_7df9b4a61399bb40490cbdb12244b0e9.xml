@@ -31,7 +31,6 @@ function ajaxProcessor(response){
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>kjones</sys_created_by>
         <sys_created_on>2019-05-11 16:43:51</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7df9b4a61399bb40490cbdb12244b0e9</sys_id>
@@ -40,7 +39,6 @@ function ajaxProcessor(response){
         <sys_overrides/>
         <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
         <sys_update_name>sys_script_client_7df9b4a61399bb40490cbdb12244b0e9</sys_update_name>
         <sys_updated_by>kjones</sys_updated_by>

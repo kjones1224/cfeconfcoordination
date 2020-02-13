@@ -133,7 +133,6 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>kjones</sys_created_by>
             <sys_created_on>2019-06-11 22:41:13</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>cf05bdac138e3700490cbdb12244b00b</sys_id>
@@ -141,7 +140,6 @@
             <sys_name>x_snc_cfe_confcoor_table</sys_name>
             <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
             <sys_update_name>sys_ui_list_x_snc_cfe_confcoor_table_null</sys_update_name>
             <sys_updated_by>kjones</sys_updated_by>
