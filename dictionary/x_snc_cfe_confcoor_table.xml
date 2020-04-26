@@ -97,13 +97,13 @@
         <element label="Facility" max_length="20" name="gf_act_facility" type="currency"/>
         <element label="Printing" max_length="20" name="gf_act_printing" type="currency"/>
         <element label="Security" max_length="20" name="gf_act_security" type="currency"/>
-        <element label="Totals" max_length="20" name="gf_act_total" type="currency"/>
+        <element label="General Fees Actual Totals" max_length="20" name="gf_act_total" type="currency"/>
         <element label="Audio/Visual" max_length="20" name="gf_est_audio_visual" type="currency"/>
         <element label="Event Coordinator" max_length="20" name="gf_est_event_coordinator" type="currency"/>
         <element label="Facility" max_length="20" name="gf_est_facility" type="currency"/>
         <element label="Printing" max_length="20" name="gf_est_printing" type="currency"/>
         <element label="Security" max_length="20" name="gf_est_security" type="currency"/>
-        <element label="Totals" max_length="20" name="gf_est_total" type="currency"/>
+        <element label="General Fees Estimate Totals" max_length="20" name="gf_est_total" type="currency"/>
         <element label="US States" max_length="32" name="m_states" reference="x_snc_cfe_confcoor_us_states" type="reference"/>
         <element label="ODNI/CFE" max_length="4000" name="odni_cfe_approvers" type="glide_list"/>
         <element label="OGC" max_length="4000" name="ogc_approvers" type="glide_list"/>

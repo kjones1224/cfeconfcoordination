@@ -3,6 +3,7 @@
         <access>package_private</access>
         <active>true</active>
         <api_name>x_snc_cfe_confcoor.validateConferenceDates</api_name>
+        <caller_access/>
         <client_callable>true</client_callable>
         <description>used to make sure end date is not before start date of conference</description>
         <name>validateConferenceDates</name>

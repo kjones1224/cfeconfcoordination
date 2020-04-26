@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="statesImport" max_length="40" name="x_snc_cfe_confcoor_statesimport" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Fifty states" label="Fifty states" max_length="40" name="u_fifty_states" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Fifty states abbreviation" label="Fifty states abbreviation" max_length="40" name="u_fifty_states_abbreviation" type="string"/>
+    </element>
+</database>

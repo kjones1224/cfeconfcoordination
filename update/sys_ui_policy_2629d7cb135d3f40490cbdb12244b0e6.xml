@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_snc_cfe_confcoor_table">conf_location=IC Facility^ORconf_location=Government Facility^ORconf_location=Commercial Facility^EQ<item endquery="false" field="conf_location" goto="false" newquery="false" operator="=" or="false" value="IC Facility"/>
-            <item endquery="false" field="conf_location" goto="false" newquery="false" operator="=" or="true" value="Government Facility"/>
-            <item endquery="false" field="conf_location" goto="false" newquery="false" operator="=" or="true" value="Commercial Facility"/>
+        <conditions table="x_snc_cfe_confcoor_table">conf_location=IC Facility^ORconf_location=Government Facility^ORconf_location=Commercial Facility^EQ<item display_value="IC Facility" endquery="false" field="conf_location" goto="false" newquery="false" operator="=" or="false" value="IC Facility"/>
+            <item display_value="Government Facility" endquery="false" field="conf_location" goto="false" newquery="false" operator="=" or="true" value="Government Facility"/>
+            <item display_value="Commercial Facility" endquery="false" field="conf_location" goto="false" newquery="false" operator="=" or="true" value="Commercial Facility"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>

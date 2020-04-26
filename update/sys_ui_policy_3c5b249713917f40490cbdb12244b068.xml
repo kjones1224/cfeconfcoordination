@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_snc_cfe_confcoor_table">facility_accredited2=NO^EQ<item endquery="false" field="facility_accredited2" goto="false" newquery="false" operator="=" or="false" value="NO"/>
+        <conditions table="x_snc_cfe_confcoor_table">facility_accredited2=NO^EQ<item display_value="NO" endquery="false" field="facility_accredited2" goto="false" newquery="false" operator="=" or="false" value="NO"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>

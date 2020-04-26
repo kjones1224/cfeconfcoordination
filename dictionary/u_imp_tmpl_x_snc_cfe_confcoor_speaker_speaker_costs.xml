@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X Snc Cfe Confcoor Speaker Speaker Costs" max_length="40" name="u_imp_tmpl_x_snc_cfe_confcoor_speaker_speaker_costs" type="collection">
+        <element attributes="import_attribute_name=Actual Cost" label="Actual Cost" max_length="20" name="u_actual_cost" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Begin Date" label="Begin Date" max_length="40" name="u_begin_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=End Date" label="End Date" max_length="40" name="u_end_date" type="glide_date"/>
+        <element attributes="import_attribute_name=Estimate Cost" label="Estimate Cost" max_length="20" name="u_estimate_cost" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Speaker Name" label="Speaker Name" max_length="100" name="u_speaker_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Speaker Organization" label="Speaker Organization" max_length="100" name="u_speaker_organization" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Speaker Title" label="Speaker Title" max_length="100" name="u_speaker_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Topic" label="Topic" max_length="100" name="u_topic" type="string"/>
+    </element>
+</database>

@@ -3,6 +3,7 @@
         <access>package_private</access>
         <active>true</active>
         <api_name>x_snc_cfe_confcoor.magSayHello</api_name>
+        <caller_access/>
         <client_callable>true</client_callable>
         <description/>
         <name>magSayHello</name>
