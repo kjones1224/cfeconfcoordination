@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="content_link">
+    <content_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <detail_page/>
+        <iframe/>
+        <image/>
+        <name>MagContent Link</name>
+        <order/>
+        <sys_class_name>content_link</sys_class_name>
+        <sys_created_by>kjones</sys_created_by>
+        <sys_created_on>2020-05-11 16:05:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>07d6ad90dbb45050a7e4db184b96199a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>MagContent Link</sys_name>
+        <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+        <sys_update_name>content_link_07d6ad90dbb45050a7e4db184b96199a</sys_update_name>
+        <sys_updated_by>kjones</sys_updated_by>
+        <sys_updated_on>2020-05-12 01:08:49</sys_updated_on>
+        <tag/>
+        <target>_blank</target>
+        <type>url</type>
+        <url>https://www.magnumhouse.com</url>
+    </content_link>
+</record_update>

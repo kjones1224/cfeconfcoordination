@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="content_block_lists">
+    <content_block_lists action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame/>
+        <logged_on>false</logged_on>
+        <maximum_entries>5</maximum_entries>
+        <name>MagContentList</name>
+        <omit_if_empty>false</omit_if_empty>
+        <order>ac_act_cost</order>
+        <order_direction>asc</order_direction>
+        <query/>
+        <script/>
+        <sys_class_name>content_block_lists</sys_class_name>
+        <sys_created_by>kjones</sys_created_by>
+        <sys_created_on>2020-05-11 16:12:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>61782914dbb45050a7e4db184b961917</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>MagContentList</sys_name>
+        <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+        <sys_update_name>content_block_lists_61782914dbb45050a7e4db184b961917</sys_update_name>
+        <sys_updated_by>kjones</sys_updated_by>
+        <sys_updated_on>2020-05-11 16:13:32</sys_updated_on>
+        <table>x_snc_cfe_confcoor_table</table>
+        <title>Mag Content List</title>
+        <type display_value="list_simple">59cda5a40a0a0b4c00333673568154e1</type>
+    </content_block_lists>
+</record_update>

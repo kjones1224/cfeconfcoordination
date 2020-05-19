@@ -3,47 +3,47 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>component_name</element>
-            <list_id display_value="x_snc_cfe_confcoor_components" element="NULL" name="x_snc_cfe_confcoor_components" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bb0be36c13d53740490cbdb12244b01a</list_id>
+            <list_id display_value="x_snc_cfe_confcoor_components" element="NULL" name="x_snc_cfe_confcoor_components" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9c0966e6dbb89850a7e4db184b9619f4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-06 00:29:44</sys_created_on>
-            <sys_id>730be36c13d53740490cbdb12244b01b</sys_id>
+            <sys_created_on>2020-05-18 20:39:54</sys_created_on>
+            <sys_id>540966e6dbb89850a7e4db184b9619f6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-06 00:29:44</sys_updated_on>
+            <sys_updated_on>2020-05-18 20:39:54</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>component_approvers</element>
-            <list_id display_value="x_snc_cfe_confcoor_components" element="NULL" name="x_snc_cfe_confcoor_components" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bb0be36c13d53740490cbdb12244b01a</list_id>
+            <list_id display_value="x_snc_cfe_confcoor_components" element="NULL" name="x_snc_cfe_confcoor_components" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9c0966e6dbb89850a7e4db184b9619f4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-06 00:29:44</sys_created_on>
-            <sys_id>f30be36c13d53740490cbdb12244b01b</sys_id>
+            <sys_created_on>2020-05-18 20:39:54</sys_created_on>
+            <sys_id>1c0966e6dbb89850a7e4db184b9619f6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-06 00:29:44</sys_updated_on>
+            <sys_updated_on>2020-05-18 20:39:54</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>this_is_for</element>
-            <list_id display_value="x_snc_cfe_confcoor_components" element="NULL" name="x_snc_cfe_confcoor_components" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bb0be36c13d53740490cbdb12244b01a</list_id>
+            <list_id display_value="x_snc_cfe_confcoor_components" element="NULL" name="x_snc_cfe_confcoor_components" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9c0966e6dbb89850a7e4db184b9619f4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-06 00:29:44</sys_created_on>
-            <sys_id>770be36c13d53740490cbdb12244b01b</sys_id>
+            <sys_created_on>2020-05-18 20:39:54</sys_created_on>
+            <sys_id>9c0966e6dbb89850a7e4db184b9619f6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-06 00:29:44</sys_updated_on>
+            <sys_updated_on>2020-05-18 20:39:54</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -58,6 +58,7 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>kjones</sys_created_by>
             <sys_created_on>2019-05-06 00:29:44</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>bb0be36c13d53740490cbdb12244b01a</sys_id>
@@ -65,6 +66,7 @@
             <sys_name>x_snc_cfe_confcoor_components</sys_name>
             <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
             <sys_update_name>sys_ui_list_x_snc_cfe_confcoor_components_null</sys_update_name>
             <sys_updated_by>kjones</sys_updated_by>

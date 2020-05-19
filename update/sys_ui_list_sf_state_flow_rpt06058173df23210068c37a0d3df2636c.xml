@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="sf_state_flow" version="2" view="RPT06058173df23210068c37a0d3df2636c">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>40f63d35dbb7b340602384cc2996192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_class_name</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>c0f63d35dbb7b340602384cc2996192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>starting_state</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>44f63d35dbb7b340602384cc2996192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ending_state</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>c4f63d35dbb7b340602384cc2996192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>active</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>48f63d35dbb7b340602384cc2996192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>automatic_condition</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>c8f63d35dbb7b340602384cc2996192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>automatic_string</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>4cf63d35dbb7b340602384cc2996192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>automatic_script</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>ccf63d35dbb7b340602384cc2996192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>business_rule</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>40f63d35dbb7b340602384cc2996192c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>change_client_script</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>c0f63d35dbb7b340602384cc2996192c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>client_script</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>44f63d35dbb7b340602384cc2996192c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>comment</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>c4f63d35dbb7b340602384cc2996192c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_name</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>48f63d35dbb7b340602384cc2996192c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>end_text</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>13</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>c8f63d35dbb7b340602384cc2996192c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>event</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>14</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>4cf63d35dbb7b340602384cc2996192c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>event_rule</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>15</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>ccf63d35dbb7b340602384cc2996192c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>mandatory_fields</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>16</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>40f63d35dbb7b340602384cc2996192d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>manual_condition</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>17</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>c0f63d35dbb7b340602384cc2996192d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>manual_string</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>18</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>44f63d35dbb7b340602384cc2996192d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>manual_script</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>19</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>c4f63d35dbb7b340602384cc2996192d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>not_mandatory</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>20</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>48f63d35dbb7b340602384cc2996192d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>not_read_only</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>21</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>c8f63d35dbb7b340602384cc2996192d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>not_visible</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>22</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>4cf63d35dbb7b340602384cc2996192d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>override</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>23</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>ccf63d35dbb7b340602384cc2996192d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_package</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>24</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>40f63d35dbb7b340602384cc2996192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_policy</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>25</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>c0f63d35dbb7b340602384cc2996192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>read_only_fields</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>26</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>44f63d35dbb7b340602384cc2996192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_replace_on_upgrade</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>27</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>c4f63d35dbb7b340602384cc2996192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>roles</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>28</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>48f63d35dbb7b340602384cc2996192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>start_text</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>29</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>c8f63d35dbb7b340602384cc2996192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>table</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>30</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>4cf63d35dbb7b340602384cc2996192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>tags</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>31</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>ccf63d35dbb7b340602384cc2996192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ui_action</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>32</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>40f63d35dbb7b340602384cc2996192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_update_name</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>33</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>c0f63d35dbb7b340602384cc2996192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>visible_fields</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>34</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>44f63d35dbb7b340602384cc2996192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>work_notes</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>35</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>c4f63d35dbb7b340602384cc2996192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>work_notes_rule</element>
+            <list_id display_value="sf_state_flow" element="NULL" name="sf_state_flow" parent="NULL" relationship="NULL" sys_domain="global" view="fa67e266dbb89850a7e4db184b961913">c4f63d35dbb7b340602384cc2996192a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>36</position>
+            <sum>false</sum>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_id>48f63d35dbb7b340602384cc2996192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sf_state_flow</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-09-10 19:51:46</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c4f63d35dbb7b340602384cc2996192a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sf_state_flow</sys_name>
+            <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+            <sys_update_name>sys_ui_list_sf_state_flow_RPT06058173df23210068c37a0d3df2636c</sys_update_name>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-09-10 19:51:46</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt06058173df23210068c37a0d3df2636c" name="RPT06058173df23210068c37a0d3df2636c">fa67e266dbb89850a7e4db184b961913</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
