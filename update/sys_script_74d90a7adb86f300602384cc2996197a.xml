@@ -32,9 +32,12 @@
 	// Add your code here
 var confID = current.conf_name;
 	var confGR = new GlideRecord('x_snc_cfe_confcoor_table');
+	var spkGR = new GlideRecord('x_snc_cfe_confcoor_speaker_speaker_costs');
 	confGR.get(confID);
-	//gs.setRedirect(confGR.getLink()); KLJ-Just figured out how to use speaker form in popup window. Do not need to redirect once form is saved.
 	
+	gs.setRedirect("x_snc_cfe_confcoor_speaker_speaker_costs.do?sys_id=-1&sysparm_query=conf_name="+ confGR.getUniqueValue());
+
+		//gs.setRedirect(confGR.getLink()); //KLJ-Just figured out how to use speaker form in popup window. Do not need to redirect once form is saved.
 	confGR.est_conf_cost = 0;
 	confGR.update();
 	
@@ -47,7 +50,7 @@ var confID = current.conf_name;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>74d90a7adb86f300602384cc2996197a</sys_id>
-        <sys_mod_count>35</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_name>SpeakerCost-BR</sys_name>
         <sys_overrides/>
         <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
@@ -56,7 +59,7 @@ var confID = current.conf_name;
         <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
         <sys_update_name>sys_script_74d90a7adb86f300602384cc2996197a</sys_update_name>
         <sys_updated_by>kjones</sys_updated_by>
-        <sys_updated_on>2020-06-17 15:47:09</sys_updated_on>
+        <sys_updated_on>2020-06-17 16:39:40</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
