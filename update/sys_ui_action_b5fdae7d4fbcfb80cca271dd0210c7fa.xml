@@ -25,7 +25,7 @@
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
-        <name>Add Speakers</name>
+        <name>disabled-Add Speakers</name>
         <onclick>popupDispList()</onclick>
         <order>100</order>
         <script><![CDATA[function popupDispList() {
@@ -59,8 +59,8 @@ g_form.save();
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b5fdae7d4fbcfb80cca271dd0210c7fa</sys_id>
-        <sys_mod_count>23</sys_mod_count>
-        <sys_name>Add Speakers</sys_name>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>disabled-Add Speakers</sys_name>
         <sys_overrides/>
         <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
         <sys_policy/>
@@ -68,7 +68,7 @@ g_form.save();
         <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
         <sys_update_name>sys_ui_action_b5fdae7d4fbcfb80cca271dd0210c7fa</sys_update_name>
         <sys_updated_by>kjones</sys_updated_by>
-        <sys_updated_on>2020-06-17 15:58:47</sys_updated_on>
+        <sys_updated_on>2020-06-17 17:22:17</sys_updated_on>
         <table>x_snc_cfe_confcoor_table</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>true</ui16_compatible>
