@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Excel Component Import">3ffba959496b4010eeebfc99a3e8bbfb</map>
+        <reference_value_field/>
+        <source_field>u_component_approvers</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>x_snc_cfe_confcoor_excel_import</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>JONKENL</sys_created_by>
+        <sys_created_on>2020-03-13 15:44:50</sys_created_on>
+        <sys_id>ae8ce1d9496b4010eeebfc99a3e8bbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_component_approvers</sys_name>
+        <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+        <sys_update_name>sys_transform_entry_ae8ce1d9496b4010eeebfc99a3e8bbcb</sys_update_name>
+        <sys_updated_by>JONKENL</sys_updated_by>
+        <sys_updated_on>2020-03-13 15:44:50</sys_updated_on>
+        <target_field>component_approvers</target_field>
+        <target_table>x_snc_cfe_confcoor_components</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+</record_update>

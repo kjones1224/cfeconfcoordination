@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Comptroller Approval" section_id="727d2ac439e89010eeeb4d05e1d30f3f" sys_domain="global" table="x_snc_cfe_confcoor_table" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:45</sys_created_on>
+            <sys_id>e66fe0a2b5255050df3603e30c99f327</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:45</sys_updated_on>
+            <text/>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:45</sys_created_on>
+            <sys_id>626fe0a2b5255050df3603e30c99f334</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:45</sys_updated_on>
+            <text>No later than 60 days after the conference is completed, the Conference POC must return to this form to enter actual cost data. Periodic e-mail reminders with links to this form will be sent to the POC until actual cost data is entered and the "Final Submission" button is clicked. The "Final Submission" button will not appear until after this conference request has been submitted and approved.</text>
+            <type display_value="Info Box Red">823f88a80f930000b12e6903cfe01209</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>compt_status</element>
+            <position>0</position>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:45</sys_created_on>
+            <sys_id>2e6fe0a2b5255050df3603e30c99f33a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Comptroller Approval" display_value="Comptroller Approval" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">727d2ac439e89010eeeb4d05e1d30f3f</sys_ui_section>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>compt_rep_name</element>
+            <position>1</position>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:45</sys_created_on>
+            <sys_id>ae6fe0a2b5255050df3603e30c99f33a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Comptroller Approval" display_value="Comptroller Approval" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">727d2ac439e89010eeeb4d05e1d30f3f</sys_ui_section>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>compt_signed_date</element>
+            <position>2</position>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:45</sys_created_on>
+            <sys_id>226fe0a2b5255050df3603e30c99f33b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Comptroller Approval" display_value="Comptroller Approval" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">727d2ac439e89010eeeb4d05e1d30f3f</sys_ui_section>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>compt_comments</element>
+            <position>3</position>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:45</sys_created_on>
+            <sys_id>a26fe0a2b5255050df3603e30c99f33b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Comptroller Approval" display_value="Comptroller Approval" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">727d2ac439e89010eeeb4d05e1d30f3f</sys_ui_section>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>compt_lock_status</element>
+            <position>4</position>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:45</sys_created_on>
+            <sys_id>266fe0a2b5255050df3603e30c99f33b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Comptroller Approval" display_value="Comptroller Approval" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">727d2ac439e89010eeeb4d05e1d30f3f</sys_ui_section>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:45</sys_created_on>
+            <sys_id>a66fe0a2b5255050df3603e30c99f33b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Comptroller Approval" display_value="Comptroller Approval" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">727d2ac439e89010eeeb4d05e1d30f3f</sys_ui_section>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:45</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:45</sys_created_on>
+            <sys_id>2a6fe0a2b5255050df3603e30c99f33b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Comptroller Approval" display_value="Comptroller Approval" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">727d2ac439e89010eeeb4d05e1d30f3f</sys_ui_section>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:45</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>e66fe0a2b5255050df3603e30c99f327</element>
+            <position>7</position>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:45</sys_created_on>
+            <sys_id>aa6fe0a2b5255050df3603e30c99f33b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Comptroller Approval" display_value="Comptroller Approval" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">727d2ac439e89010eeeb4d05e1d30f3f</sys_ui_section>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:45</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>626fe0a2b5255050df3603e30c99f334</element>
+            <position>8</position>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:45</sys_created_on>
+            <sys_id>2e6fe0a2b5255050df3603e30c99f33b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Comptroller Approval" display_value="Comptroller Approval" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">727d2ac439e89010eeeb4d05e1d30f3f</sys_ui_section>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:45</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Comptroller Approval</caption>
+            <header>false</header>
+            <name>x_snc_cfe_confcoor_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-04-28 16:18:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>727d2ac439e89010eeeb4d05e1d30f3f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Comptroller Approval</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+            <sys_update_name>sys_ui_section_727d2ac439e89010eeeb4d05e1d30f3f</sys_update_name>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-04-28 16:18:57</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

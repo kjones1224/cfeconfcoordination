@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
-        <action_name>kljTesting1</action_name>
-        <active>false</active>
+        <action_name>addSpeaker</action_name>
+        <active>true</active>
         <client>true</client>
-        <client_script_v2/>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
         <comments/>
-        <condition/>
-        <form_action>false</form_action>
-        <form_button>false</form_button>
+        <condition>!current.isNewRecord() &amp;&amp; current.conf_status == "Draft"</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
         <form_context_menu>false</form_context_menu>
         <form_link>false</form_link>
         <form_menu_button_v2>false</form_menu_button_v2>
-        <form_style/>
+        <form_style>primary</form_style>
         <hint/>
         <isolate_script>true</isolate_script>
         <list_action>false</list_action>
@@ -23,29 +25,77 @@
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
-        <name>kljTesting</name>
-        <onclick>kljTesting1()</onclick>
+        <name>Add Speaker(s)</name>
+        <onclick>addSpeaker()</onclick>
         <order>100</order>
-        <script><![CDATA[function kljTesting1(){
-	//alert('Hello ' + g_form.getValue('conf_begin_date'));
+        <script><![CDATA[function addSpeaker(){ 
+
+   //var cName = g_form.getValue('conf_name'); 
+	//alert("Conference Name " + cName);
+   //alert(cName); 
+   //return false(); 
+
+  // var org = g_form.getValue("organization"); 
+	//alert("Organization " + org);
+
+ //  var purpose = g_form.getValue("purpose"); 
+	//alert("Purpose " + purpose);
+
+  // var component = g_form.getValue("component"); 
+	//alert("Component " + component);
+
+  // var aOfficer = g_form.getValue("approving_officer_org"); 
+	//alert("Approving Officer " + aOfficer);
+   
+	//var confLoc = g_form.getValue("conf_location");
+	//alert("Conference Location " + confLoc);
 	
-var ga = new GlideAjax('validateConferenceDates');
-	ga.addParam('sysparm_name', 'endDate');
-	ga.addParam('sysparm_startDate', g_form.getValue('conf_begin_date'));
-	ga.addParam('sysparm_endDate', g_form.getValue('conf_end_date'));
-	ga.getXMLAnswer(validateEndDate);
 	
-	function validateEndDate(answer){
-		
-		if(answer == 1 || answer == '1'){
-			
-			alert('Conference End Date should be greater or equal to Conference Start Date');
-			//g_form.clearValue('conf_end_date');
-			g_form.setValue('conf_end_date', g_form.getValue('conf_begin_date'));
-		}
-	}
+
+ //  if(cName == "" || org == "" || purpose == "" || component == "" || aOfficer == "" || confLoc == ""){ 
+
+        //  onSubmit(); 
+
+          //alert(g_form.getOption("organization", "IARPA").text); 
+
+//   } else { 
+
+   //alert(parent.g_form.getValue('conf_name')); 
 	
-}
+	//KLJ - Moved validation to form. 06/23/2020
+
+   var pID = g_form.getUniqueValue(); //g_form.getValue('conf_name'); 
+
+   var bDate = g_form.getValue('conf_begin_date'); 
+
+   var eDate = g_form.getValue('conf_end_date'); 
+
+   var dialog = new GlideDialogForm('New Speaker(s)', 'x_snc_cfe_confcoor_speaker_speaker_costs', 
+
+
+function() { 
+
+  //alert('Reservation created!'); 
+
+   }); 
+
+    dialog.addParm('sysparm_view', 'Default view'); 
+
+   dialog.addParm("sysparm_query", "conf_name="+ pID + "^conf_begin_date="+ bDate + "^conf_end_date="+ eDate); 
+
+   //alert(pID); 
+
+   dialog.render(); 
+
+     } 
+
+  // function onSubmit(){ 
+
+         // alert("Must fill in required fields before adding speakers"); 
+
+  // } 
+
+//} 
 ]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -57,15 +107,15 @@ var ga = new GlideAjax('validateConferenceDates');
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>11aa9816db8f7f00a7e4db184b961990</sys_id>
-        <sys_mod_count>11</sys_mod_count>
-        <sys_name>kljTesting</sys_name>
+        <sys_mod_count>35</sys_mod_count>
+        <sys_name>Add Speaker(s)</sys_name>
         <sys_overrides/>
         <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
         <sys_policy/>
         <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
         <sys_update_name>sys_ui_action_11aa9816db8f7f00a7e4db184b961990</sys_update_name>
-        <sys_updated_by>kjones</sys_updated_by>
-        <sys_updated_on>2019-08-05 19:55:08</sys_updated_on>
+        <sys_updated_by>JONKENL</sys_updated_by>
+        <sys_updated_on>2020-06-23 13:13:32</sys_updated_on>
         <table>x_snc_cfe_confcoor_table</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>true</ui16_compatible>

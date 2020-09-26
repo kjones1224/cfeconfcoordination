@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="excel import" max_length="40" name="x_snc_cfe_confcoor_excel_import" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Component Approvers" label="Component Approvers" max_length="120" name="u_component_approvers" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Component name" label="Component name" max_length="40" name="u_component_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=This is for" label="This is for" max_length="40" name="u_this_is_for" type="string"/>
+    </element>
+</database>

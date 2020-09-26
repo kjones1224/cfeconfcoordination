@@ -2,207 +2,271 @@
     <sys_ui_section caption="Attendees" section_id="00a4d1f64fc9bf00cca271dd0210c7f0" sys_domain="global" table="x_snc_cfe_confcoor_table" version="3" view="">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
-            <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-13 23:56:17</sys_created_on>
-            <sys_id>3710f0db13917f40490cbdb12244b0d7</sys_id>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:44</sys_created_on>
+            <sys_id>466fa0a2b5255050df3603e30c99f3f5</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-13 23:56:17</sys_updated_on>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:44</sys_updated_on>
             <text>&lt;span style="text-align:center; display:block;"&gt;Estimate&lt;/span&gt;</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
-            <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-13 23:56:17</sys_created_on>
-            <sys_id>3b10f0db13917f40490cbdb12244b0d7</sys_id>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:44</sys_created_on>
+            <sys_id>0a6fa0a2b5255050df3603e30c99f3f5</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-13 23:56:17</sys_updated_on>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:44</sys_updated_on>
             <text>&lt;span style="text-align:center; display:block;"&gt;Actual&lt;/span&gt;</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:44</sys_created_on>
+            <sys_id>ca6fa0a2b5255050df3603e30c99f3f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:44</sys_updated_on>
+            <text/>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:44</sys_created_on>
+            <sys_id>8e6fa0a2b5255050df3603e30c99f3f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:44</sys_updated_on>
+            <text>No later than 60 days after the conference is completed, the Conference POC must return to this form to enter actual cost data. Periodic e-mail reminders with links to this form will be sent to the POC until actual cost data is entered and the "Final Submission" button is clicked. The "Final Submission" button will not appear until after this conference request has been submitted and approved.</text>
+            <type display_value="Info Box Red">823f88a80f930000b12e6903cfe01209</type>
+        </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>3710f0db13917f40490cbdb12244b0d7</element>
+            <element>466fa0a2b5255050df3603e30c99f3f5</element>
             <position>0</position>
-            <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-13 23:56:17</sys_created_on>
-            <sys_id>fb10f0db13917f40490cbdb12244b0d7</sys_id>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:44</sys_created_on>
+            <sys_id>ce6fe0a2b5255050df3603e30c99f300</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Attendees" display_value="Attendees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">00a4d1f64fc9bf00cca271dd0210c7f0</sys_ui_section>
-            <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-13 23:56:17</sys_updated_on>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:44</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>a_est_ic_employees</element>
             <position>1</position>
-            <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-13 23:56:17</sys_created_on>
-            <sys_id>7f10f0db13917f40490cbdb12244b0d7</sys_id>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:44</sys_created_on>
+            <sys_id>426fe0a2b5255050df3603e30c99f301</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Attendees" display_value="Attendees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">00a4d1f64fc9bf00cca271dd0210c7f0</sys_ui_section>
-            <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-13 23:56:17</sys_updated_on>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>a_est_gov_nongov</element>
             <position>2</position>
-            <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-13 23:56:17</sys_created_on>
-            <sys_id>ff10f0db13917f40490cbdb12244b0d7</sys_id>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:44</sys_created_on>
+            <sys_id>c26fe0a2b5255050df3603e30c99f301</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Attendees" display_value="Attendees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">00a4d1f64fc9bf00cca271dd0210c7f0</sys_ui_section>
-            <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-13 23:56:17</sys_updated_on>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>a_est_ind_ffrdc</element>
             <position>3</position>
-            <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-13 23:56:17</sys_created_on>
-            <sys_id>7310f0db13917f40490cbdb12244b0d8</sys_id>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:44</sys_created_on>
+            <sys_id>466fe0a2b5255050df3603e30c99f301</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Attendees" display_value="Attendees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">00a4d1f64fc9bf00cca271dd0210c7f0</sys_ui_section>
-            <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-13 23:56:17</sys_updated_on>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>a_est_foreign_nationals</element>
             <position>4</position>
-            <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-13 23:56:17</sys_created_on>
-            <sys_id>f310f0db13917f40490cbdb12244b0d8</sys_id>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:44</sys_created_on>
+            <sys_id>c66fe0a2b5255050df3603e30c99f301</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Attendees" display_value="Attendees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">00a4d1f64fc9bf00cca271dd0210c7f0</sys_ui_section>
-            <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-13 23:56:17</sys_updated_on>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>a_est_total</element>
             <position>5</position>
-            <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-13 23:56:17</sys_created_on>
-            <sys_id>7710f0db13917f40490cbdb12244b0d8</sys_id>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:44</sys_created_on>
+            <sys_id>4a6fe0a2b5255050df3603e30c99f301</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Attendees" display_value="Attendees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">00a4d1f64fc9bf00cca271dd0210c7f0</sys_ui_section>
-            <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-13 23:56:17</sys_updated_on>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>6</position>
-            <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-13 23:56:17</sys_created_on>
-            <sys_id>f710f0db13917f40490cbdb12244b0d8</sys_id>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:44</sys_created_on>
+            <sys_id>ca6fe0a2b5255050df3603e30c99f301</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Attendees" display_value="Attendees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">00a4d1f64fc9bf00cca271dd0210c7f0</sys_ui_section>
-            <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-13 23:56:17</sys_updated_on>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:44</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>3b10f0db13917f40490cbdb12244b0d7</element>
+            <element>0a6fa0a2b5255050df3603e30c99f3f5</element>
             <position>7</position>
-            <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-13 23:56:17</sys_created_on>
-            <sys_id>7b10f0db13917f40490cbdb12244b0d8</sys_id>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:44</sys_created_on>
+            <sys_id>4e6fe0a2b5255050df3603e30c99f301</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Attendees" display_value="Attendees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">00a4d1f64fc9bf00cca271dd0210c7f0</sys_ui_section>
-            <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-13 23:56:17</sys_updated_on>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:44</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>a_act_ic_employees</element>
             <position>8</position>
-            <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-13 23:56:17</sys_created_on>
-            <sys_id>fb10f0db13917f40490cbdb12244b0d8</sys_id>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:44</sys_created_on>
+            <sys_id>ce6fe0a2b5255050df3603e30c99f301</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Attendees" display_value="Attendees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">00a4d1f64fc9bf00cca271dd0210c7f0</sys_ui_section>
-            <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-13 23:56:17</sys_updated_on>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>a_act_gov_nongov</element>
             <position>9</position>
-            <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-13 23:56:17</sys_created_on>
-            <sys_id>7f10f0db13917f40490cbdb12244b0d8</sys_id>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:44</sys_created_on>
+            <sys_id>426fe0a2b5255050df3603e30c99f302</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Attendees" display_value="Attendees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">00a4d1f64fc9bf00cca271dd0210c7f0</sys_ui_section>
-            <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-13 23:56:17</sys_updated_on>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>a_act_ind_ffrdc</element>
             <position>10</position>
-            <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-13 23:56:17</sys_created_on>
-            <sys_id>ff10f0db13917f40490cbdb12244b0d8</sys_id>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:44</sys_created_on>
+            <sys_id>c26fe0a2b5255050df3603e30c99f302</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Attendees" display_value="Attendees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">00a4d1f64fc9bf00cca271dd0210c7f0</sys_ui_section>
-            <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-13 23:56:17</sys_updated_on>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>a_act_foreign_nationals</element>
             <position>11</position>
-            <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-13 23:56:17</sys_created_on>
-            <sys_id>7310f0db13917f40490cbdb12244b0d9</sys_id>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:44</sys_created_on>
+            <sys_id>466fe0a2b5255050df3603e30c99f302</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Attendees" display_value="Attendees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">00a4d1f64fc9bf00cca271dd0210c7f0</sys_ui_section>
-            <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-13 23:56:17</sys_updated_on>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>a_act_total</element>
             <position>12</position>
-            <sys_created_by>kjones</sys_created_by>
-            <sys_created_on>2019-05-13 23:56:17</sys_created_on>
-            <sys_id>f310f0db13917f40490cbdb12244b0d9</sys_id>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:44</sys_created_on>
+            <sys_id>c66fe0a2b5255050df3603e30c99f302</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Attendees" display_value="Attendees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">00a4d1f64fc9bf00cca271dd0210c7f0</sys_ui_section>
-            <sys_updated_by>kjones</sys_updated_by>
-            <sys_updated_on>2019-05-13 23:56:17</sys_updated_on>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:44</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:44</sys_created_on>
+            <sys_id>4a6fe0a2b5255050df3603e30c99f302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Attendees" display_value="Attendees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">00a4d1f64fc9bf00cca271dd0210c7f0</sys_ui_section>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:44</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ca6fa0a2b5255050df3603e30c99f3f5</element>
+            <position>14</position>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:44</sys_created_on>
+            <sys_id>ca6fe0a2b5255050df3603e30c99f302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Attendees" display_value="Attendees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">00a4d1f64fc9bf00cca271dd0210c7f0</sys_ui_section>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:44</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>8e6fa0a2b5255050df3603e30c99f3f5</element>
+            <position>15</position>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 18:35:44</sys_created_on>
+            <sys_id>4e6fe0a2b5255050df3603e30c99f302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Attendees" display_value="Attendees" name="x_snc_cfe_confcoor_table" sys_domain="global" view="Default view">00a4d1f64fc9bf00cca271dd0210c7f0</sys_ui_section>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 18:35:44</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Attendees</caption>

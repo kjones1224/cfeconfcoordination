@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>true</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_classification_xml</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Update Classification Info on Change</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+
+	//Type appropriate comment here, and begin script below
+	// Set the default colors for background and font
+	var theBGColor = '#999999';
+	var theColor   = '#FFFFFF';
+
+	// Get the classification information from the form
+	var theClass = g_form.getValue( 'u_classification' ) || '';
+	var theClassBy = ('Classified By: ' + g_form.getValue( 'u_classified_by' )) || '';
+	var theDerived = ('Derived From: ' + g_form.getValue( 'u_derived_from' )) || '';
+	var theDeclass = ('Declassification Date: ' + g_form.getValue( 'u_declassification_date' )) || '';
+
+	// Update the header / footer banners with the classification data
+	var theDoc = document || top.window.document.activeElement.contentDocument;
+	theDoc.getElementById( 'class_header' ).innerHTML = theClass;
+	theDoc.getElementById( 'class_footer' ).innerHTML = theClass;
+	theDoc.getElementById( 'class_by' ).innerHTML = theClassBy;
+	theDoc.getElementById( 'derived_from' ).innerHTML = theDerived;
+	theDoc.getElementById( 'declass_on' ).innerHTML = theDeclass;
+
+	// Set correct header / footer banners colors for background and font, hide footer block if appropriate
+	theDoc.getElementById( 'class_footer_block' ).style.display = 'block';
+	if (theClass.startsWith( 'UNCLASSIFIED' ) == true) {
+		theBGColor = '#008000';
+		theDoc.getElementById( 'class_footer_block' ).style.display = 'none';
+	} else if (theClass.startsWith( 'CONFIDENTIAL' ) == true) {
+		theBGColor = '#0000FF';
+	} else if (theClass.startsWith( 'SECRET' ) == true) {
+		theBGColor = '#FF0000';
+	} else if (theClass.startsWith( 'TOP SECRET' ) == true) {
+		theBGColor = '#FFFF20';
+		theColor   = '#000000';
+	}
+
+	// Apply background and font colors to header / footer banners
+	theDoc.getElementById( 'class_header_row' ).style.backgroundColor = theBGColor;
+	theDoc.getElementById( 'class_header_row' ).style.color = theColor;
+	theDoc.getElementById( 'class_footer_row' ).style.backgroundColor = theBGColor;
+	theDoc.getElementById( 'class_footer_row' ).style.color = theColor;
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>JONKENL</sys_created_by>
+        <sys_created_on>2020-05-28 19:45:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>227cb5fdccc55410eeeb59662b958eff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Classification Info on Change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+        <sys_update_name>sys_script_client_227cb5fdccc55410eeeb59662b958eff</sys_update_name>
+        <sys_updated_by>JONKENL</sys_updated_by>
+        <sys_updated_on>2020-05-28 19:45:36</sys_updated_on>
+        <table>x_snc_cfe_confcoor_table</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

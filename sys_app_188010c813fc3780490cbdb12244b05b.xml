@@ -9,7 +9,7 @@
         <license_category>none</license_category>
         <license_model>none</license_model>
         <logo/>
-        <menu/>
+        <menu display_value="CFE Conference Coordination">9c80508c13fc3780490cbdb12244b0f4</menu>
         <name>CFE Conference Coordination</name>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
@@ -25,14 +25,14 @@
         <sys_created_by>kjones</sys_created_by>
         <sys_created_on>2019-04-08 22:46:31</sys_created_on>
         <sys_id>188010c813fc3780490cbdb12244b05b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 18:55:42</sys_updated_on>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>JONKENL</sys_updated_by>
+        <sys_updated_on>2020-06-24 19:01:17</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role display_value="x_snc_cfe_confcoor.user" name="x_snc_cfe_confcoor.user">dc80508c13fc3780490cbdb12244b0f8</user_role>
         <vendor/>
         <vendor_prefix/>
-        <version>2.0</version>
+        <version>3.5</version>
     </sys_app>
 </record_update>

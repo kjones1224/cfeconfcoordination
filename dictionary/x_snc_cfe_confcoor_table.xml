@@ -1,45 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="CFE Conference Coordination" max_length="40" name="x_snc_cfe_confcoor_table" type="collection">
-        <element label="Actual Conference Cost" max_length="20" name="act_conf_cost" type="currency"/>
-        <element label="Act Person Per-Day Cost" max_length="20" name="act_person_perday_cost" type="currency"/>
-        <element max_length="20" name="ac_act_cost" type="currency"/>
-        <element max_length="20" name="ac_est_cost" type="currency"/>
-        <element label="Approving officer" max_length="4000" name="approving_officer" type="glide_list"/>
-        <element choice="1" label="Approving Officer" mandatory="true" max_length="40" name="approving_officer_org" type="choice">
+    <element extends="task" label="CFE Conference Coordination" max_length="40" name="x_snc_cfe_confcoor_table" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Actual Final Status" max_length="40" name="actfinalstatus" type="string"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;&#10;&#9;// Add your code here&#10;&#9;return '';  // return the calculated value&#10;&#9;//return confStatus;&#10;&#10;})(current);" label="Actual Lock Status" max_length="40" name="actlockstatus" type="string"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Actual Conference Cost" max_length="20" name="act_conf_cost" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Actual Person Per-Day Cost" max_length="20" name="act_person_perday_cost" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" max_length="20" name="ac_act_cost" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" max_length="20" name="ac_est_cost" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="AO Status" max_length="40" name="aostatus" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="AO Comments" max_length="250" name="ao_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="AO Lock Status" max_length="40" name="ao_lock_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="AO Rep Name" max_length="40" name="ao_rep_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="AO Signed on Date" max_length="40" name="ao_signed_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Approving officer" max_length="4000" name="approving_officer" reference="sys_user" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Approving Officer" mandatory="true" max_length="40" name="approving_officer_org" type="choice">
             <choice>
-                <element inactive_on_update="false" label="108.18.35.194" value="108.18.35.194"/>
-                <element inactive_on_update="false" label="House" value="House"/>
+                <element inactive_on_update="false" label="AT&amp;F/ACQ TECH &amp; FACILITIES" value="8R"/>
+                <element inactive_on_update="false" label="AT&amp;F/OFFICE OF SCIENCE &amp; TECH" value="8X"/>
+                <element inactive_on_update="false" label="CFE" value="9A"/>
+                <element inactive_on_update="false" label="CFO" value="8T"/>
+                <element inactive_on_update="false" label="CHCO" value="8S"/>
+                <element inactive_on_update="false" label="CIO" value="8U"/>
+                <element inactive_on_update="false" label="CLPT" value="8J"/>
+                <element inactive_on_update="false" label="CMO Front Office" value="8C"/>
+                <element inactive_on_update="false" label="CTIIC" value="9X"/>
+                <element inactive_on_update="false" label="DDII-FO" value="9M"/>
+                <element inactive_on_update="false" label="DDII-MID" value="9Y"/>
+                <element inactive_on_update="false" label="DDII-NIC" value="9K"/>
+                <element inactive_on_update="false" label="DDII-NIMC" value="9P"/>
+                <element inactive_on_update="false" label="DDII-PDB" value="9L"/>
+                <element inactive_on_update="false" label="DNI Staff" value="8A"/>
+                <element inactive_on_update="false" label="EEOD" value="8L"/>
+                <element inactive_on_update="false" label="EXEC SEC" value="8K"/>
+                <element inactive_on_update="false" label="General Counsel" value="8H"/>
+                <element inactive_on_update="false" label="IARPA" value="9W"/>
+                <element inactive_on_update="false" label="Inspector General" value="8M"/>
+                <element inactive_on_update="false" label="Legislative Affairs" value="8G"/>
+                <element inactive_on_update="false" label="MSD" value="9U"/>
+                <element inactive_on_update="false" label="NCPC" value="9D"/>
+                <element inactive_on_update="false" label="NCSC" value="9S"/>
+                <element inactive_on_update="false" label="NCTC" value="9C"/>
+                <element inactive_on_update="false" label="NIEMA" value="9E"/>
+                <element inactive_on_update="false" label="Partner Engagement" value="8E"/>
+                <element inactive_on_update="false" label="PDDNI Staff" value="8B"/>
+                <element inactive_on_update="false" label="PMISE" value="9B"/>
+                <element inactive_on_update="false" label="Policy and Strategy" value="8Q"/>
+                <element inactive_on_update="false" label="Protocol" value="8D"/>
+                <element inactive_on_update="false" label="Public Affairs" value="8F"/>
+                <element inactive_on_update="false" label="Systems &amp; Resources Analysis" value="8V"/>
             </choice>
         </element>
-        <element default="0" label="Foreign Nationals" max_length="40" name="a_act_foreign_nationals" type="integer"/>
-        <element default="0" label="Government, Non-IC Employees" max_length="40" name="a_act_gov_nongov" type="integer"/>
-        <element default="0" label="IC Employees" max_length="40" name="a_act_ic_employees" type="integer"/>
-        <element default="0" label="Industry/FFRDCs" max_length="40" name="a_act_ind_ffrdc" type="integer"/>
-        <element default="0" label="Totals" max_length="40" name="a_act_total" type="integer"/>
-        <element default="0" label="Foreign Nationals" max_length="40" name="a_est_foreign_nationals" type="integer"/>
-        <element default="0" label="Government, Non-IC Employees" max_length="40" name="a_est_gov_nongov" type="integer"/>
-        <element default="0" label="IC Employees" max_length="40" name="a_est_ic_employees" type="integer"/>
-        <element default="0" label="Industry/FFRDCs" max_length="40" name="a_est_ind_ffrdc" type="integer"/>
-        <element default="0" label="Totals" max_length="40" name="a_est_total" type="integer"/>
-        <element label="Beach" max_length="40" name="beach" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Foreign Nationals" max_length="40" name="a_act_foreign_nationals" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Government, Non-IC Employees" max_length="40" name="a_act_gov_nongov" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="IC Employees" max_length="40" name="a_act_ic_employees" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Industry/FFRDCs" max_length="40" name="a_act_ind_ffrdc" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Totals" max_length="40" name="a_act_total" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="3000" name="a_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Foreign Nationals" max_length="40" name="a_est_foreign_nationals" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Government, Non-IC Employees" max_length="40" name="a_est_gov_nongov" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="IC Employees" max_length="40" name="a_est_ic_employees" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Industry/FFRDCs" max_length="40" name="a_est_ind_ffrdc" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Totals" max_length="40" name="a_est_total" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Beach" max_length="40" name="beach" type="boolean"/>
         <element label="Building Name &amp; Address" max_length="40" name="building_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Component/Deputy Director Comments" max_length="250" name="cdddcomments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CDD Lock Status" max_length="40" name="cdddlockstatus" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Component/Deputy Director Officer Rep Name" max_length="40" name="cdddrepname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Component/Deputy Director Officer Signed on Date" max_length="40" name="cdddsigneddate" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Component/Deputy Director Officer Status" max_length="40" name="cdddstatus" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CDD Status" max_length="40" name="cddd_status" type="string"/>
         <element label="city" max_length="40" name="city" type="string"/>
-        <element label="CMO" max_length="4000" name="cmo_approvers" type="glide_list"/>
-        <element default="CMO" label="cmo_Ref" max_length="32" name="cmo_ref" reference="x_snc_cfe_confcoor_components" type="reference"/>
-        <element choice_field="this_is_for" choice_table="x_snc_cfe_confcoor_components" label="Component" mandatory="true" max_length="200" name="component" reference="x_snc_cfe_confcoor_components" reference_key="component_name" reference_qual="component_nameNOT LIKECMO^component_nameNOT LIKESecurity^component_nameNOT LIKEOGC^component_nameNOT LIKEComptroller^component_nameNOT LIKEODNI/CFE^EQ" reference_qual_condition="component_nameNOT LIKECMO^component_nameNOT LIKESecurity^component_nameNOT LIKEOGC^component_nameNOT LIKEComptroller^component_nameNOT LIKEODNI/CFE^EQ" type="reference"/>
-        <element label="Comptroller" max_length="4000" name="comptroller_approvers" type="glide_list"/>
-        <element choice="1" choice_field="this_is_for" dependent="f_component" dependent_on_field="f_component" label="Component Director/Deputy Director" max_length="100" name="comp_dir_dd_dir" reference="x_snc_cfe_confcoor_components" type="glide_list" use_dependent_field="true">
+        <element attributes="edge_encryption_enabled=true" label="CMA/CFE Comments" max_length="250" name="cmacfe_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CMA/CFE Lock Status" max_length="40" name="cmacfe_lock_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CMA/CFE Rep Name" max_length="40" name="cmacfe_rep_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CMA/CFE Signed Date" max_length="40" name="cmacfe_signed_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="CMA/CFE Status" max_length="40" name="cmacfe_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="CMO" max_length="4000" name="cmo_approvers" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="CMO Comments" max_length="40" name="cmo_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CMO Lock Status" max_length="40" name="cmo_lock_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" default="CMO" label="cmo_Ref" max_length="32" name="cmo_ref" reference="x_snc_cfe_confcoor_components" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="CMO Rep Name" max_length="40" name="cmo_rep_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CMO Signed on Date" max_length="40" name="cmo_signed_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="CMO Status" max_length="40" name="cmo_status" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;var cName = current.requestor + &quot;\n Hello World&quot;;&#13;&#10;&#9;return cName; // '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Combine Name" max_length="150" name="combine_name" type="string" virtual="true"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" choice_field="this_is_for" choice_table="x_snc_cfe_confcoor_components" label="Component" mandatory="true" max_length="200" name="component" reference="x_snc_cfe_confcoor_components" reference_key="component_name" reference_qual="component_nameNOT LIKECMO^component_nameNOT LIKESecurity^component_nameNOT LIKEOGC^component_nameNOT LIKEComptroller^component_nameNOT LIKEODNI/CFE^EQ" reference_qual_condition="component_nameNOT LIKECMO^component_nameNOT LIKESecurity^component_nameNOT LIKEOGC^component_nameNOT LIKEComptroller^component_nameNOT LIKEODNI/CFE^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Comptroller" max_length="4000" name="comptroller_approvers" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Comptroller Comments" max_length="40" name="compt_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Comptroller Lock Status" max_length="40" name="compt_lock_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Comptroller Rep Name" max_length="40" name="compt_rep_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Comptroller Signed on Date" max_length="40" name="compt_signed_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Comptroller Approval Status" max_length="40" name="compt_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" choice="1" choice_field="this_is_for" dependent="f_component" dependent_on_field="f_component" label="Component Director/Deputy Director" max_length="1024" name="comp_dir_dd_dir" reference="x_snc_cfe_confcoor_components" type="glide_list" use_dependent_field="true">
             <choice/>
         </element>
         <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" hint="(mm/dd/yyyy)" label="Begin Date" mandatory="true" max_length="40" name="conf_begin_date" type="glide_date" use_dynamic_default="true"/>
-        <element choice="1" label="Conference Classified Secret or Above" mandatory="true" max_length="40" name="conf_classified_secret_above" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Conference Classified Secret or Above" mandatory="true" max_length="40" name="conf_classified_secret_above" type="choice">
             <choice>
                 <element inactive_on_update="false" label="YES" value="YES"/>
                 <element inactive_on_update="false" label="NO" sequence="100" value="NO"/>
             </choice>
         </element>
         <element hint="(mm/dd/yyyy)" label="End Date" mandatory="true" max_length="40" name="conf_end_date" type="glide_date"/>
-        <element choice="1" label="Conference Location" mandatory="true" max_length="40" name="conf_location" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Conference Location" mandatory="true" max_length="40" name="conf_location" type="choice">
             <choice>
                 <element inactive_on_update="false" label="LX Compound" sequence="0" value="LX Compound"/>
                 <element inactive_on_update="false" label="IC Facility" sequence="1" value="IC Facility"/>
@@ -48,8 +109,9 @@
             </choice>
         </element>
         <element display="true" label="Name of Conference" mandatory="true" max_length="200" name="conf_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Conference Number" max_length="40" name="conf_num" type="string"/>
         <element label="Conference Number" max_length="40" name="conf_number" type="string"/>
-        <element choice="1" label="Room Location" max_length="40" name="conf_room_location" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Room Location" max_length="40" name="conf_room_location" type="choice">
             <choice>
                 <element inactive_on_update="false" label="1A425" value="1A425"/>
                 <element inactive_on_update="false" label="1B400" value="1B400"/>
@@ -65,13 +127,18 @@
                 <element inactive_on_update="false" label="1S300" value="1S300"/>
             </choice>
         </element>
-        <element choice="3" default="Draft" label="Conference Status" max_length="40" name="conf_status" read_only="true" type="choice">
-            <choice/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Draft" label="Conference Status" max_length="40" name="conf_status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="Approved"/>
+                <element inactive_on_update="false" label="Draft" value="Draft"/>
+                <element inactive_on_update="false" label="Pending" value="Pending"/>
+            </choice>
         </element>
         <element label="Contract Number (if applicable)" max_length="40" name="contract_num" type="string"/>
-        <element label="Co-Author" max_length="4000" name="co_authors" reference="sys_user" type="glide_list"/>
-        <element label="Estimated Conference Cost" max_length="20" name="est_conf_cost" type="currency"/>
-        <element label="Est Person Per-Day Cost" max_length="20" name="est_person_perday_cost" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Co-Author" max_length="4000" name="co_authors" reference="sys_user" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Est Lock Status" max_length="40" name="estlockstatus" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Estimated Conference Cost" max_length="20" name="est_conf_cost" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Est Person Per-Day Cost" max_length="20" name="est_person_perday_cost" type="currency"/>
         <element label="Explain Additional Cost" max_length="6000" name="explain_ac_cost" type="string"/>
         <element choice="1" label="Facility Accredited" mandatory="true" max_length="20" name="facility_accredited2" type="string">
             <choice>
@@ -79,36 +146,41 @@
                 <element inactive_on_update="false" label="NO" sequence="1" value="NO"/>
             </choice>
         </element>
-        <element label="Beverages" max_length="20" name="fb_act_beverages" type="currency"/>
-        <element label="Breakfast" max_length="20" name="fb_act_breakfast" type="currency"/>
-        <element label="Dinner" max_length="20" name="fb_act_dinner" type="currency"/>
-        <element label="Lunch" max_length="20" name="fb_act_lunch" type="currency"/>
-        <element label="Snacks" max_length="20" name="fb_act_snacks" type="currency"/>
-        <element label="Totals" max_length="20" name="fb_act_total" type="currency"/>
-        <element label="Beverages" max_length="20" name="fb_est_beverages" type="currency"/>
-        <element label="Breakfast" max_length="20" name="fb_est_breakfast" type="currency"/>
-        <element label="Dinner" max_length="20" name="fb_est_dinner" type="currency"/>
-        <element label="Lunch" max_length="20" name="fb_est_lunch" type="currency"/>
-        <element label="Snacks" max_length="20" name="fb_est_snacks" type="currency"/>
-        <element label="Totals" max_length="20" name="fb_est_total" type="currency"/>
-        <element choice_field="this_is_for" label="F component" max_length="1" name="f_component" reference="x_snc_cfe_confcoor_components" type="reference"/>
-        <element label="Audio/Visual" max_length="20" name="gf_act_audio_visual" type="currency"/>
-        <element label="Event Coordinator" max_length="20" name="gf_act_event_coordinator" type="currency"/>
-        <element label="Facility" max_length="20" name="gf_act_facility" type="currency"/>
-        <element label="Printing" max_length="20" name="gf_act_printing" type="currency"/>
-        <element label="Security" max_length="20" name="gf_act_security" type="currency"/>
-        <element label="General Fees Actual Totals" max_length="20" name="gf_act_total" type="currency"/>
-        <element label="Audio/Visual" max_length="20" name="gf_est_audio_visual" type="currency"/>
-        <element label="Event Coordinator" max_length="20" name="gf_est_event_coordinator" type="currency"/>
-        <element label="Facility" max_length="20" name="gf_est_facility" type="currency"/>
-        <element label="Printing" max_length="20" name="gf_est_printing" type="currency"/>
-        <element label="Security" max_length="20" name="gf_est_security" type="currency"/>
-        <element label="General Fees Estimate Totals" max_length="20" name="gf_est_total" type="currency"/>
-        <element label="US States" max_length="32" name="m_states" reference="x_snc_cfe_confcoor_us_states" type="reference"/>
-        <element label="ODNI/CFE" max_length="4000" name="odni_cfe_approvers" type="glide_list"/>
-        <element label="OGC" max_length="4000" name="ogc_approvers" type="glide_list"/>
-        <element label="Link ORE" max_length="40" name="ore_link" type="string"/>
-        <element choice="1" label="Organization" mandatory="true" max_length="40" name="organization" type="choice">
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Beverages" max_length="20" name="fb_act_beverages" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Breakfast" max_length="20" name="fb_act_breakfast" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Dinner" max_length="20" name="fb_act_dinner" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Lunch" max_length="20" name="fb_act_lunch" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Snacks" max_length="20" name="fb_act_snacks" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Totals" max_length="20" name="fb_act_total" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Beverages" max_length="20" name="fb_est_beverages" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Breakfast" max_length="20" name="fb_est_breakfast" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Dinner" max_length="20" name="fb_est_dinner" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Lunch" max_length="20" name="fb_est_lunch" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Snacks" max_length="20" name="fb_est_snacks" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Totals" max_length="20" name="fb_est_total" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" choice_field="this_is_for" label="F component" max_length="32" name="f_component" reference="x_snc_cfe_confcoor_components" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Audio/Visual" max_length="20" name="gf_act_audio_visual" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Event Coordinator" max_length="20" name="gf_act_event_coordinator" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Facility" max_length="20" name="gf_act_facility" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Printing" max_length="20" name="gf_act_printing" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Security" max_length="20" name="gf_act_security" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Totals" max_length="20" name="gf_act_total" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Audio/Visual" max_length="20" name="gf_est_audio_visual" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Event Coordinator" max_length="20" name="gf_est_event_coordinator" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Facility" max_length="20" name="gf_est_facility" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Printing" max_length="20" name="gf_est_printing" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Security" max_length="20" name="gf_est_security" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Totals" max_length="20" name="gf_est_total" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="State" max_length="32" name="m_states" reference="x_snc_cfe_confcoor_us_states" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="ODNI/CFE" max_length="4000" name="odni_cfe_approvers" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="OGC" max_length="4000" name="ogc_approvers" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="OGC Comments" max_length="250" name="ogc_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="OGC Lock Status" max_length="40" name="ogc_lock_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="OGC Rep Name" max_length="40" name="ogc_rep_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="OGC Signed on Date" max_length="40" name="ogc_signed_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="OGC Status" max_length="40" name="ogc_status" type="string"/>
+        <element label="Link ORE" max_length="40" name="ore_link" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Organization" mandatory="true" max_length="40" name="organization" type="choice">
             <choice>
                 <element inactive_on_update="false" label="IARPA" sequence="0" value="IARPA"/>
                 <element inactive_on_update="false" label="ODNI" sequence="1" value="ODNI"/>
@@ -117,30 +189,43 @@
         </element>
         <element label="Purpose" mandatory="true" max_length="1000" name="purpose" type="string"/>
         <element default="javascript:gs.getUserDisplayName()" label="Requestor" max_length="40" name="requestor" type="string"/>
-        <element label="River" max_length="40" name="river" type="boolean"/>
-        <element label="Sand" max_length="40" name="sand" type="boolean"/>
-        <element label="Security" max_length="4000" name="security_approvers" type="glide_list"/>
-        <element label="Local Transportation" max_length="20" name="tc_act_local_transportation" type="currency"/>
-        <element label="Lodging" max_length="20" name="tc_act_lodging" type="currency"/>
-        <element label="MI&amp;E" max_length="20" name="tc_act_mie" type="currency"/>
-        <element label="Totals" max_length="20" name="tc_act_total" type="currency"/>
-        <element label="Transportation" max_length="20" name="tc_act_transportation" type="currency"/>
-        <element label="Local Transportation" max_length="20" name="tc_est_local_transportation" type="currency"/>
-        <element label="Lodging" max_length="20" name="tc_est_lodging" type="currency"/>
-        <element label="MI&amp;E" max_length="20" name="tc_est_mie" type="currency"/>
-        <element label="Totals" max_length="20" name="tc_est_total" type="currency"/>
-        <element label="Transportation" max_length="20" name="tc_est_transportation" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="River" max_length="40" name="river" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Sand" max_length="40" name="sand" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Security" max_length="4000" name="security_approvers" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Security Comments" max_length="250" name="sec_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Security Lock Status" max_length="40" name="sec_lock_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Security Rep Name" max_length="40" name="sec_rep_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Security Signed on Date" max_length="40" name="sec_signed_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Security Status" max_length="40" name="sec_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Local Transportation" max_length="20" name="tc_act_local_transportation" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Lodging" max_length="20" name="tc_act_lodging" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="MI&amp;E" max_length="20" name="tc_act_mie" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Totals" max_length="20" name="tc_act_total" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Transportation" max_length="20" name="tc_act_transportation" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Local Transportation" max_length="20" name="tc_est_local_transportation" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Lodging" max_length="20" name="tc_est_lodging" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="MI&amp;E" max_length="20" name="tc_est_mie" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Totals" max_length="20" name="tc_est_total" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Transportation" max_length="20" name="tc_est_transportation" type="currency"/>
         <element attributes="edge_encryption_enabled=true" default="If using a commercial facility, also include a documented cost comparison analysis of at least three commercial sites in addition to a written description of why a federal government facility is not appropriate. Upload your cost comparison files along with your conference request. Using a competitively awarded conference planning/support contract meets the tree commercial site cost comparison analysis requirement. However, the written description of why a federal government facility is not appropriate is still required." label="Cost Analysis" max_length="300" name="u_cost_analysis" read_only="true" type="string"/>
-        <element label="Browse" max_length="40" name="u_file_attachment_2" type="file_attachment"/>
-        <element label="Attach Waiver(s)" max_length="40" name="u_file_attachment_3" type="file_attachment"/>
-        <element default="If using a commercial facility, also include a documented cost comparison analysis of at least three commercial sites in addition to a written description of why a federal government facility is not appropriate. Upload your cost comparison files along with your conference request. Using a competitively awarded conference planning/support contract meets the tree commercial site cost comparison analysis requirement. However, the written description of why a federal government facility is not appropriate is still required." label="Cost Comparison Analysis" max_length="65536" name="u_html_1" read_only="true" type="html"/>
-        <element default="For classified conferences, unless a waiver is approved, components must use appropriate accredited facilities. If you are using an unaccredited facility, please submit your waiver by using the &quot;Browse&quot; button to upload your file(s) and submit your waiver request. All &quot;Security&quot; cost will be the responsibility of the &quot;Sponsoring Component&quot;." label="Notice:" max_length="65536" name="u_html_2" read_only="true" type="html"/>
-        <element choice="1" label="Visitor Badge Required" max_length="40" name="visitor_badge_required" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="country" label="Country" max_length="40" name="u_country" reference="x_snc_cfe_confcoor_countries" type="reference">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Browse" max_length="40" name="u_file_attachment_2" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" label="Attach Waiver(s)" max_length="40" name="u_file_attachment_3" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" default="If using a commercial facility, also include a documented cost comparison analysis of at least three commercial sites in addition to a written description of why a federal government facility is not appropriate. Upload your cost comparison files along with your conference request. Using a competitively awarded conference planning/support contract meets the tree commercial site cost comparison analysis requirement. However, the written description of why a federal government facility is not appropriate is still required." label="Cost Comparison Analysis" max_length="65536" name="u_html_1" read_only="true" type="html"/>
+        <element attributes="edge_encryption_enabled=true" default="For classified conferences, unless a waiver is approved, components must use appropriate accredited facilities. If you are using an unaccredited facility, please submit your waiver by using the &quot;Browse&quot; button to upload your file(s) and submit your waiver request. All &quot;Security&quot; cost will be the responsibility of the &quot;Sponsoring Component&quot;." label="Notice:" max_length="65536" name="u_html_2" read_only="true" type="html"/>
+        <element attributes="edge_encryption_enabled=true" label="New HTML" max_length="65536" name="u_html_3" type="html"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Visitor Badge Required" mandatory="true" max_length="40" name="visitor_badge_required" type="choice">
             <choice>
                 <element inactive_on_update="false" label="YES" value="YES"/>
                 <element inactive_on_update="false" label="NO" sequence="100" value="NO"/>
             </choice>
         </element>
-        <element label="Zip code" max_length="40" name="zip_code" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,format=none" label="Zip code" max_length="40" name="zip_code" type="integer"/>
     </element>
 </database>

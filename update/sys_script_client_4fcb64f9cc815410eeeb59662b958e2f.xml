@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Set Unique Conference Number field and hide auto-numbering field</description>
+        <field>ac_act_cost</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set Unique Conference Number field</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	g_form.setDisplay("number", false);
+   var x = Math.floor((Math.random() * 20000) + 1);
+	var cNum = g_form.getValue("number");
+	var gd = new Date();     //GlideDate();
+	var cYear = gd.getFullYear().toString();
+	var cDate = gd.getDate().toString();
+	var cMonth = gd.getMonth() + 1;
+	
+	if(g_form.isNewRecord()){
+		g_form.setValue("conf_num",cYear + "-" + cDate + "-" + cMonth.toString() + "- CON" + x); //g_form.getValue("number"));
+	
+	}
+	
+}
+
+
+
+
+
+
+
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>JONKENL</sys_created_by>
+        <sys_created_on>2020-05-28 14:00:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4fcb64f9cc815410eeeb59662b958e2f</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>Set Unique Conference Number field</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+        <sys_update_name>sys_script_client_4fcb64f9cc815410eeeb59662b958e2f</sys_update_name>
+        <sys_updated_by>JONKENL</sys_updated_by>
+        <sys_updated_on>2020-05-28 16:16:09</sys_updated_on>
+        <table>x_snc_cfe_confcoor_table</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

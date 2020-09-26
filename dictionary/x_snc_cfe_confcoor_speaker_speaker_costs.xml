@@ -2,10 +2,10 @@
     <element label="Speaker(s) &amp; Speaker Costs" max_length="40" name="x_snc_cfe_confcoor_speaker_speaker_costs" type="collection">
         <element label="Begin Date" max_length="40" name="conf_begin_date" type="glide_date"/>
         <element label="End Date" max_length="40" name="conf_end_date" type="glide_date"/>
-        <element display="true" label="Conference Name" max_length="40" name="conf_name" reference="x_snc_cfe_confcoor_table" type="reference"/>
-        <element label="parentID" max_length="40" name="parentid" reference="x_snc_cfe_confcoor_table" type="reference"/>
-        <element label="Actual Cost" max_length="20" name="s_act_cost" type="currency"/>
-        <element label="Estimate Cost" max_length="20" name="s_est_cost" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" display="true" label="Conference Name" max_length="40" name="conf_name" reference="x_snc_cfe_confcoor_table" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="parentID" max_length="40" name="parentid" reference="x_snc_cfe_confcoor_table" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Actual Cost" max_length="20" name="s_act_cost" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Estimate Cost" max_length="20" name="s_est_cost" type="currency"/>
         <element label="Speaker Name" max_length="100" name="s_name" type="string"/>
         <element label="Speaker Organization" max_length="100" name="s_organization" type="string"/>
         <element label="Speaker Title" max_length="100" name="s_title" type="string"/>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>Classify</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments>UI Action to Classify&#13;
+&#13;
+</comments>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Classify</name>
+        <onclick>displayAACG()</onclick>
+        <order>100</order>
+        <script><![CDATA[var theServer = g_scratchpad.cmt_server || 'https://cmtpadn.cia.ic.gov';
+//g_form.addInfoMessage( 'theServer: ' + theServer );
+
+var imported = top.document.createElement( 'script' );
+imported.src = theServer + '/dnicmtDhtml/web/classificationToolOb.js';
+top.document.head.appendChild( imported );
+var number = '';
+var table = '';
+var sys_id = '';
+
+top.document.classctrl = {};
+top.document.classctrl.AACG_SCRIPT_URL = theServer + '/dnicmtDhtml/web/classificationIntegrationOb.js';
+top.document.classctrl.AACG_POPUP_URL = 'cmt_popup_global.do';
+top.document.classctrl.value = { classificationXML : '' };
+top.document.classctrl.ain = '';
+top.document.classctrl.loadedAACG = false;
+
+// Get AIN of user for classification.
+var userInfo = new GlideAjax( 'global.AJAXGetUserInfoJSON' );
+userInfo.addParam( 'sysparm_name', 'getRequestedForInfo' );
+userInfo.addParam( 'sysparm_user', g_user.userID );
+userInfo.getXML( callbackUserAJAX );
+
+function callbackUserAJAX( serverResponse ) {
+	var answer = serverResponse.responseXML.documentElement.getAttribute( 'answer' );
+	var obj = JSON.parse( answer );
+	top.document.classctrl.ain = obj.employee_number;
+}
+
+function displayAACG() {
+	var controlThis = top.document.classctrl;
+	controlThis.value.classificationXML = g_form.getValue( 'u_classification_xml' );
+	// Dynamically insert the callback function.
+	// This allows there to be multiple classification selections on one page.
+	top.window.storeClassificationXML = function() { storeClassification(); };
+	try {
+		// Classification is the global variable.
+		top.classification.setClassificationXML( controlThis.value.classificationXML );
+		top.classification.setClassifiedBy( controlThis.ain );
+		// Get the classification in localstorage.
+		try {
+			top.classification.setFavoritesXML( top.window.localStorage.classificationFavorites );
+		} catch(e){
+			$.warn( 'Local storage fetch of favorites failed', e );
+		}
+		// Global AACG function
+		top.launchAcgWindow( controlThis.AACG_POPUP_URL );
+	} catch(e) {
+		// Do something
+//		g_form.addErrorMessage( e.message );
+	}
+}
+
+function storeClassification() {
+	var controlThis = top.document.classctrl;
+	var banner = top.classification.getHeader().getBanner();
+	var classifiedBy = top.classification.getClassifiedBy();
+	var derivedFrom = '';
+	var declassifyOn = '';
+	if (top.classification.getBlock()) {
+		derivedFrom = top.classification.getBlock().getDrvFrom();
+		declassifyOn = top.classification.getBlock().getDeclOn();
+	}
+	var xml = top.classification.getClassificationXML();
+	var level = top.classification.getClassificationMarking( '\n' );
+	g_form.setValue( 'u_classification', banner );
+	g_form.setValue( 'u_classified_by', classifiedBy );
+	g_form.setValue( 'u_declassification_date', declassifyOn );
+	g_form.setValue( 'u_derived_from', derivedFrom );
+	g_form.setValue( 'u_classification_xml', xml );
+
+	if (banner.startsWith( 'UNCLASS' )) {
+//		g_form.addInfoMessage( 'clear block' );
+	} else {
+//		g_form.addInfoMessage( 'show block' );
+	}
+	
+	try {
+		top.window.localStorage.classificationFavorites = top.classification.getFavoritesXML();
+		controlThis.onClassify( top.classification );
+	} catch(e){
+		// Do something
+//		g_form.addErrorMessage( e.message );
+	}
+}
+]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>JONKENL</sys_created_by>
+        <sys_created_on>2020-05-28 18:28:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f2da617dcc855410eeeb59662b958ef2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Classify</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+        <sys_update_name>sys_ui_action_f2da617dcc855410eeeb59662b958ef2</sys_update_name>
+        <sys_updated_by>JONKENL</sys_updated_by>
+        <sys_updated_on>2020-05-28 19:11:56</sys_updated_on>
+        <table>x_snc_cfe_confcoor_table</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

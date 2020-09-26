@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <authentication_type>no_authentication</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <description>Used to retrieve C2A approvers for CFE Conference Coordination web application</description>
+        <name>C2A API ConsumerCFE</name>
+        <oauth2_profile/>
+        <protocol_name display_value="">fe45f5210d40e300cf03db6164c2ccc2</protocol_name>
+        <rest_endpoint>https://services.c2a.c2s.cia/c2a/service/aoa/approvers</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>JONKENL</sys_created_by>
+        <sys_created_on>2020-06-10 13:57:01</sys_created_on>
+        <sys_id>8f59eb39601d9410df362cba9d31d29c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>C2A API ConsumerCFE</sys_name>
+        <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+        <sys_update_name>sys_rest_message_8f59eb39601d9410df362cba9d31d29c</sys_update_name>
+        <sys_updated_by>JONKENL</sys_updated_by>
+        <sys_updated_on>2020-06-10 14:11:18</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+</record_update>

@@ -15,9 +15,10 @@
 	  
    //   return;
   // }
-	
+	g_form.clearValue('approving_officer');
 	var ga = new GlideAjax('approvingOfficerSI');
 	var ip = g_form.getValue('approving_officer_org');
+	//alert(ip);
 	  ga.addParam('sysparm_name', 'aOfficer');
 	 ga.addParam('sysparm_ip', ip);
 	  ga.getXML(ajaxProcessor);
@@ -25,7 +26,9 @@
 }
 	
 	function ajaxProcessor(response){
+		
 		var answer = response.responseXML.documentElement.getAttribute('answer');
+		//alert(answer);
 	 //alert(answer); //g_form.getValue('approving_officer_org'));
 		g_form.setValue('approving_officer', answer);
 		g_form.setDisabled('approving_officer', true);
@@ -47,15 +50,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>aee0f0a7db227380602384cc299619c1</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>ApprovingOfficer-WS</sys_name>
         <sys_overrides/>
         <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
         <sys_policy/>
         <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
         <sys_update_name>sys_script_client_aee0f0a7db227380602384cc299619c1</sys_update_name>
-        <sys_updated_by>kjones</sys_updated_by>
-        <sys_updated_on>2019-07-23 00:25:19</sys_updated_on>
+        <sys_updated_by>JONKENL</sys_updated_by>
+        <sys_updated_on>2020-06-12 17:14:50</sys_updated_on>
         <table>x_snc_cfe_confcoor_table</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

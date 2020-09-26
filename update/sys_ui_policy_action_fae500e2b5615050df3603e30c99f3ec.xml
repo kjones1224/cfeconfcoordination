@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>facility_accredited2</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>JONKENL</sys_created_by>
+        <sys_created_on>2020-06-24 15:34:56</sys_created_on>
+        <sys_id>fae500e2b5615050df3603e30c99f3ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>facility_accredited2</sys_name>
+        <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+        <sys_update_name>sys_ui_policy_action_fae500e2b5615050df3603e30c99f3ec</sys_update_name>
+        <sys_updated_by>JONKENL</sys_updated_by>
+        <sys_updated_on>2020-06-24 15:34:56</sys_updated_on>
+        <table>x_snc_cfe_confcoor_table</table>
+        <ui_policy display_value="5.estLockStatus - ConfStatus field not equal to Draft . Lock data entry fields and all Estimate fields">e7deaf5ab5215050df3603e30c99f3f5</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

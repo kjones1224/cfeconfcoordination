@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_cfe_confcoor_import_components" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_import_row</element>
+            <list_id display_value="x_snc_cfe_confcoor_import_components" element="NULL" name="x_snc_cfe_confcoor_import_components" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">566aa955496b4010eeebfc99a3e8bbba</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-03-13 15:35:32</sys_created_on>
+            <sys_id>1e6aa955496b4010eeebfc99a3e8bbbb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-03-13 15:35:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_import_set</element>
+            <list_id display_value="x_snc_cfe_confcoor_import_components" element="NULL" name="x_snc_cfe_confcoor_import_components" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">566aa955496b4010eeebfc99a3e8bbba</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-03-13 15:35:32</sys_created_on>
+            <sys_id>166aa955496b4010eeebfc99a3e8bbbc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-03-13 15:35:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_import_state</element>
+            <list_id display_value="x_snc_cfe_confcoor_import_components" element="NULL" name="x_snc_cfe_confcoor_import_components" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">566aa955496b4010eeebfc99a3e8bbba</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-03-13 15:35:32</sys_created_on>
+            <sys_id>966aa955496b4010eeebfc99a3e8bbbc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-03-13 15:35:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_target_table</element>
+            <list_id display_value="x_snc_cfe_confcoor_import_components" element="NULL" name="x_snc_cfe_confcoor_import_components" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">566aa955496b4010eeebfc99a3e8bbba</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-03-13 15:35:32</sys_created_on>
+            <sys_id>1a6aa955496b4010eeebfc99a3e8bbbc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-03-13 15:35:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_target_sys_id</element>
+            <list_id display_value="x_snc_cfe_confcoor_import_components" element="NULL" name="x_snc_cfe_confcoor_import_components" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">566aa955496b4010eeebfc99a3e8bbba</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-03-13 15:35:32</sys_created_on>
+            <sys_id>9a6aa955496b4010eeebfc99a3e8bbbc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-03-13 15:35:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_row_error</element>
+            <list_id display_value="x_snc_cfe_confcoor_import_components" element="NULL" name="x_snc_cfe_confcoor_import_components" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">566aa955496b4010eeebfc99a3e8bbba</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-03-13 15:35:32</sys_created_on>
+            <sys_id>1e6aa955496b4010eeebfc99a3e8bbbc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-03-13 15:35:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_cfe_confcoor_import_components</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-03-13 15:35:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>566aa955496b4010eeebfc99a3e8bbba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_cfe_confcoor_import_components</sys_name>
+            <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_cfe_confcoor_import_components_null</sys_update_name>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-03-13 15:35:32</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

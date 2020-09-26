@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="">dc84c4ebdbf24490a7e4db184b96190b</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>kjones</sys_created_by>
+        <sys_created_on>2020-02-12 01:09:33</sys_created_on>
+        <sys_id>9884c4ebdbf24490a7e4db184b96190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dc84c4ebdbf24490a7e4db184b96190b</sys_name>
+        <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+        <sys_update_name>sys_embedded_help_role_9884c4ebdbf24490a7e4db184b96190d</sys_update_name>
+        <sys_updated_by>kjones</sys_updated_by>
+        <sys_updated_on>2020-02-12 01:09:33</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="CFE Conference Coordination">68c6cc3f2f76401029a7d6ab2799b6b2</application>
+        <application display_value="CFE Conference Coordination">9c80508c13fc3780490cbdb12244b0f4</application>
         <assessment/>
         <content_page/>
         <device_type/>
@@ -14,7 +14,7 @@
         <mobile_title>Speaker(s) &amp; Speaker Costs</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_snc_cfe_confcoor_speaker_speaker_costs</name>
-        <order>200</order>
+        <order>300</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -32,8 +32,8 @@
         <sys_policy/>
         <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
         <sys_update_name>sys_app_module_edb6a2754fbcfb80cca271dd0210c74a</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 20:02:44</sys_updated_on>
+        <sys_updated_by>JONKENL</sys_updated_by>
+        <sys_updated_on>2020-06-23 17:17:28</sys_updated_on>
         <timeline_page/>
         <title>Speaker(s) &amp; Speaker Costs</title>
         <uncancelable>false</uncancelable>

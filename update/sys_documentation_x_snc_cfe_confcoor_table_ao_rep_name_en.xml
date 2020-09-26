@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="ao_rep_name" label="AO Rep Name" language="en" table="x_snc_cfe_confcoor_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>ao_rep_name</element>
+            <help/>
+            <hint/>
+            <label>AO Rep Name</label>
+            <language>en</language>
+            <name>x_snc_cfe_confcoor_table</name>
+            <plural>AO Rep Names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-04-28 16:11:04</sys_created_on>
+            <sys_id>5faba28439e89010eeeb4d05e1d30f1c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>AO Rep Name</sys_name>
+            <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_cfe_confcoor_table_ao_rep_name_en</sys_update_name>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-04-28 16:11:04</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

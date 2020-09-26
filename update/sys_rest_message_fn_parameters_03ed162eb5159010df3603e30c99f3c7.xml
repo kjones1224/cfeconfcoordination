@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>org</name>
+        <rest_message_function display_value="Default GET">8f59eb39601d9410df362cba9d31d29d</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>JONKENL</sys_created_by>
+        <sys_created_on>2020-06-12 16:22:53</sys_created_on>
+        <sys_id>03ed162eb5159010df3603e30c99f3c7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>org</sys_name>
+        <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_03ed162eb5159010df3603e30c99f3c7</sys_update_name>
+        <sys_updated_by>JONKENL</sys_updated_by>
+        <sys_updated_on>2020-06-12 16:23:49</sys_updated_on>
+        <type>string</type>
+        <value>p4</value>
+    </sys_rest_message_fn_parameters>
+</record_update>

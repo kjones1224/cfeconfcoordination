@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="conf_status" table="x_snc_cfe_confcoor_table" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>conf_status</element>
+            <name>x_snc_cfe_confcoor_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 14:00:01</sys_created_on>
+            <sys_id>5a031db32fa5501029a7d6ab2799b6c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>conf_status</sys_name>
+            <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+            <sys_update_name>sys_choice_x_snc_cfe_confcoor_table_conf_status</sys_update_name>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 14:00:01</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>conf_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_snc_cfe_confcoor_table</name>
+            <sequence/>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 14:00:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0f50fb9ab5215050df3603e30c99f39d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 14:00:37</sys_updated_on>
+            <value>Approved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>conf_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Draft</label>
+            <language>en</language>
+            <name>x_snc_cfe_confcoor_table</name>
+            <sequence/>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 14:00:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0840ff9ab5215050df3603e30c99f399</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 14:00:09</sys_updated_on>
+            <value>Draft</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>conf_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending</label>
+            <language>en</language>
+            <name>x_snc_cfe_confcoor_table</name>
+            <sequence/>
+            <sys_created_by>JONKENL</sys_created_by>
+            <sys_created_on>2020-06-24 14:00:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9340fb9ab5215050df3603e30c99f3be</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>JONKENL</sys_updated_by>
+            <sys_updated_on>2020-06-24 14:00:22</sys_updated_on>
+            <value>Pending</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

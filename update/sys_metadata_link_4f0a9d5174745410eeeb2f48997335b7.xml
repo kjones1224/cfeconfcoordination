@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>c0aca9d9496b4010eeebfc99a3e8bb62</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_cfe_confcoor_components">
+    <x_snc_cfe_confcoor_components action="INSERT_OR_UPDATE">
+        <component_approvers>339ca9d9496b4010eeebfc99a3e8bb5a,fb9ca9d9496b4010eeebfc99a3e8bb5a,239c69d9496b4010eeebfc99a3e8bbe7,3b9ca9d9496b4010eeebfc99a3e8bb5b,c0aca9d9496b4010eeebfc99a3e8bb5c,8caca9d9496b4010eeebfc99a3e8bb5c,48aca9d9496b4010eeebfc99a3e8bb5d,04aca9d9496b4010eeebfc99a3e8bb5e,ccaca9d9496b4010eeebfc99a3e8bb5e</component_approvers>
+        <component_name>MSD</component_name>
+        <sys_created_by>JONKENL</sys_created_by>
+        <sys_created_on>2020-03-13 15:45:12</sys_created_on>
+        <sys_id>c0aca9d9496b4010eeebfc99a3e8bb62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>JONKENL</sys_updated_by>
+        <sys_updated_on>2020-03-13 15:45:12</sys_updated_on>
+        <this_is_for>Both</this_is_for>
+    </x_snc_cfe_confcoor_components>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>JONKENL</sys_created_by>
+        <sys_created_on>2020-05-14 17:42:31</sys_created_on>
+        <sys_id>4f0a9d5174745410eeeb2f48997335b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MSD</sys_name>
+        <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+        <sys_update_name>sys_metadata_link_4f0a9d5174745410eeeb2f48997335b7</sys_update_name>
+        <sys_updated_by>JONKENL</sys_updated_by>
+        <sys_updated_on>2020-05-14 17:42:31</sys_updated_on>
+        <tablename>x_snc_cfe_confcoor_components</tablename>
+    </sys_metadata_link>
+</record_update>

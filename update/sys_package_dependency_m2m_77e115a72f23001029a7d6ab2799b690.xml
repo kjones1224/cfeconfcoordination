@@ -2,12 +2,12 @@
     <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
         <dependency display_value="System Import Sets" source="com.glide.system_import_set">91b143972f32001029a7d6ab2799b6eb</dependency>
         <min_version>1.0.0</min_version>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-03-20 13:34:56</sys_created_on>
+        <sys_created_by>JONKENL</sys_created_by>
+        <sys_created_on>2020-03-13 15:35:31</sys_created_on>
         <sys_id>77e115a72f23001029a7d6ab2799b690</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-20 13:34:56</sys_updated_on>
+        <sys_updated_by>JONKENL</sys_updated_by>
+        <sys_updated_on>2020-03-13 15:35:31</sys_updated_on>
     </sys_package_dependency_m2m>
 </record_update>

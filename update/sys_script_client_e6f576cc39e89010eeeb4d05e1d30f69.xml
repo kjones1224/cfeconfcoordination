@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>client script will hide the approver sections from the form onload.</description>
+        <field>ac_act_cost</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>cfe_hideSections</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   //var cfe_sections = g_form.getSectionNames();
+	//alert(cfe_sections);
+	g_form.setSectionDisplay('componentdeputy_directorapproval', false);
+	g_form.setSectionDisplay('approving_officerapproval', false);
+	g_form.setSectionDisplay('comptroller_approval', false);
+	g_form.setSectionDisplay('cmacfe_approval', false);
+	g_form.setSectionDisplay('ogc_approval', false);
+	g_form.setSectionDisplay('security_approval', false);
+	g_form.setSectionDisplay('cmo_approval', false);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>JONKENL</sys_created_by>
+        <sys_created_on>2020-04-28 16:57:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e6f576cc39e89010eeeb4d05e1d30f69</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>cfe_hideSections</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+        <sys_update_name>sys_script_client_e6f576cc39e89010eeeb4d05e1d30f69</sys_update_name>
+        <sys_updated_by>JONKENL</sys_updated_by>
+        <sys_updated_on>2020-06-12 17:21:56</sys_updated_on>
+        <table>x_snc_cfe_confcoor_table</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

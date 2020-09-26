@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X Snc Cfe Confcoor Countries" max_length="40" name="u_imp_tmpl_x_snc_cfe_confcoor_countries" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_country" label="Country" max_length="52" name="u_country" type="string"/>
+    </element>
+</database>

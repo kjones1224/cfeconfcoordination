@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>CFE Conference Coordination</name>
+        <order>0</order>
+        <roles>x_snc_cfe_confcoor.user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>kjones</sys_created_by>
+        <sys_created_on>2019-04-08 22:46:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9c80508c13fc3780490cbdb12244b0f4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>CFE Conference Coordination</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+        <sys_update_name>sys_app_application_9c80508c13fc3780490cbdb12244b0f4</sys_update_name>
+        <sys_updated_by>kjones</sys_updated_by>
+        <sys_updated_on>2019-04-08 23:11:39</sys_updated_on>
+        <title>CFE Conference Coordination</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

@@ -1,4 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="approving_officer_org" table="x_snc_cfe_confcoor_table" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>approving_officer_org</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>108.18.35.194</label>
+            <language>en</language>
+            <name>x_snc_cfe_confcoor_table</name>
+            <sequence/>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-07-23 00:20:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3cc499b9dbfa7780a7e4db184b9619e5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-07-23 00:20:09</sys_updated_on>
+            <value>108.18.35.194</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>approving_officer_org</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>House</label>
+            <language>en</language>
+            <name>x_snc_cfe_confcoor_table</name>
+            <sequence/>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-07-15 21:54:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f8107467db227380602384cc2996191a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-07-15 21:54:25</sys_updated_on>
+            <value>House</value>
+        </sys_choice>
+        <sys_choice_set action="DELETE">
+            <element>approving_officer_org</element>
+            <name>x_snc_cfe_confcoor_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>kjones</sys_created_by>
+            <sys_created_on>2019-07-15 21:54:19</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>97503467db227380602384cc2996198b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>approving_officer_org</sys_name>
+            <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+            <sys_update_name>sys_choice_x_snc_cfe_confcoor_table_approving_officer_org</sys_update_name>
+            <sys_updated_by>kjones</sys_updated_by>
+            <sys_updated_on>2019-07-15 21:54:19</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</application>
+        <file_path/>
+        <instance_id>7f57c8d3dbbd8c5449eac59705961943</instance_id>
+        <instance_name>dev96448</instance_name>
+        <name>sys_choice_x_snc_cfe_confcoor_table_approving_officer_org</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="approving_officer_org" table="x_snc_cfe_confcoor_table" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -44,15 +110,55 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>kjones</sys_created_by>
             <sys_created_on>2019-07-15 21:54:19</sys_created_on>
-            <sys_id>a2c9eb5b2fba001029a7d6ab2799b6df</sys_id>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>97503467db227380602384cc2996198b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>approving_officer_org</sys_name>
             <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
             <sys_update_name>sys_choice_x_snc_cfe_confcoor_table_approving_officer_org</sys_update_name>
             <sys_updated_by>kjones</sys_updated_by>
             <sys_updated_on>2019-07-15 21:54:19</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
+</record_update>]]></payload>
+        <payload_hash>702991930</payload_hash>
+        <record_name>CFE Conference Coordination.Approving Officer</record_name>
+        <reverted_from/>
+        <source>c7a9e35b2fba001029a7d6ab2799b634</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2020-02-11 23:12:50</sys_created_on>
+        <sys_id>aac9eb5b2fba001029a7d6ab2799b6e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1703686d21f0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-02-11 23:12:50</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>2ac9eb5b23ba00101e222b120a8f18e2</update_guid>
+        <update_guid_history>2ac9eb5b23ba00101e222b120a8f18e2:0,62c9eb5b71ba0010d700ef18d001d3da:1101778676</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kjones</sys_created_by>
+        <sys_created_on>2020-06-28 18:23:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>a2c9eb5b2fba001029a7d6ab2799b6df</sys_id>
+        <sys_metadata>a2c9eb5b2fba001029a7d6ab2799b6df</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>approving_officer_org</sys_name>
+        <sys_package display_value="CFE Conference Coordination" source="x_snc_cfe_confcoor">188010c813fc3780490cbdb12244b05b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CFE Conference Coordination">188010c813fc3780490cbdb12244b05b</sys_scope>
+        <sys_scope_delete display_value="">24af2b652a054eea858a9c82e416baa4</sys_scope_delete>
+        <sys_update_name>sys_choice_x_snc_cfe_confcoor_table_approving_officer_org</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_snc_cfe_confcoor_table_approving_officer_org">aac9eb5b2fba001029a7d6ab2799b6e2</sys_update_version>
+        <sys_updated_by>kjones</sys_updated_by>
+        <sys_updated_on>2020-06-28 18:23:47</sys_updated_on>
+    </sys_metadata_delete>
 </record_update>
